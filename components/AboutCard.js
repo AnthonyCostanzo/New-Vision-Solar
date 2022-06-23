@@ -1,12 +1,12 @@
 import Image from "next/image";
 
 const AboutCard = ({ text, img, name }) => (
-  <div className="bg-gradient-to-r from-main to-sky-100 m-7 rounded-lg med:gap-2 med:grid md:grid-cols-3">
-    <div className="flex justify-center p-3">
+  <div className="bg-gradient-to-r shadow-sm shadow-green-50 from-main to-sky-100 m-7 rounded-lg med:gap-2 med:grid md:grid-cols-3">
+    <div className="flex justify-center p-5 pt-7 md:pt-5">
       <div className="">
         <Image
           src={`/images/${img}`}
-          className="rounded-full"
+          className="rounded-full shadow-sm shadow-green-200"
           height={300}
           width={400}
           // layout="responsive"

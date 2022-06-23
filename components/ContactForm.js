@@ -66,7 +66,7 @@ const ContactForm = () => {
               placeholder=" Message Body "
             />
           </div>
-          <button className="bg-main text-white rounded-full p-2 hover:opacity-90 ">
+          <button className="bg-main shadow-sm shadow-green-50 text-white rounded-full p-2 hover:opacity-90 ">
             Submit
           </button>
           <div>

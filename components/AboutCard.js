@@ -15,7 +15,7 @@ const AboutCard = ({ text, img, name }) => (
       </div>{" "}
     </div>
     <div className="col-span-2 mt-5">
-      <h1 className="m-2 font-bold">{name}</h1>
+      <h1 className="m-2 font-bold min-w-max">{name}</h1>
       <p className="m-2">{text}</p>
     </div>
   </div>

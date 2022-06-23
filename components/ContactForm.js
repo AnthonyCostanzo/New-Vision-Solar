@@ -18,7 +18,7 @@ const ContactForm = () => {
         </h2>
         <p className="max-w-sm m-auto">
           Feel free to voice all questions or concerns and we will get back to
-          you as soon as possible!
+          you as soon as possible !
         </p>
       </section>
       <form className="border-black min-w-max bg-gray-500 lg:w-5/12 border-4 rounded-lg mt-3 p-5 min-h-fit w-3/4 m-auto grid gap-7 justify-center ">

@@ -5,15 +5,17 @@ import GrapheneSection from "../components/GrapheneSection";
 import Goal from "../components/Goal";
 import Problems from "../components/Problems";
 import TimeLine from "../components/Timeline";
+import Valuation from "../components/Valuation";
 export default function Home() {
   return (
     <Layout>
       <Hero />
-      <Goal />
+      <Valuation />
       <div className="grid bg-gradient-to-br from-[#7a7b7afb] to-[#353434] md:pb-20 md:border-b-2 md:border-b-orange-100">
         <IndustrySection />
         <GrapheneSection />
       </div>{" "}
+      <Goal />
       <Problems />
       <TimeLine />
     </Layout>

@@ -64,8 +64,8 @@ const teamMembers = [
 export const Team = () => (
   <Layout>
     <div className="mb-20">
-      <h1 className="text-center mt-10 text-2xl font-[Open-Sans] font-semibold">
-        Our Team
+      <h1 className="text-center text-white mt-10 text-2xl font-[Open-Sans] font-semibold">
+        The Team
       </h1>
       <div className="grid h-2/3 mt-1 gap-6">
         {teamMembers.map((member, i) => (

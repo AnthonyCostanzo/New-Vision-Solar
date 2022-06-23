@@ -57,7 +57,7 @@ const teamMembers = [
     National Graphene Association in the United States, and at the
     Global Center of Advanced Material Research in Ottawa. He
     graduated from McGill University with a bachelor's degree.`,
-    image: "l.avif",
+    image: "a.jpeg",
   },
 ];
 

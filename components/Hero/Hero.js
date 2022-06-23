@@ -1,20 +1,29 @@
 import Image from "next/image";
-import styles from "./Hero.module.css";
+
 const Hero = () => (
-  <div className="h-half md:h-hero border-b-2 border-orange-100">
-    <div className={`${styles.hero}`}>
-      <div className="mt-14 z-10 p-5 h-3/6">
-        <h3 className="text-[40px] ml-10 tracking-wide leading-[1.2] font-bold text-white w-2/3 md:w-1/3">
-          Pioneers Of Solar And Renewable Energy
-        </h3>
-        <blockquote className="mt-3 ml-10 w-9/12 text-white md:w-6/12">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
-        </blockquote>
-        <button className="shadow-lg shadow-green-100/50 bg-main  cursor-pointer rounded-full ml-10 font-semibold mt-3 p-3 text-white">
-          <span className="mx-3 hover:text-orange-200">Read More</span>
-        </button>
-      </div>
+  <div className="h-5/6 relative bg-black">
+    <div className="bg-blue-200 h-full w-full absolute opacity-60">
+      <Image
+        src="/images/solar.jpeg"
+        height={200}
+        width={50}
+        alt="a"
+        layout="fill"
+        objectFit="cover"
+        objectPosition={"bottom"}
+      ></Image>
+    </div>
+    <div className="h-3/6 pt-12 flex flex-col z-10 relative text-gray-100">
+      <h2 className=" ml-7 text-[40px] max-w-md font-bold text-[Montserrat]">
+        Pioneers of Solar And Renewable Energy
+      </h2>
+      <blockquote className="ml-7 max-w-md text-[18px] text-semibold font-sans">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      </blockquote>
+      <button className="shadow-lg w-fit mb-12 shadow-green-100/50 bg-main  cursor-pointer rounded-full ml-6 font-semibold mt-3 p-3 text-white">
+        <span className="mx-3 hover:text-orange-200">Read More</span>
+      </button>
     </div>
   </div>
 );

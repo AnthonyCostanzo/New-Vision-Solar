@@ -1,27 +1,29 @@
 import Image from "next/image";
 const GrapheneSection = () => {
   return (
-    <div className=" ">
-      <h2 className="text-center font-bold text-2xl pt-2">
+    <div className="md:rounded-md border-b-2 mt-5 border-orange-100 md:border-b-0 md:mt-10">
+      <h2 className="font-bold underline mb-3 ml-5 font-[Open-Sans] text-orange-200 text-2xl pt-2 flex-1">
         Graphene/h-BN Solar{" "}
       </h2>
-      <article className="flex">
-        <div className="w-3/4">
-          <p className="m-auto font-[Merriweather] mt-3 ml-3 p-2 mr-2 text-xl tracking-wide">
-            Because, the thickness of Graphene/h-BN Solar is orders of magnitude
-            thinner than Silicon Solar to make a new higher level of efficiency
-            by elimination of electron loss by minimizing distance to point of
-            harvest, thermal electric cool to maintain operating temperature,
-            and reduced cost by only grams of photoactive materials to
-            manufacture Graphene/h-BN Solar.
-          </p>
+      <article className="lg:flex">
+        <div className="lg:w-3/4 lg:flex justify-end">
+          <div className="mb-7 ">
+            <p className=" font-[Merriweather] text-white leading-7 px-5 tracking-wide text-[18px]">
+              Because, the thickness of Graphene/h-BN Solar is orders of
+              magnitude thinner than Silicon Solar to make a new higher level of
+              efficiency by elimination of electron loss by minimizing distance
+              to point of harvest, thermal electric cool to maintain operating
+              temperature, and reduced cost by only grams of photoactive
+              materials to manufacture Graphene/h-BN Solar.
+            </p>
+          </div>
         </div>
-        <div className="md:px-2 m-auto py-4 w-1/4 mr-3">
+        <div className="w-3/4 m-auto mb-7">
           <Image
-            className="rounded-md "
+            className="rounded-md"
             src="/images/grapine.jpeg"
             alt="g"
-            height={150}
+            height={50}
             width={100}
             layout="responsive"
           />

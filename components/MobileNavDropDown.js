@@ -1,14 +1,12 @@
-const navDropDownLinkStyle = "border-[1.5px] my-1 border-gray-500";
-
 const MobileNavDropdown = ({ toggleNav }) => {
   return (
     <button
       onClick={toggleNav}
-      className="bg-gray-100 h-fit w-14 rounded-lg px-2 pb-1 cursor-pointer"
+      className="bg-gray-100 h-8 rounded-md w-10 flex flex-col items-center md:hidden"
     >
-      <li className={`mt-3 ${navDropDownLinkStyle}`}></li>
-      <li className={`${navDropDownLinkStyle}`}></li>
-      <li className={`${navDropDownLinkStyle}`}></li>
+      <div className=" border-[2px] border-green-500 mb-[3px] w-8 mt-2"></div>
+      <div className=" border-[2px] border-sky-600 mb-[3px] w-8"></div>
+      <div className=" border-[2px] border-green-700 mb-[3px] w-8"></div>
     </button>
   );
 };

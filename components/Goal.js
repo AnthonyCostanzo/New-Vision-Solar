@@ -1,13 +1,23 @@
 import Image from "next/image";
+
 const Goal = () => {
   return (
-    <div className="h-3/4 bg-gradient-to-br from-[#5e5d5d] to-[#dbd7d7] border-b-2 border-orange-100">
-      <div className="grid med:grid-cols-2">
+    <div className="h-3/4  bg-gradient-to-br from-[#5e5d5d] to-[#dbd7d7] border-b-2 border-orange-100">
+      <div className="grid med:grid-cols-2 pt-4 bg-top-right bg-opacity-10 z-0 led:bg-[url('/images/p.svg')] md:bg-left bg-[url('/images/p2.svg')]">
         <div>
-          <h3 className="font-[Open-Sans] mt-3 text-center text-2xl text-[#95ff9ff7] ">
+          <h3 className="font-[Open-Sans] m-auto w-fit  relative mt-3 text-center text-2xl text-[#95ff9ff7] ">
             Technology & Research
+            <div className="w-fit top-[-.8rem] right-[-3.3rem] absolute group inline-block">
+              <Image
+                alt="science"
+                className="group-hover:animate-spin"
+                src="/images/chemical.png"
+                height={40}
+                width={40}
+              />
+            </div>
           </h3>
-          <p className="mt-3 font-[Merriweather] text-white leading-7 px-5 tracking-wide">
+          <p className="m-3 mb-8 md:m-auto pt-3 lg:w-[35rem] font-[Merriweather] text-white leading-7 px-5 tracking-wide">
             New Vision Solar Inc. is developing New Graphene/h-BN Solar
             technology. Dr. Zuckerman, the Founder, has created a solar
             technology that will change the Solar Industry over the next 5 years
@@ -19,20 +29,11 @@ const Goal = () => {
             2014 and we expect to have, after date of funding, pre-production
             panel within 4-6 months, sales of production panel within 15-18
             months, and cash positive within 24 to 30 months.
-            <aside className="w-36 ml-auto bg-[#fabd4b8a] p-4 text-center rounded-full md:mr-7 group mt-8 mb-10 md:mt-4">
-              <Image
-                alt="science"
-                className="group-hover:animate-spin"
-                src="/images/chemical.png"
-                height={100}
-                width={100}
-              />
-            </aside>
           </p>
         </div>
         {/* Valuation Div Here */}
         <div className="flex items-center">
-          <div className="w-full p-3">
+          <div className="w-full px-3 pb-10 lg:pb-[50px]">
             <Image
               src="/images/competition.png"
               className=" inline-block"

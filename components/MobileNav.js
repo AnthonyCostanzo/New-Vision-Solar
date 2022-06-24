@@ -9,7 +9,7 @@ const navRouteLink =
 const navItems = [
   { name: "Home", link: "/" },
   { name: "Our Team", link: "/team" },
-  { name: "Services", link: "Services" },
+  { name: "Patent", link: "/patent" },
   { name: "Contact", link: "/contact" },
 ];
 const MobileNav = () => {

@@ -2,7 +2,7 @@ import Image from "next/image";
 const IndustrySection = () => {
   return (
     <div className="md:rounded-md border-b-2 mt-5 border-orange-100 md:border-b-0 md:mt-10">
-      <h2 className="font-bold underline mb-3 ml-5 font-[Open-Sans] text-orange-200 text-2xl pt-2 flex-1">
+      <h2 className="font-bold underline mb-3 ml-5 font-[Open-Sans]  text-yellow-200 text-2xl pt-2 flex-1">
         Solar Industry{" "}
       </h2>
       <article className="lg:flex">
@@ -18,7 +18,7 @@ const IndustrySection = () => {
             </p>
           </div>
         </div>
-        <div className="w-3/4 m-auto mb-7">
+        <div className="w-3/4 m-auto mb-7 px-4">
           <Image
             className="rounded-md"
             src="/images/solar.jpeg"

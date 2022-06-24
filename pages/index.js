@@ -10,12 +10,12 @@ export default function Home() {
   return (
     <Layout>
       <Hero />
-      <Valuation />
-      <div className="grid bg-gradient-to-br from-[#7a7b7afb] to-[#353434] md:pb-20 md:border-b-2 md:border-b-orange-100">
+      <Goal />
+      <div className="grid relative bg-no-repeat bg-[url('/images/s.svg')] md:pb-20 md:border-b-2 md:border-b-orange-100">
         <IndustrySection />
         <GrapheneSection />
       </div>{" "}
-      <Goal />
+      <Valuation />
       <Problems />
       <TimeLine />
     </Layout>

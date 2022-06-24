@@ -1,6 +1,6 @@
 import Image from "next/image";
 const Problems = () => (
-  <div className="bg-[url('/images/Wave.svg')] grid md:grid-cols-2 gap-5 pt-5 md:gap-10 pb-5">
+  <div className="my-14 rounded-md mx-5 grid md:grid-cols-2 gap-5 pt-5 md:gap-10 pb-5">
     <div className="p-5">
       <Image
         src="/images/Problems.png"

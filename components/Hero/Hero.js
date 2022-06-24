@@ -21,13 +21,13 @@ const Hero = () => (
       <blockquote className="ml-4 lg:ml-12 max-w-md text-[17.8px] text-semibold font-sans">
         Clean energy for a bright future. Our goal is to bring the power of the
         sun to you in the safest and most efficient way possible. See our
-        valution and the technology we are using to change the world by clicking
-        below !
+        valuation and the technology we are using to change the world by
+        clicking below !
       </blockquote>
       <button className="shadow-md w-fit mb-12 shadow-green-100/50 bg-main  cursor-pointer rounded-full ml-3 md:ml-10 font-semibold mt-3 p-3 text-white">
         <Link href="#solar" passHref>
           <span className="mx-3 hover:text-orange-200">
-            Valutation & Technology
+            Valuation & Technology
           </span>
         </Link>
       </button>

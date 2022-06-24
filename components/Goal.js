@@ -2,7 +2,10 @@ import Image from "next/image";
 
 const Goal = () => {
   return (
-    <div className="h-3/4  bg-gradient-to-br from-[#5e5d5d] to-[#dbd7d7] border-b-2 border-orange-100">
+    <div
+      id="tech"
+      className="h-3/4  bg-gradient-to-br from-[#5e5d5d] to-[#dbd7d7] border-b-2 border-orange-100"
+    >
       <div className="grid med:grid-cols-2 pt-4 bg-top-right bg-opacity-10 z-0 led:bg-[url('/images/p.svg')] md:bg-left bg-[url('/images/p2.svg')]">
         <div>
           <h3 className="font-[Open-Sans] m-auto w-fit  relative mt-3 text-center text-2xl text-[#95ff9ff7] ">

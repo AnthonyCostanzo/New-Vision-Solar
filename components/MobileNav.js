@@ -4,7 +4,7 @@ import DesktopNav from "./DesktopNav";
 import Link from "next/link";
 
 const navRouteLink =
-  "text-white shadow-sm shadow-slate-200 font-[Open-Sans] text-[21px] px-14 cursor-pointer hover:translate-x-2 hover:text-orange-300";
+  "text-white shadow-sm shadow-slate-200 font-[Open-Sans] text-[21px] px-14 cursor-pointer hover:translate-x-2 hover:text-yellow-300";
 
 const navItems = [
   { name: "Home", link: "/" },
@@ -19,10 +19,10 @@ const MobileNav = () => {
     setIsOpenNavMenu((prevNavState) => !prevNavState);
   };
   return (
-    <div className="bg-gradient-to-br from-[#565656] to-[#9b9b9b]">
-      <div className="flex w-full m-auto justify-around md:justify-start items-center">
-        <div className="w-8/12 md:w-3/12 min-w-fit border-r-2 md:border-r-[1px] border-[#fabd4b8a]">
-          <h1 className="p-2 mr-16 md:ml-10 md:mr-2 text-2xl font-[Bebas-Neue] text-[#95ff9ff7] ">
+    <div className="bg-gradient-to-r from-[#14557B] to-[#65a79f]">
+      <div className="flex w-full p-2 m-auto justify-around md:justify-start items-center">
+        <div className="w-8/12 md:w-3/12 min-w-fit border-r-2 md:border-r-[1px] border-sky-300">
+          <h1 className="p-2 mr-16 font-extrabold md:ml-10 md:mr-2 text-2xl font-[Bebas-Neue] text-[#75f982] ">
             New Vision Solar Inc
           </h1>
         </div>
@@ -32,7 +32,7 @@ const MobileNav = () => {
 
       {/* dropdown menu */}
       {isOpenNavMenu && (
-        <ul className="border-t-2 bg-gradient-to-r from-sky-700 to-sky-400 pb-5 animate-fade border-main w-screen leading-8">
+        <ul className="border-t-2 md:hidden bg-gradient-to-r from-[#14557B] to-[#65a79f] pb-5 animate-fade border-blue-800 w-screen leading-8">
           <div className="mt-5">
             {navItems.map((route, i) => (
               <Link key={i} href={route.link} passHref>

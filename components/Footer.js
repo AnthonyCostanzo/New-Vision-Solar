@@ -8,7 +8,7 @@ import {
 import { TiSocialTwitterCircular } from "react-icons/ti";
 
 const Footer = () => (
-  <footer className="border-t-2 border-orange-100 bg-gradient-to-br from-sky-500 to to-blue-900">
+  <footer className="border-t-4 border-yellow-300 bg-gradient-to-br from-[#14557B] to-[#65a79f]">
     <div className="text-white ml-5 pt-5 grid space-y-3 font-[Merriweather] ">
       <h3 className="text-xl">Contact Us</h3>
       <div>

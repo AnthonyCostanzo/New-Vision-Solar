@@ -22,7 +22,7 @@ const Problems = () => (
           layout="responsive"
         />
       </div>
-      <div className="mx-0 md:mx-0 h-80 md:pt-[30rem] lg:pt-[50rem] md:h-96 bg-cover md:bg-center bg-no-repeat lg:h-96 bg-[url('/images/r.png')] relative col-span-2 order-3"></div>
+      <div className="mx-[-8px] md:mx-0 h-80 md:pt-[30rem] lg:pt-[50rem] md:h-96 bg-cover md:bg-center bg-no-repeat lg:h-96 bg-[url('/images/r.png')] relative col-span-2 order-3"></div>
       <div className="">
         <Image
           src="/images/prod.png"

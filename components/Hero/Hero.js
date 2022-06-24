@@ -19,12 +19,16 @@ const Hero = () => (
         Pioneers of Solar And Renewable Energy
       </h2>
       <blockquote className="ml-4 lg:ml-12 max-w-md text-[18px] text-semibold font-sans">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        Clean energy for a bright future. Our goal is to bring the power of the
+        sun to you in the safest and most efficient way possible. See our
+        valution and the technology we are using to change the world by clicking
+        below !
       </blockquote>
-      <button className="shadow-lg w-fit mb-12 shadow-green-100/50 bg-main  cursor-pointer rounded-full ml-3 md:ml-10 font-semibold mt-3 p-3 text-white">
+      <button className="shadow-md w-fit mb-12 shadow-green-100/50 bg-main  cursor-pointer rounded-full ml-3 md:ml-10 font-semibold mt-3 p-3 text-white">
         <Link href="#solar" passHref>
-          <span className="mx-3 hover:text-orange-200">Read More</span>
+          <span className="mx-3 hover:text-orange-200">
+            Valutation & Technology
+          </span>
         </Link>
       </button>
     </div>

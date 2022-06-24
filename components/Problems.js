@@ -1,6 +1,6 @@
 import Image from "next/image";
 const Problems = () => (
-  <div className="mt-20 rounded-md grid md:grid-cols-2 gap-20 lg:mx-10 pt-5 pb-20">
+  <div className=" rounded-md grid md:grid-cols-2 gap-5 lg:mx-10 pt-5 pb-5">
     <div className="px-2">
       <Image
         src="/images/Problems.png"

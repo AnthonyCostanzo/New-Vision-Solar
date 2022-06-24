@@ -23,7 +23,23 @@ const teamMembers = [
     Novel Physical Chemical Process”. He also was an Alfred P. Sloan Fellow at the
     Graduate School of Business at Stanford University: thesis “A Normative
     Description for an Innovative Manufacturer”.`,
-    image: "r.jpeg",
+    image: "matt.png",
+  },
+
+  {
+    name: "Jeffery Loch, Vice President and Chief Branding Officer (CBO)",
+    text: `Jeff brings over 20 years of progressive marketing and sales responsibilities within
+    the highly competitive consumer packaged goods arena. Mr. Loch authored the
+    "Marketiquette" philosophy (proper marketing) because of prior companies' "best
+    practices" and has been successfully applying it for the past 7 years when
+    developing branding and go-to-market strategies for clients of the consulting firm
+    he co-founded. In addition, Jeff has had exposure to just about every major
+    retailer within a variety of trade classes and has achieved enormous success while
+    working for some of the greatest branding companies in the world, including
+    Clorox, Armor All Products Corporation, ConAgra Foods, Wyeth Consumer
+    Healthcare and Dixon Ticonderoga. A native of Michigan and graduate of Albion
+    College, Mr. Loch began his career with Pepsi Cola.`,
+    image: "jeff.png",
   },
   {
     name: "John Macintyre, Vice President, Chief Operating Officer (COO) and Director",
@@ -40,7 +56,7 @@ const teamMembers = [
   stacked Solar Cells. John received undergraduate degrees in Chemical
   Engineering from the University of California Los Angeles and a graduate
   degree in Materials Science/Crystallography Growth and Synthesis.`,
-    image: "j.jpeg",
+    image: "john.png",
   },
   {
     name: "Brian Kennedy, Associate and Outside Director",
@@ -57,14 +73,27 @@ const teamMembers = [
     National Graphene Association in the United States, and at the
     Global Center of Advanced Material Research in Ottawa. He
     graduated from McGill University with a bachelor's degree.`,
-    image: "a.jpeg",
+    image: "brian.png",
+  },
+  {
+    name: "James R. Ray, Vice President, and Chief Financial Officer",
+    text: `Jim has over 40 years of business experience and is a Certified Public
+    Account and has previously served as an Officer and Director of several
+    publicly held corporations. He was previously with Price Waterhouse
+    Cooper Certified Accounts and is experienced and well versed in
+    compliance filings for both private and publicly held corporations. Jim
+    has been involved in taking 21 corporations to Public Markets and
+    recently completed 5 Regulation A+ Financial Offerings. He is a native
+    of Texas and a graduate of Lamar State University with a BBA Degree in
+    Accounting.`,
+    image: "james.png",
   },
 ];
 
 export const Team = () => (
   <Layout>
     <div className="mb-20">
-      <h1 className="text-center text-white mt-10 text-2xl font-[Open-Sans] font-semibold">
+      <h1 className="text-center text-slate-800 mt-10 text-2xl font-[Open-Sans] font-semibold">
         The Team
       </h1>
       <div className="grid h-2/3 mt-1 gap-6">

@@ -1,7 +1,7 @@
 import Image from "next/image";
 const Valuation = () => (
   <div className="w-full" id="solar">
-    <div className="justify-center md:mx-2">
+    <div className="justify-center md:mx-2 md:mb-32 ">
       <Image
         src={`/images/bs.png`}
         className="shadow-sm md:rounded-lg shadow-green-200"
@@ -10,7 +10,7 @@ const Valuation = () => (
         width={500}
         layout="responsive"
       ></Image>
-    </div>{" "}
+    </div>
   </div>
 );
 

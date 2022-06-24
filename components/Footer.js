@@ -8,9 +8,15 @@ import {
 import { TiSocialTwitterCircular } from "react-icons/ti";
 
 const Footer = () => (
-  <footer className="border-t-4  border-slate-100 bg-[url('/images/l.svg')] bg-no-repeat bg-cover">
+  <footer className="border-t-4 bg-bottom-right border-slate-100 bg-slate-500 ">
     <div className="text-white ml-10 pt-5 grid space-y-3 font-[Merriweather] ">
-      <h3 className="text-[24px] font-bold">Contact Us</h3>
+      <aside className="max-w-fit group">
+        {" "}
+        <h3 className="text-[24px] font-bold cursor-pointer group-hover:animate-bounce">
+          Contact Us
+        </h3>
+      </aside>
+
       <div>
         <IoLocationOutline
           className="inline-block hover:scale-110 cursor-pointer"
@@ -42,30 +48,31 @@ const Footer = () => (
         <div>
           {" "}
           <TiSocialTwitterCircular
-            className="cursor-pointer hover:scale-110"
+            className="cursor-pointer hover:scale-110 hover:text-main"
             size={33}
           />
         </div>
         <div>
           <AiOutlineFacebook
-            className="cursor-pointer hover:scale-110"
+            className="cursor-pointer hover:scale-110 hover:text-main"
             size={33}
           />
         </div>
         <div>
           <AiOutlineLinkedin
-            className="cursor-pointer hover:scale-110"
+            className="cursor-pointer hover:scale-110 hover:text-main"
             size={33}
           />
         </div>
+        <p className="m-auto text-white min-w-max text-center ">
+          <small className="text-[15px] hover:text-main cursor-pointer hover:scale-110 mt-3 font-bold text-gray-50 inline-block relative">
+            {" "}
+            New Vision Solar Inc &#174;
+          </small>
+        </p>
       </div>
     </div>
-    <span className="inline-block text-white w-full text-center">
-      <small className="text-[14px] inline-block mt-10">
-        {" "}
-        New Vision Solar Inc &#174;
-      </small>
-    </span>
+    <div className="w-full h-[7.1rem] bg-[url('/images/bg.svg')] sm:h-44 lg:h-48 bg-slate-500 "></div>
   </footer>
 );
 

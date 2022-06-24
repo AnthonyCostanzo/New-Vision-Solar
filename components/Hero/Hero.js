@@ -24,13 +24,13 @@ const Hero = () => (
         valuation and the technology we are using to change the world by
         clicking below !
       </blockquote>
-      <div className="grid grid-cols-2 mt-2 w-64 ml-2">
-        <button className="shadow-md w-fit p-2 mb-12 shadow-green-100/50 bg-main  cursor-pointer rounded-full font-semibold  text-white">
+      <div className="grid grid-cols-2 mt-3 w-64 ml-2 md:ml-8">
+        <button className="shadow-md  w-fit p-2 mb-12 shadow-green-100/50 bg-main  cursor-pointer rounded-full font-semibold  text-white">
           <Link href="#solar" passHref>
             <span className="mx-3 hover:text-yellow-200">Valuation</span>
           </Link>
         </button>
-        <button className="shadow-md w-fit p-2 mb-12 shadow-green-100/50 bg-sky-300  cursor-pointer rounded-full font-semibold  text-white">
+        <button className="shadow-md  w-fit p-2 mb-12 shadow-green-100/50 bg-sky-300  cursor-pointer rounded-full font-semibold  text-white">
           <Link href="#tech" passHref>
             <span className="mx-3 hover:text-yellow-200">Technology</span>
           </Link>

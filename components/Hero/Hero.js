@@ -18,7 +18,7 @@ const Hero = () => (
       <h2 className="ml-4 lg:ml-12 text-[40px] max-w-md font-bold text-[Montserrat]">
         Pioneers of Solar And Renewable Energy
       </h2>
-      <blockquote className="ml-4 lg:ml-12 max-w-md text-[18px] text-semibold font-sans">
+      <blockquote className="ml-4 lg:ml-12 max-w-md text-[17.8px] text-semibold font-sans">
         Clean energy for a bright future. Our goal is to bring the power of the
         sun to you in the safest and most efficient way possible. See our
         valution and the technology we are using to change the world by clicking

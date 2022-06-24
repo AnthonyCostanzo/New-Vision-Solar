@@ -27,7 +27,7 @@ const Problems = () => (
         <Image
           src="/images/prod.png"
           alt="p"
-          className=""
+          className="rounded-lg"
           height={200}
           width={250}
           layout="responsive"

@@ -1,10 +1,10 @@
 import Image from "next/image";
 const Valuation = () => (
   <div className="w-full" id="solar">
-    <div className="justify-center md:mx-2 lg:mb-20 ">
+    <div className="justify-center mx-4 lg:mb-20 ">
       <Image
         src={`/images/bs.png`}
-        className="shadow-sm md:rounded-lg shadow-green-200"
+        className="shadow-sm rounded-lg shadow-green-200"
         alt="a"
         height={300}
         width={500}

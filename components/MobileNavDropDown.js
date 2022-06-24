@@ -2,11 +2,11 @@ const MobileNavDropdown = ({ toggleNav }) => {
   return (
     <button
       onClick={toggleNav}
-      className="bg-[#171753] h-8 bg-opacity-7 p-[.75px] rounded-md w-12 flex flex-col items-center md:hidden"
+      className="bg-[#ede7e7d2] h- p-[.75px] rounded-md w-9 flex flex-col items-center md:hidden"
     >
-      <div className=" border-[1.5px] border-green-500 mb-[4px] w-8 mt-[7px]"></div>
-      <div className=" border-[1.5px] border-lime-400 mb-[4px] w-8"></div>
-      <div className=" border-[1.5px] border-sky-300 mb-[4px] w-8"></div>
+      <div className=" border-[1.5px] border-main mb-[3.5px] w-6 mt-[5.5px]"></div>
+      <div className=" border-[1.5px] border-main mb-[3.5px] w-6"></div>
+      <div className=" border-[1.5px] border-main mb-[3.5px] w-6"></div>
     </button>
   );
 };

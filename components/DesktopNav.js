@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const navRouteLink =
-  "text-gray-100 font-[Open-Sans] text-[20px] cursor-pointer hover:text-orange-200 hover:scale-110";
+  "text-gray-100 font-[Open-Sans] text-[20px] cursor-pointer hover:text-main hover:scale-110";
 const navItems = [
   { name: "Home", link: "/" },
   { name: "Our Team", link: "/team" },

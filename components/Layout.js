@@ -2,7 +2,7 @@ import Head from "next/head";
 import Footer from "./Footer";
 import MobileNav from "./MobileNav";
 
-const Layout = ({ title, description, children }) => {
+const Layout = ({ title, description, children, background }) => {
   return (
     <html lang="en">
       <Head>
@@ -20,7 +20,7 @@ will change the Solar Industry over the next 5 years introduction of Graphene/h-
         <title>{title ? title : "New Vision Solar"}</title>
       </Head>
 
-      <body className="bg-gradient-to-br from-[#14557B] to-[#65a79f]">
+      <body className={`${background ? background : "bg-gray-200"} `}>
         {" "}
         <MobileNav />
         <div className="min-h-max h-full">{children}</div>

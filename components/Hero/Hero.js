@@ -15,7 +15,7 @@ const Hero = () => (
       ></Image>
     </div>
     <div className=" h-3/6 p-5 pt-32 flex flex-col z-10 relative text-gray-100">
-      <h2 className="ml-4 lg:ml-12 text-[40px] max-w-md font-bold text-[Montserrat]">
+      <h2 className="ml-4 leading-snug lg:ml-12 text-[40px] max-w-md font-bold text-[Montserrat]">
         Pioneers of Solar And Renewable Energy
       </h2>
       <blockquote className="ml-4 lg:ml-12 max-w-md text-[17.8px] text-semibold font-sans">

@@ -18,7 +18,7 @@ const Product = () => (
       </div>
       <div className=" h-3/6 p-5 pt-32 lg:pt-40 flex flex-col z-10 relative text-gray-100">
         <h2 className="ml-4 leading-snug lg:ml-12 text-[40px] max-w-md font-bold text-[Montserrat]">
-          Product Overview & Financial Information
+          Product Overview & Financials
         </h2>
         <blockquote className="ml-4 lg:ml-12 max-w-md text-[18px] text-semibold font-sans">
           Learn more about our groundbreaking product and gain some insight on

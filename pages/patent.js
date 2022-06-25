@@ -4,7 +4,7 @@ const patent = () => (
   <Layout>
     <div className="min-h-max  px-5 my-10 ">
       <div className="my-10 gap-2 md:w-9/12  grid min-h-max relative m-auto">
-        <h1 className="text-center text-slate-800 text-2xl font-[Open-Sans]">
+        <h1 className="text-center text-slate-800 text-xl font-[Open-Sans] font-semibold">
           Patent / Patent Valuation
         </h1>
         <div className="h-nine">

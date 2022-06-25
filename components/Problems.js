@@ -1,12 +1,18 @@
 import Image from "next/image";
 const Problems = () => (
   <>
-    <div className="mx-2 my-5 lg:mt-20 rounded-md grid md:grid-cols-2 gap-5 pb-5">
+    <div className="my-5 ">
+      <h1 className="text-center text-slate-800 text-xl font-[Open-Sans] font-semibold">
+        Product Info & Financing
+      </h1>
+    </div>
+
+    <div className="md:mx-2 divide-y-4 md:divide-y-0 divide-main  md:my-5 lg:mt-20 rounded-md grid  grid-cols-1 md:grid-cols-2 md:gap-5 md:pb-5">
       <div className="">
         <Image
           src="/images/prod.png"
           alt="p"
-          className="rounded-lg"
+          className="md:rounded-lg"
           height={200}
           width={250}
           layout="responsive"
@@ -16,7 +22,7 @@ const Problems = () => (
         <Image
           src="/images/Problems.png"
           alt="p"
-          className="rounded-lg"
+          className="md:rounded-lg"
           height={200}
           width={250}
           layout="responsive"
@@ -26,7 +32,7 @@ const Problems = () => (
         <Image
           src="/images/clov-0.png"
           alt="p"
-          className="rounded-lg"
+          className="md:rounded-lg"
           height={200}
           width={250}
           layout="responsive"
@@ -36,7 +42,7 @@ const Problems = () => (
         <Image
           src="/images/man.png"
           alt="p"
-          className="rounded-lg"
+          className="md:rounded-lg"
           height={200}
           width={250}
           layout="responsive"
@@ -46,7 +52,7 @@ const Problems = () => (
         <Image
           src="/images/cash-3.png"
           alt="p"
-          className="rounded-lg"
+          className="md:rounded-lg"
           height={200}
           width={250}
           layout="responsive"

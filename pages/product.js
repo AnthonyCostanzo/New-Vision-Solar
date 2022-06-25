@@ -16,7 +16,7 @@ const Product = () => (
           objectPosition={"bottom"}
         ></Image>
       </div>
-      <div className=" h-3/6 p-5 pt-32 lg:pt-40  flex flex-col z-10 relative text-gray-50 ">
+      <div className=" h-3/6 p-5 pt-[5rem] lg:pt-40  flex flex-col z-10 relative text-gray-50 ">
         <h2 className="ml-4 leading-snug lg:ml-12 text-[40px] max-w-md font-bold text-[Montserrat]">
           Product Overview & Financials
         </h2>

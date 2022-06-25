@@ -6,6 +6,7 @@ import Goal from "../components/Goal";
 import Problems from "../components/Problems";
 import TimeLine from "../components/Timeline";
 import Valuation from "../components/Valuation";
+import Image from "next/image";
 export default function Home() {
   return (
     <Layout background={"bg-gray-200"}>

@@ -2,7 +2,17 @@ import Image from "next/image";
 const TimeLine = () => {
   return (
     <>
-      <div className="flex rounded-lg mt-5 mb-5">
+      <div className="mx-4 my-10">
+        <Image
+          src="/images/prod.png"
+          alt="p"
+          className="rounded-lg"
+          height={200}
+          width={250}
+          layout="responsive"
+        />
+      </div>{" "}
+      <div className="flex rounded-lg mb-5">
         <div className="relative mt-5 lg:mb-6 lg:mt-[2.5rem] mx-4 w-full h-[22rem] rounded-lg md:h-[28rem] lg:h-[48rem] ">
           <div className=" w-full rounded-lg">
             <Image

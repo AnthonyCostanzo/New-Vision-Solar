@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Hero = () => (
-  <div className="h-[47em] lg-h-[50rem] relative bg-black">
+  <div className="h-[38rem] lg:h-[45rem] relative bg-black">
     <div className="bg-blue-200 h-full w-full absolute opacity-60">
       <Image
         src="/images/solar.jpeg"
@@ -14,7 +14,7 @@ const Hero = () => (
         objectPosition={"bottom"}
       ></Image>
     </div>
-    <div className=" h-3/6 p-5 pt-32 flex flex-col z-10 relative text-gray-100">
+    <div className=" h-3/6 p-5 pt-28 lg:pt-40  flex flex-col z-10 relative text-gray-100">
       <h2 className="ml-4 leading-snug lg:ml-12 text-[40px] max-w-md font-bold text-[Montserrat]">
         Pioneers of Solar And Renewable Energy
       </h2>

@@ -1,14 +1,13 @@
 import Image from "next/image";
 const Problems = () => (
   <>
-    <div className="mt-10 ">
-      <h1 className="text-gray-50 text-center text-xl font-[Open-Sans] font-semibold">
+    <div className="mt-10 px-3 w-fit m-auto  ">
+      <h1 className="text-gray-50 pb-1 ml-5 md:text-center text-xl font-[Open-Sans] font-semibold">
         Product Details & Financing
       </h1>
-      <blockquote className="text-gray-100 mt-1 m-auto max-w-md mb-5">
+      <blockquote className="text-gray-100 ml-5 text-sm md:max-w-md max-w-xs mb-5">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation
+        tempor incididunt ut labore et dolore magna aliqua.
       </blockquote>
     </div>
 

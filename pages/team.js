@@ -93,10 +93,7 @@ const teamMembers = [
 export const Team = () => (
   <Layout>
     <div className="mb-20">
-      <h1 className="text-center mt-5 text-gray-50 text-xl font-[Open-Sans] font-semibold">
-        The Team
-      </h1>
-      <div className="grid h-2/3 gap-6">
+      <div className="grid h-2/3 gap-6 mt-10">
         {teamMembers.map((member, i) => (
           <AboutCard
             key={i}

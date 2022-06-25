@@ -4,7 +4,7 @@ import Problems from "../components/Problems";
 import Link from "next/link";
 const Product = () => (
   <Layout>
-    <div className="h-[20rem] md:h-[30rem] min-h-max lg-h-[40rem] relative bg-black">
+    <div className="h-[25rem]  md:h-[30em] min-h-max lg-h-[40rem] relative bg-black">
       <div className="bg-blue-200 h-full w-full absolute opacity-40 md:opacity-60">
         <Image
           src="/images/prodbg.jpeg"
@@ -16,7 +16,7 @@ const Product = () => (
           objectPosition={"bottom"}
         ></Image>
       </div>
-      <div className=" h-3/6 p-5 pt-10 md:pt-28 flex flex-col z-10 relative text-gray-100">
+      <div className="min-h-max p-5 pt-10 md:pt-28 flex flex-col z-10 relative text-gray-100">
         <h2 className="ml-4 leading-snug lg:ml-12 text-[33px] md:max-w-md font-bold text-[Montserrat]">
           Product Details & Financing
         </h2>

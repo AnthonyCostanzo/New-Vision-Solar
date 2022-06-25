@@ -1,16 +1,6 @@
 import Image from "next/image";
 const Problems = () => (
   <>
-    <div className="mt-10 px-3 w-fit m-auto  ">
-      <h1 className="text-gray-50 pb-1 ml-5 md:text-center text-xl font-[Open-Sans] font-semibold">
-        Product Details & Financing
-      </h1>
-      <blockquote className="text-gray-100 ml-5 text-sm md:max-w-md max-w-xs mb-5">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
-      </blockquote>
-    </div>
-
     <div className="md:mx-2 divide-y-4 md:divide-y-0 divide-main lg:mt-5 rounded-md grid  grid-cols-1 md:grid-cols-2 md:gap-5 md:pb-5">
       <div className="">
         <Image
@@ -52,7 +42,7 @@ const Problems = () => (
           layout="responsive"
         />
       </div>
-      <div className="">
+      <div className="" id="finance">
         <Image
           src="/images/cash-3.png"
           alt="p"
@@ -82,7 +72,7 @@ const Problems = () => (
           layout="responsive"
         />
       </div>
-      <div className="col-span-2">
+      <div className="col-span-2" id="inventor">
         <Image
           src="/images/inventor.png"
           alt="p"

@@ -4,9 +4,9 @@ const navRouteLink =
   "text-gray-100 font-[Open-Sans] text-[20px] cursor-pointer hover:text-main hover:scale-110";
 const navItems = [
   { name: "Home", link: "/" },
-  { name: "Our Team", link: "/team" },
   { name: "Product", link: "/product" },
   { name: "Patent", link: "/patent" },
+  { name: "Our Team", link: "/team" },
 
   { name: "Contact", link: "/contact" },
 ];

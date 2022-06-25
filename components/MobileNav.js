@@ -8,9 +8,9 @@ const navRouteLink =
 
 const navItems = [
   { name: "Home", link: "/" },
-  { name: "Our Team", link: "/team" },
   { name: "Product", link: "/product" },
   { name: "Patent", link: "/patent" },
+  { name: "Our Team", link: "/team" },
 
   { name: "Contact", link: "/contact" },
 ];

@@ -93,7 +93,7 @@ const teamMembers = [
 export const Team = () => (
   <Layout>
     <div className="mb-20">
-      <h1 className="text-center mt-10 text-slate-800 text-xl font-[Open-Sans] font-semibold">
+      <h1 className="text-center mt-10 text-white text-xl font-[Open-Sans] font-semibold">
         The Team
       </h1>
       <div className="grid h-2/3 mt-1 gap-6">

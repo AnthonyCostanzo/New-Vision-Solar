@@ -12,7 +12,7 @@ import { TiSocialTwitterCircular } from "react-icons/ti";
 const ContactForm = () => {
   return (
     <>
-      <section className=" text-center mt-5 p-5 text-slate-800 ">
+      <section className=" text-center mt-5 p-5 text-white ">
         <h2 className="text-2xl mb-1 font-semibold">
           How Can We Help with Your Experience
         </h2>

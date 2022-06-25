@@ -8,7 +8,7 @@ import TimeLine from "../components/Timeline";
 import Valuation from "../components/Valuation";
 export default function Home() {
   return (
-    <Layout>
+    <Layout background={"bg-gray-200"}>
       <Hero />
       <Goal />
       <div className="grid relative mb-10 bg-no-repeat bg-[url('/images/s1.svg')] md:pb-20 md:border-b-2 md:border-b-orange-100">

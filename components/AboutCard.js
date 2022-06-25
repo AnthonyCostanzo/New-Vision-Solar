@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 const AboutCard = ({ text, img, name }) => (
-  <div className="bg-gradient-to-r p-5 shadow-md shadow-green-300 from-main to-green-300 m-7 rounded-lg med:gap-2 med:grid md:grid-cols-3">
+  <div className="bg-gradient-to-r p-5 shadow-md shadow-green-300 from-main to-green-100 m-7 rounded-lg med:gap-2 med:grid md:grid-cols-3">
     <div className="flex justify-center p-5 pt-7 md:pt-5">
       <div className="">
         <Image

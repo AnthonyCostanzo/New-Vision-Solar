@@ -1,8 +1,8 @@
 import Image from "next/image";
 const Problems = () => (
   <>
-    <div className="my-5 ">
-      <h1 className="text-center text-slate-800 text-xl font-[Open-Sans] font-semibold">
+    <div className="my-10 ">
+      <h1 className="text-center text-white text-xl font-[Open-Sans] font-semibold">
         Product Info & Financing
       </h1>
     </div>
@@ -20,7 +20,7 @@ const Problems = () => (
       </div>{" "}
       <div className="">
         <Image
-          src="/images/Problems.png"
+          src="/images/Problem.png"
           alt="p"
           className="md:rounded-lg"
           height={200}

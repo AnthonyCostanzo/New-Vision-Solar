@@ -20,7 +20,13 @@ will change the Solar Industry over the next 5 years introduction of Graphene/h-
         <title>{title ? title : "New Vision Solar"}</title>
       </Head>
 
-      <body className={`${background ? background : "bg-[#d9d7d7]"} `}>
+      <body
+        className={`${
+          background
+            ? background
+            : "bg-gradient-to-r from-[#5e5d5c] to-[#949494]"
+        } `}
+      >
         {" "}
         <MobileNav />
         <div className="min-h-max h-full">{children}</div>

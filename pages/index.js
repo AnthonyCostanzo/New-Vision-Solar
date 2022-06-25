@@ -16,8 +16,8 @@ export default function Home() {
         <GrapheneSection />
       </div>{" "}
       <Valuation />
-      <Problems />
       <TimeLine />
+      <Problems />
     </Layout>
   );
 }

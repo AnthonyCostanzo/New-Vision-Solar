@@ -11,10 +11,10 @@ const Problems = () => (
         objectFit="cover"
       />
     </div>
-    <div className="mx-2 lg:mt-20 rounded-md grid md:grid-cols-2 gap-5 pb-5">
+    <div className="mx-2 lg:mt-20 rounded-md grid md:grid-cols-2 gap-5 ">
       <div className="">
         <Image
-          src="/images/Problems.png"
+          src="/images/Problem.png"
           alt="p"
           className="rounded-lg"
           height={200}

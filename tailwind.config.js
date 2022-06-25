@@ -20,6 +20,7 @@ module.exports = {
       height: {
         half: "55%",
         hero: "70%",
+        nine: "88%",
       },
       animation: {
         fade: "fadeIn .5s ease-in",

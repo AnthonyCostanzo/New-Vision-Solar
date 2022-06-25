@@ -38,7 +38,7 @@ const Goal = () => {
         <div className="flex items-center">
           <div className="w-full px-3 pb-10 lg:pb-[50px]">
             <Image
-              src="/images/competition.png"
+              src="/images/comp.png"
               className=" inline-block"
               alt="competition"
               height={500}

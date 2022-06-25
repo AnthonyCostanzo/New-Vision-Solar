@@ -18,13 +18,11 @@ const Product = () => (
       </div>
       <div className="min-h-max p-5 pt-10 md:pt-28 flex flex-col z-10 relative text-gray-100">
         <h2 className="ml-4 leading-snug lg:ml-12 text-[33px] md:max-w-md font-bold text-[Montserrat]">
-          Product Details & Financing
+          Product Overview & Financial Information
         </h2>
         <blockquote className="ml-4 lg:ml-12 max-w-md text-[18px] text-semibold font-sans">
-          Clean energy for a bright future. Our goal is to bring the power of
-          the sun to you in the safest and most efficient way possible. See our
-          valuation and the technology we are using to change the world by
-          clicking below !
+          Learn more about our groundbreaking product and gain some insight on
+          what the future holds in store !
         </blockquote>
         <div className="grid grid-cols-2 mt-3 w-64 ml-2 lg:ml-11">
           <button className="shadow-md  w-fit p-2 mb-12 shadow-green-100/50 bg-main  cursor-pointer rounded-full font-semibold  text-white">

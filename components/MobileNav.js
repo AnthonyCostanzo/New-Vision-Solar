@@ -23,8 +23,8 @@ const MobileNav = () => {
   return (
     <div className="bg-gradient-to-r from-[#5e5d5d] to-[#949494]">
       <div className="flex w-full p-2 m-auto justify-around md:justify-start items-center">
-        <div className="w-8/12 md:w-3/12 min-w-fit border-r-2 md:border-r-[1px] border-main">
-          <h1 className="p-2 mr-16 font-extrabold cursor-pointer hover:text-main md:ml-10 md:mr-2 text-2xl font-[Bebas-Neue] text-slate-100 ">
+        <div className="w-8/12 md:w-3/12 min-w-fit ">
+          <h1 className="p-2 mr-12 min-w-fit w-[16rem] border-r-2 border-main 0  font-extrabold cursor-pointer hover:text-main md:ml-10 md:mr-2 text-2xl font-[Bebas-Neue] text-slate-100 ">
             New Vision Solar Inc
           </h1>
         </div>

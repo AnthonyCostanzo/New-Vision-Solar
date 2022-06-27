@@ -1,85 +1,81 @@
 import Image from "next/image";
+import { motion } from "framer-motion";
 const Problems = () => (
   <>
-    <div className="md:mx-2 divide-y-4 md:divide-y-0 divide-green-100 lg:mt-5 rounded-md grid  grid-cols-1 md:grid-cols-2 md:gap-5 md:pb-5">
-      <div className="">
+    <div
+      className="rounded-md divide-y-2 divide-green-200 md:divide-y-0 grid grid-cols-1 lg:grid-cols-2
+    lg:gap-5 lg:m-5
+     min-h-max relative"
+    >
+      <div className="relative h-[25rem] lg:h-[35rem] ">
         <Image
           src="/images/prod.png"
           alt="p"
           className="md:rounded-lg"
-          height={200}
-          width={250}
-          layout="responsive"
+          layout="fill"
         />
       </div>{" "}
-      <div className="">
+      <div className="relative h-[25rem] lg:h-[35rem] ">
         <Image
           src="/images/Problem.png"
           alt="p"
           className="md:rounded-lg"
-          height={200}
-          width={250}
-          layout="responsive"
+          layout="fill"
         />
       </div>
-      <div className="">
+      <div className="relative h-[25rem] lg:h-[35rem] ">
         <Image
           src="/images/clov-0.png"
           alt="p"
           className="md:rounded-lg"
-          height={200}
-          width={250}
-          layout="responsive"
+          layout="fill"
         />
       </div>
-      <div className="">
+      <div className="relative h-[25rem] lg:h-[35rem] ">
         <Image
           src="/images/man.png"
           alt="p"
           className="md:rounded-lg"
-          height={200}
-          width={250}
-          layout="responsive"
+          layout="fill"
         />
       </div>
-      <div className=" col-span-2" id="finance">
+      <div className="relative h-[25rem] lg:h-[42rem] col-span-2 ">
         <Image
           src="/images/cash.png"
           alt="p"
           className="md:rounded-lg"
-          height={200}
-          width={250}
-          layout="responsive"
+          layout="fill"
         />
       </div>
-      <div className="col-span-2">
+      <div className="relative h-[20rem] lg:h-[37rem] col-span-2 ">
         <Image
           src="/images/fin.png"
           alt="p"
           className="md:rounded-lg"
           height={125}
           width={210}
-          layout="responsive"
+          layout="fill"
         />
       </div>
-      <div className="col-span-2">
+      <div className="relative h-[20rem] lg:h-[37rem] col-span-2 ">
         <Image
           src="/images/map-2.png"
           alt="p"
           className="md:rounded-lg"
           height={75}
           width={125}
-          layout="responsive"
+          layout="fill"
         />
       </div>
-      <div className="col-span-2" id="inventor">
+      <div
+        className="relative col-span-2  h-[25rem] lg:h-[35rem]"
+        id="inventor"
+      >
         <Image
           src="/images/inventor.png"
           alt="p"
           className="md:rounded-lg"
-          height={200}
-          width={250}
-          layout="responsive"
+          layout="fill"
         />
       </div>
     </div>

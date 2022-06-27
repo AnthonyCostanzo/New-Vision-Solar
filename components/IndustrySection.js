@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 const IndustrySection = () => {
   return (
     <div className="md:rounded-md border-b-2 mt-5 border-orange-100 md:border-b-0 md:mt-10">

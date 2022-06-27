@@ -21,7 +21,7 @@ const Goal = () => {
             </div>
           </h3>
           <p className="m-3 mb-8 md:m-auto pt-3 lg:w-[35rem] font-[Merriweather] text-white leading-7 px-5 tracking-wide">
-            New Vision Solar Inc. is developing New Graphene/h-BN Solar
+            New Energy Solutions Inc. is developing New Graphene/h-BN Solar
             technology. Dr. Zuckerman, the Founder, has created a solar
             technology that will change the Solar Industry over the next 5 years
             introduction of Graphene/h-BN Solar with 300% More Energy and
@@ -38,8 +38,8 @@ const Goal = () => {
         <div className="flex items-center">
           <div className="w-full px-3 pb-10 lg:pb-[50px]">
             <Image
-              src="/images/comp.png"
-              className=" inline-block"
+              src="/images/prod.png"
+              className=" rounded-md"
               alt="competition"
               height={500}
               width={800}

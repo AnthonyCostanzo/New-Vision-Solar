@@ -1,6 +1,21 @@
 import Head from "next/head";
 import Footer from "./Footer";
 import MobileNav from "./MobileNav";
+import { motion } from "framer-motion";
+
+const variants = {
+  hidden: { opacity: 0, x: 200, y: 0 },
+  enter: { opacity: 1, x: 0, y: 0 },
+  exit: { opacity: 0, x: 0, y: -100 },
+};
+
+const stagger = {
+  animate: {
+    transition: {
+      staggerChildren: 0.1,
+    },
+  },
+};
 
 const Layout = ({ title, description, children, background }) => {
   return (
@@ -23,8 +38,19 @@ will change the Solar Industry over the next 5 years introduction of Graphene/h-
       <body className={`${background ? background : "bg-gray-400"} `}>
         {" "}
         <MobileNav />
-        <div className="min-h-max h-full">{children}</div>
-        <Footer />
+        <motion.div variant={stagger}>
+          <motion.div
+            variants={variants} // Pass the variant object into Framer Motion
+            initial="hidden" // Set the initial state to variants.hidden
+            animate="enter" // Animated state to variants.enter
+            exit="exit" // Exit state (used later) to variants.exit
+            transition={{ type: "linear" }} // Set the transition to linear
+            className=""
+          >
+            <div className="min-h-max h-full">{children}</div>
+            <Footer />
+          </motion.div>
+        </motion.div>
       </body>
     </html>
   );

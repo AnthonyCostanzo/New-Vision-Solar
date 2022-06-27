@@ -3,18 +3,20 @@ import Hero from "../components/Hero/Hero";
 import IndustrySection from "../components/IndustrySection";
 import GrapheneSection from "../components/GrapheneSection";
 import Goal from "../components/Goal";
-import Problems from "../components/Problems";
+
 import TimeLine from "../components/Timeline";
 import Valuation from "../components/Valuation";
-import Image from "next/image";
+import ProblemsAndSolutions from "../components/Problemsandsolutions";
+
 export default function Home() {
   return (
     <Layout background={"bg-gray-100"}>
       <Hero />
       <Goal />
-      <div className="grid relative mb-10 bg-no-repeat bg-[url('/images/s1.svg')] md:pb-20 md:border-b-2 md:border-b-orange-100">
+      <div className="grid relative bg-cover min-h-max bg-no-repeat bg-[url('/images/s1.svg')] md:pb-20 md:border-b-2 md:border-b-orange-100">
         <IndustrySection />
         <GrapheneSection />
+        <ProblemsAndSolutions />
       </div>{" "}
       <Valuation />
       <TimeLine />

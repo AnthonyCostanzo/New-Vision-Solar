@@ -10,6 +10,7 @@ const navItems = [
   { name: "Home", link: "/" },
   { name: "Product", link: "/product" },
   { name: "Patent", link: "/patent" },
+  { name: "Neat Green", link: "/neatgreen" },
   { name: "Our Team", link: "/team" },
 
   { name: "Contact", link: "/contact" },
@@ -24,9 +25,11 @@ const MobileNav = () => {
     <div className="bg-gradient-to-r from-[#5e5d5d] to-[#949494]">
       <div className="flex w-full p-2 m-auto justify-around md:justify-start items-center">
         <div className="w-8/12 md:w-3/12 min-w-fit ">
-          <h1 className="p-2 mr-12 min-w-fit w-[16rem] border-r-2 border-main 0  font-extrabold cursor-pointer hover:text-main md:ml-10 md:mr-2 text-2xl font-[Bebas-Neue] text-slate-100 ">
-            New Vision Solar Inc
-          </h1>
+          <Link href="/" passHref={true} scroll={false}>
+            <h1 className="p-2 mr-12 min-w-fit w-[19rem] lg:w-[20rem] border-r-2 border-main 0  font-extrabold cursor-pointer hover:text-main md:ml-10 md:mr-2 text-2xl font-[Bebas-Neue] text-slate-100 ">
+              New Energy Solutions Inc
+            </h1>
+          </Link>
         </div>
         <MobileNavDropdown toggleNav={toggleNavMenu} />
         <DesktopNav />
@@ -37,7 +40,7 @@ const MobileNav = () => {
         <ul className="border-t-2 md:hidden bg-gradient-to-r from-[#494848] to-[#83ad8a] pb-5 animate-fade border-slate-100 w-screen leading-8">
           <div className="mt-5">
             {navItems.map((route, i) => (
-              <Link key={i} href={route.link} passHref>
+              <Link scroll={false} key={i} href={route.link} passHref>
                 <li className={navRouteLink}>{route.name}</li>
               </Link>
             ))}

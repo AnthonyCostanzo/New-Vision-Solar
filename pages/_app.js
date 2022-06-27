@@ -1,6 +1,7 @@
 import "../styles/globals.css";
 import { useState, useEffect } from "react";
-
+import NextNProgress from "nextjs-progressbar";
+import { SnackbarProvider } from "notistack";
 export default function MyApp({ Component, pageProps }) {
   const [showChild, setShowChild] = useState(false);
   useEffect(() => {
@@ -14,6 +15,15 @@ export default function MyApp({ Component, pageProps }) {
   if (typeof window === "undefined") {
     return <></>;
   } else {
-    return <Component {...pageProps} />;
+    return (
+      <>
+        <SnackbarProvider
+          anchorOrigin={{ vertical: "top", horizontal: "center" }}
+        >
+          <NextNProgress />
+          <Component {...pageProps} />
+        </SnackbarProvider>
+      </>
+    );
   }
 }

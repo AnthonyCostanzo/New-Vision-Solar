@@ -23,7 +23,7 @@ const Footer = () => (
           size={30}
         />
         <span className="inline-block text-[18px] mt-2 ml-3 cursor-pointer hover:translate-x-2 hover:-translate-y-0.5 ">
-          123 Street, New York, USA
+          Stamford, Connecticut
         </span>
       </div>
       <div>
@@ -32,7 +32,7 @@ const Footer = () => (
           size={26}
         />
         <span className="inline-block text-[18px]  mt-2 ml-3 hover:translate-x-2 cursor-pointer  hover:-translate-y-0.5">
-          123-456-7890
+          970-987-0980
         </span>
       </div>
       <div>
@@ -41,7 +41,7 @@ const Footer = () => (
           size={27}
         />
         <span className="inline-block  text-[18px] mt-2 ml-4 hover:translate-x-2 cursor-pointer  hover:-translate-y-0.5">
-          joe@gmail.com
+          scienceguy707@gmail.com
         </span>
       </div>
       <div className="grid grid-cols-3 w-32 pt-3">
@@ -67,7 +67,7 @@ const Footer = () => (
         <p className="m-auto text-white min-w-max text-center ">
           <small className="text-[15px] hover:text-main cursor-pointer hover:scale-110 mt-3 font-bold text-gray-50 inline-block relative">
             {" "}
-            New Vision Solar Inc &#174;
+            New Energy Solutions Inc &#174;
           </small>
         </p>
       </div>

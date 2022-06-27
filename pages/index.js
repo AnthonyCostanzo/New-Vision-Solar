@@ -13,7 +13,7 @@ export default function Home() {
     <Layout background={"bg-gray-100"}>
       <Hero />
       <Goal />
-      <div className="grid relative bg-cover min-h-max bg-no-repeat bg-[url('/images/s1.svg')] md:pb-20 md:border-b-2 md:border-b-orange-100">
+      <div className="grid relative bg-cover min-h-max mb-10 bg-no-repeat bg-[url('/images/s1.svg')] md:pb-20 md:border-b-2 md:border-b-orange-100">
         <IndustrySection />
         <GrapheneSection />
         <ProblemsAndSolutions />

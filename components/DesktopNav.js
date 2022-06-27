@@ -13,7 +13,7 @@ const navItems = [
 ];
 
 const DesktopNav = () => (
-  <ul className="hidden md:visible md:flex w-full justify-evenly">
+  <ul className="hidden md:ml-3 md:flex space-x-3">
     {navItems.map((route, i) => (
       <Link key={i} href={route.link} passHref scroll={false}>
         <li className={navRouteLink}>{route.name}</li>

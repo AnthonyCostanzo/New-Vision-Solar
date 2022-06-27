@@ -22,18 +22,19 @@ const MobileNav = () => {
     setIsOpenNavMenu((prevNavState) => !prevNavState);
   };
   return (
-    <div className="bg-gradient-to-r from-[#5e5d5d] to-[#949494]">
-      <div className="flex w-full p-2 m-auto justify-around md:justify-start items-center">
-        <div className="w-8/12 md:w-3/12 min-w-fit ">
+    <div className="bg-gradient-to-r from-[#5e5d5d] to-[#949494] ">
+      <div className="grid grid-cols-3 md:flex md:items-center">
+        <div className="col-span-2 p-2 min-w-max">
           <Link href="/" passHref={true} scroll={false}>
-            <h1 className="p-2 mr-12 min-w-fit w-[19rem] lg:w-[20rem] border-r-2 border-main 0  font-extrabold cursor-pointer hover:text-main md:ml-10 md:mr-2 text-2xl font-[Bebas-Neue] text-slate-100 ">
+            <h1 className="p-2 w-max lg:w-[20rem] font-extrabold cursor-pointer hover:text-main md:ml-10 md:mr-2 text-2xl font-[Bebas-Neue] text-slate-100 ">
               New Energy Solutions Inc
             </h1>
           </Link>
         </div>
-        <div className="max-w-fit pr-10">
+        <div className="md:hidden">
           <MobileNavDropdown toggleNav={toggleNavMenu} />
         </div>
+
         <DesktopNav />
       </div>
 

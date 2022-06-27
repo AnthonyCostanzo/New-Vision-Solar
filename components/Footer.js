@@ -16,7 +16,6 @@ const Footer = () => (
           Contact Us
         </h3>
       </aside>
-
       <div>
         <IoLocationOutline
           className="inline-block hover:scale-110 cursor-pointer"
@@ -64,6 +63,7 @@ const Footer = () => (
             size={33}
           />
         </div>
+
         <p className="m-auto text-white min-w-max text-center ">
           <small className="text-[15px] hover:text-main cursor-pointer hover:scale-110 mt-3 font-bold text-gray-50 inline-block relative">
             {" "}
@@ -71,7 +71,32 @@ const Footer = () => (
           </small>
         </p>
       </div>
+      <div className="w-10/12">
+        <small className="inline-block">
+          * The Company expressly disclaims any and all liability for any
+          written or oral communication transmitted or made available to an
+          interested party. Qualified parties who are interested in pursuing a
+          transaction will be given the opportunity to conduct a due diligence
+          investigation and ultimately enter into an agreement containing such
+          representations and warranties concerning the transaction and the
+          Company as are agreed to by the parties.
+        </small>
+        <small className="inline-block">
+          * The Company shall have no legal commitment or obligation to any
+          party reviewing the Presentation, unless a written agreement regarding
+          the transaction has been fully executed, delivered and approved by the
+          Company, and any condition to the Company’s obligations hereunder have
+          been satisfied or waived.
+        </small>
+        <small className="inline-block">
+          * This Presentation has been prepared for discussion purposes only.
+          This Presentation is not an offer or solicitation for the sale of
+          securities. The Presentation is based upon information provided by
+          management and other sources deemed to be reliable.
+        </small>
+      </div>
     </div>
+
     <div className="w-full h-[7.1rem] bg-[url('/images/bg.svg')] sm:h-44 lg:h-48 bg-slate-500 "></div>
   </footer>
 );

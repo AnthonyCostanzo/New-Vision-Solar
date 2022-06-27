@@ -10,7 +10,6 @@ const navItems = [
   { name: "Home", link: "/" },
   { name: "Product", link: "/product" },
   { name: "Patent", link: "/patent" },
-  { name: "Neat Green", link: "/neatgreen" },
   { name: "Our Team", link: "/team" },
 
   { name: "Contact", link: "/contact" },
@@ -23,24 +22,22 @@ const MobileNav = () => {
   };
   return (
     <div className="bg-gradient-to-r from-[#5e5d5d] to-[#949494] ">
-      <div className="grid grid-cols-3 md:flex md:items-center">
-        <div className="col-span-2 p-2 min-w-max">
+      <div className="flex py-3 items-center w-11/12">
+        <div className="mx-7">
           <Link href="/" passHref={true} scroll={false}>
-            <h1 className="p-2 w-max lg:w-[20rem] font-extrabold cursor-pointer hover:text-main md:ml-10 md:mr-2 text-2xl font-[Bebas-Neue] text-slate-100 ">
-              New Energy Solutions Inc
+            <h1 className="text-[21px] min-w-max font-bold text-gray-50 text-[Open-Sans] ">
+              New Energy Solutions, Inc.
             </h1>
           </Link>
         </div>
-        <div className="md:hidden">
+        <div className="flex-1">
           <MobileNavDropdown toggleNav={toggleNavMenu} />
+          <DesktopNav />
         </div>
-
-        <DesktopNav />
       </div>
-
       {/* dropdown menu */}
       {isOpenNavMenu && (
-        <ul className="border-t-2 md:hidden bg-gradient-to-r from-[#494848] to-[#83ad8a] pb-5 animate-fade border-slate-100 w-screen leading-8">
+        <ul className="border-t-2 md:hidden bg-gradient-to-r from-[#494848] to-[#83ad8a] pb-5 animate-fade border-slate-100 leading-8">
           <div className="mt-5">
             {navItems.map((route, i) => (
               <Link scroll={false} key={i} href={route.link} passHref>

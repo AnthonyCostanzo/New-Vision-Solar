@@ -6,14 +6,14 @@ const navItems = [
   { name: "Home", link: "/" },
   { name: "Product", link: "/product" },
   { name: "Patent", link: "/patent" },
-  { name: "Neat Green", link: "/neatgreen" },
+  { name: "NeatGreen", link: "/neatgreen" },
   { name: "Our Team", link: "/team" },
 
   { name: "Contact", link: "/contact" },
 ];
 
 const DesktopNav = () => (
-  <ul className="hidden w-[48rem] text-lg md:ml-3 md:flex justify-evenly space-x-3">
+  <ul className="hidden md:flex justify-evenly">
     {navItems.map((route, i) => (
       <Link key={i} href={route.link} passHref scroll={false}>
         <li className={navRouteLink}>{route.name}</li>

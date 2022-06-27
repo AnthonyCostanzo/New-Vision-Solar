@@ -38,7 +38,7 @@ will change the Solar Industry over the next 5 years introduction of Graphene/h-
       <body className={`${background ? background : "bg-gray-400"} `}>
         {" "}
         <MobileNav />
-        <motion.div variant={stagger}>
+        <motion.d variant={stagger}>
           <motion.div
             variants={variants} // Pass the variant object into Framer Motion
             initial="hidden" // Set the initial state to variants.hidden
@@ -47,10 +47,10 @@ will change the Solar Industry over the next 5 years introduction of Graphene/h-
             transition={{ type: "linear" }} // Set the transition to linear
             className=""
           >
-            <div className="min-h-max h-full">{children}</div>
+            <div className="min-h-max h-full ">{children}</div>
             <Footer />
           </motion.div>
-        </motion.div>
+        </motion.d>
       </body>
     </html>
   );

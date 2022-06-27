@@ -1,7 +1,7 @@
 import Image from "next/image";
 const Problems = () => (
   <>
-    <div className="md:mx-2 divide-y-4 md:divide-y-0 divide-main lg:mt-5 rounded-md grid  grid-cols-1 md:grid-cols-2 md:gap-5 md:pb-5">
+    <div className="md:mx-2 divide-y-4 md:divide-y-0 divide-green-100 lg:mt-5 rounded-md grid  grid-cols-1 md:grid-cols-2 md:gap-5 md:pb-5">
       <div className="">
         <Image
           src="/images/prod.png"

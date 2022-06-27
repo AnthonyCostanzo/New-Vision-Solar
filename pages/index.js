@@ -9,7 +9,7 @@ import Valuation from "../components/Valuation";
 import Image from "next/image";
 export default function Home() {
   return (
-    <Layout background={"bg-gray-200"}>
+    <Layout background={"bg-gray-100"}>
       <Hero />
       <Goal />
       <div className="grid relative mb-10 bg-no-repeat bg-[url('/images/s1.svg')] md:pb-20 md:border-b-2 md:border-b-orange-100">

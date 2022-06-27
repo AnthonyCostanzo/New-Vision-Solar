@@ -42,9 +42,9 @@ const Problems = () => (
           layout="responsive"
         />
       </div>
-      <div className="" id="finance">
+      <div className=" col-span-2" id="finance">
         <Image
-          src="/images/cash-3.png"
+          src="/images/cash.png"
           alt="p"
           className="md:rounded-lg"
           height={200}
@@ -52,13 +52,13 @@ const Problems = () => (
           layout="responsive"
         />
       </div>
-      <div className="">
+      <div className="col-span-2">
         <Image
           src="/images/fin.png"
           alt="p"
           className="md:rounded-lg"
-          height={200}
-          width={250}
+          height={125}
+          width={210}
           layout="responsive"
         />
       </div>

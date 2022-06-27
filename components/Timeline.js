@@ -13,7 +13,7 @@ const TimeLine = () => {
         />
       </div>{" "}
       <div className="flex rounded-lg  mb-5">
-        <div className="relative mb-5 lg:mb-6 lg:mt-[2.5rem] mx-4 w-full h-[22rem] rounded-lg md:h-[28rem] lg:h-[48rem] ">
+        <div className="relative mb-5 lg:mb-6 lg:mt-[2.5rem] mx-4 w-full h-[26rem] rounded-lg md:h-[28rem] lg:h-[48rem] ">
           <div className=" w-full rounded-lg">
             <Image
               src="/images/time.png"

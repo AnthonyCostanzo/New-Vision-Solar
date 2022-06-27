@@ -31,7 +31,9 @@ const MobileNav = () => {
             </h1>
           </Link>
         </div>
-        <MobileNavDropdown toggleNav={toggleNavMenu} />
+        <div className="max-w-fit pr-10">
+          <MobileNavDropdown toggleNav={toggleNavMenu} />
+        </div>
         <DesktopNav />
       </div>
 

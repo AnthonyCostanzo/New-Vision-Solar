@@ -91,7 +91,10 @@ const teamMembers = [
 ];
 
 export const Team = () => (
-  <Layout>
+  <Layout
+    title="Our Team"
+    description={"New Energy Solution Team Members and bios"}
+  >
     <div className="mb-20">
       <div className="grid h-2/3 gap-6 mt-10">
         {teamMembers.map((member, i) => (

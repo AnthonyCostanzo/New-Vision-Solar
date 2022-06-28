@@ -1,7 +1,10 @@
 import Layout from "../components/Layout";
 import Image from "next/image";
 const patent = () => (
-  <Layout>
+  <Layout
+    title="Patent"
+    description={"patent information for new energy solution technology "}
+  >
     <div className="min-h-max my-10  px-5">
       <div className="gap-2 md:w-9/12  grid min-h-max relative m-auto">
         <div className="h-nine">

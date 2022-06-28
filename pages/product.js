@@ -3,7 +3,7 @@ import Image from "next/image";
 import Problems from "../components/Problems";
 import Link from "next/link";
 const Product = () => (
-  <Layout>
+  <Layout title={"Product Overview"}>
     <div className="h-[45rem] min-h-max relative bg-black">
       <div className="bg-blue-200 min-h-max h-full w-full absolute opacity-40 md:opacity-50 ">
         <Image

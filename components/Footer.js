@@ -10,12 +10,12 @@ import { TiSocialTwitterCircular } from "react-icons/ti";
 const Footer = () => (
   <footer className="border-t-4 bg-bottom-right border-slate-100 bg-slate-500 ">
     <div className="text-white ml-10 pt-5 grid space-y-3 font-[Merriweather] ">
-      <aside className="max-w-fit group">
-        {" "}
-        <h3 className="text-[24px] font-bold cursor-pointer group-hover:animate-bounce">
-          Contact Us
-        </h3>
-      </aside>
+      <p className="text-white ">
+        <small className="text-[17px] hover:text-main cursor-pointer hover:scale-110  font-bold text-gray-50 inline-block relative">
+          {" "}
+          New Energy Solutions Inc &#174;
+        </small>
+      </p>
       <div>
         <IoLocationOutline
           className="inline-block hover:scale-110 cursor-pointer"
@@ -25,15 +25,7 @@ const Footer = () => (
           Stamford, Connecticut
         </span>
       </div>
-      <div>
-        <BsTelephone
-          className="inline-block hover:scale-110 cursor-pointer"
-          size={26}
-        />
-        <span className="inline-block text-[18px]  mt-2 ml-3 hover:translate-x-2 cursor-pointer  hover:-translate-y-0.5">
-          970-987-0980
-        </span>
-      </div>
+
       <div>
         <AiOutlineMail
           className="inline-block hover:scale-110 cursor-pointer"
@@ -63,13 +55,6 @@ const Footer = () => (
             size={33}
           />
         </div>
-
-        <p className="m-auto text-white min-w-max text-center ">
-          <small className="text-[15px] hover:text-main cursor-pointer hover:scale-110 mt-3 font-bold text-gray-50 inline-block relative">
-            {" "}
-            New Energy Solutions Inc &#174;
-          </small>
-        </p>
       </div>
       <div className="w-10/12">
         <small className="inline-block">

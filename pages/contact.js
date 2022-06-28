@@ -3,7 +3,10 @@ import Layout from "../components/Layout";
 
 const Contact = ({ email_id, client_id, template_id }) => {
   return (
-    <Layout>
+    <Layout
+      title="Contact"
+      description="Contact page for New Energy Solutions Inc"
+    >
       <div className="mb-10">
         <ContactForm
           email_id={email_id}

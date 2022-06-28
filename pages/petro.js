@@ -1,14 +1,17 @@
 import Layout from "../components/Layout";
 import Image from "next/image";
 const PetroFluids = () => (
-  <Layout>
+  <Layout
+    title="Petro Fluids Inc"
+    description="Petro Fluids/Index API Gravity Increaser"
+  >
     <div className="mt-10">
       <h1 className="font-[Open-Sans] font-bold text-[18px] text-center text-gray-50 mb-5 ">
         PetroFluids Inc&trade; - Index API Gravity Increaser
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-2 m-3 text-gray-50">
         <div className=" border-t-main border-t-2 features md:border-main bg-gray-500 md:border-2 p-3 order-2">
-          <h2 className="md:text-center mb-1 text-xl italic font-[Open-Sans]">
+          <h2 className="md:text-center text-main mb-1 text-xl italic font-[Open-Sans]">
             Features
           </h2>
           <ul className="space-y-3 font-[Merriweather]">
@@ -17,7 +20,7 @@ const PetroFluids = () => (
             <li>Higher Dose than Standard Dose Shows No Greater Results</li>
             <li>Available in 275 gallon totes to treat 3,275 bbl. of Crude</li>
           </ul>
-          <h2 className="md:text-center mt-5 mb-1 text-xl italic font-[Open-Sans]">
+          <h2 className="md:text-center mt-5 mb-1 text-xl text-main italic font-[Open-Sans]">
             Benefits
           </h2>
           <ul className="space-y-3 font-[Merriweather]">
@@ -33,7 +36,7 @@ const PetroFluids = () => (
         </div>
 
         <div className="lg:col-span-2 p-2 bg-gray-500 lg:order-2 font-[Merriweather]">
-          <h2 className="md:text-center text-xl mb-1 italic font-[Open-Sans]">
+          <h2 className="md:text-center text-main text-xl mb-1 italic font-[Open-Sans]">
             Product Highlights
           </h2>
           <p>
@@ -61,7 +64,7 @@ const PetroFluids = () => (
             />
           </div>
 
-          <h2 className="border-t-2 border-main pt-3 md:text-center mt-3 text-xl mb-1 italic font-[Open-Sans]">
+          <h2 className="border-t-2 text-main border-main pt-3 md:text-center mt-3 text-xl mb-1 italic font-[Open-Sans]">
             Index API Gravity Increaser
           </h2>
           <p>
@@ -74,7 +77,7 @@ const PetroFluids = () => (
         </div>
         <div className="lg:col-span-3 grid md:grid-cols-2 gap-2 mt-5 order-4 ">
           <div className="bg-gray-500 p-3 rounded-md ">
-            <h2 className="md:text-center text-xl mb-1 italic font-[Open-Sans]">
+            <h2 className="md:text-center text-main text-xl mb-1 italic font-[Open-Sans]">
               Technical Specifications
             </h2>
             <ul className="space-y-2 space-x-5 grid grid-cols-2">
@@ -97,10 +100,10 @@ const PetroFluids = () => (
             </ul>
           </div>
           <div className="bg-gray-500 p-3 rounded-md ">
-            <h2 className="md:text-center text-xl mb-1 italic font-[Open-Sans]">
+            <h2 className="md:text-center text-main text-xl mb-1 italic font-[Open-Sans]">
               Pricing
             </h2>
-            <table className="w-full md:mt-5">
+            <table className="w-full md:mt-3">
               <thead>
                 <tr>
                   <th>Container</th>

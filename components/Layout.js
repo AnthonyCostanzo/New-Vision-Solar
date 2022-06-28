@@ -27,12 +27,12 @@ const Layout = ({ title, description, children, background }) => {
           content={
             description
               ? description
-              : `New Vision Solar Inc. is developing New Graphene/h-BN Solar technology/(product). Dr. Zuckerman, the Founder, has created a solar technology that
+              : `New Energy Solutions Inc. is developing New Graphene/h-BN Solar technology/(product). Dr. Zuckerman, the Founder, has created a solar technology that
 will change the Solar Industry over the next 5 years introduction of Graphene/h-BN Solar with 300% More Energy and significantly lower cost than Silicon Solar.`
           }
         ></meta>
 
-        <title>{title ? title : "New Vision Solar"}</title>
+        <title>{title ? title : "New Energy Solutions Inc"}</title>
       </Head>
 
       <body>

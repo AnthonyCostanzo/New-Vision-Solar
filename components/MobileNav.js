@@ -22,7 +22,7 @@ const MobileNav = () => {
     setIsOpenNavMenu((prevNavState) => !prevNavState);
   };
   return (
-    <div className="bg-gradient-to-r from-[#5e5d5d] to-[#949494] ">
+    <div className="bg-gradient-to-r from-[#5e5d5d] to-[#949494] min-h-max py-2 ">
       <div className="flex py-3 items-center w-11/12">
         <div className="mx-7">
           <Link href="/" passHref={true} scroll={false}>
@@ -38,7 +38,7 @@ const MobileNav = () => {
       </div>
       {/* dropdown menu */}
       {isOpenNavMenu && (
-        <ul className="border-t-2 md:hidden bg-gradient-to-r from-[#494848] to-[#83ad8a] pb-5 animate-fade border-slate-100 leading-8">
+        <ul className="border-t-2 lg:hidden bg-gradient-to-r from-[#494848] to-[#83ad8a] pb-5 animate-fade border-slate-100 leading-8">
           <div className="mt-5">
             {navItems.map((route, i) => (
               <Link scroll={false} key={i} href={route.link} passHref>

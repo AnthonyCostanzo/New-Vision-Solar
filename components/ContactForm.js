@@ -204,45 +204,6 @@ const ContactForm = ({ email_id, client_id, template_id }) => {
           <button className="bg-main shadow-sm shadow-green-50 text-white rounded-full p-2 hover:opacity-90 ">
             Submit
           </button>
-          <div>
-            <IoLocationOutline className="inline-block text-main" size={25} />
-            <span className="inline-block mt-2 ml-3 cursor-pointer font-[Times] text-[18px] text-white hover:translate-x-2 hover:-translate-y-0.5 ">
-              Stamford CT
-            </span>
-          </div>
-          <div>
-            <BsTelephone className="inline-block text-main" size={25} />
-            <span className="inline-block ml-3 hover:translate-x-2 cursor-pointer font-[Times] text-[18px] text-white  hover:-translate-y-0.5">
-              970-987-0980
-            </span>
-          </div>
-          <div>
-            <AiOutlineMail className="inline-block text-main" size={25} />
-            <span className="inline-block ml-4 hover:translate-x-2 cursor-pointer font-[Times] text-[18px] text-white  hover:-translate-y-0.5">
-              scienceguy707@gmail.com
-            </span>
-          </div>
-          <div className="flex gap-5 pt-3 justify-around cursor-pointer">
-            <div>
-              {" "}
-              <TiSocialTwitterCircular
-                className="inline-block text-white hover:scale-110 "
-                size={28}
-              />
-            </div>
-            <div>
-              <AiOutlineFacebook
-                className="inline-block text-white hover:scale-110"
-                size={28}
-              />
-            </div>
-            <div>
-              <AiOutlineLinkedin
-                className="inline-block text-white hover:scale-110"
-                size={28}
-              />
-            </div>
-          </div>
         </div>
       </form>
     </>

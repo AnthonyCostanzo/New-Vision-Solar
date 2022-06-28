@@ -35,22 +35,22 @@ will change the Solar Industry over the next 5 years introduction of Graphene/h-
         <title>{title ? title : "New Vision Solar"}</title>
       </Head>
 
-      <body className={`${background ? background : "bg-gray-400"} `}>
+      <body>
         {" "}
-        <MobileNav />
-        <motion.d variant={stagger}>
-          <motion.div
-            variants={variants} // Pass the variant object into Framer Motion
-            initial="hidden" // Set the initial state to variants.hidden
-            animate="enter" // Animated state to variants.enter
-            exit="exit" // Exit state (used later) to variants.exit
-            transition={{ type: "linear" }} // Set the transition to linear
-            className=""
-          >
-            <div className="min-h-max h-full ">{children}</div>
-            <Footer />
-          </motion.div>
-        </motion.d>
+        <div className={`${background ? background : " bg-gray-400"}`}>
+          <MobileNav />
+          <motion.d variant={stagger}>
+            <motion.div
+              variants={variants} // Pass the variant object into Framer Motion
+              initial="hidden" // Set the initial state to variants.hidden
+              animate="enter" // Animated state to variants.enter exit="exit" //
+              transition={{ type: "linear" }}
+            >
+              <div className="">{children}</div>
+              <Footer />
+            </motion.div>
+          </motion.d>
+        </div>
       </body>
     </html>
   );

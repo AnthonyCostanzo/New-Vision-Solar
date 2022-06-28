@@ -1,10 +1,10 @@
 import Layout from "../components/Layout";
 import Image from "next/image";
-const Neatgreen = () => (
+const PetroFluids = () => (
   <Layout>
     <div className="mt-10">
       <h1 className="font-[Open-Sans] font-bold text-[18px] text-center text-gray-50 mb-5 ">
-        NEAT GREEN&trade; - Index API Gravity Increaser
+        PetroFluids Inc&trade; - Index API Gravity Increaser
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-2 m-3 text-gray-50">
         <div className=" border-t-main border-t-2 features md:border-main bg-gray-500 md:border-2 p-3 order-2">
@@ -16,7 +16,6 @@ const Neatgreen = () => (
             <li>Wellhead Bendable Without Any Naphtha or Lighter Crude</li>
             <li>Higher Dose than Standard Dose Shows No Greater Results</li>
             <li>Available in 275 gallon totes to treat 3,275 bbl. of Crude</li>
-            <li>WIPO IB2018/058940*</li>
           </ul>
           <h2 className="md:text-center mt-5 mb-1 text-xl italic font-[Open-Sans]">
             Benefits
@@ -33,12 +32,12 @@ const Neatgreen = () => (
           </ul>
         </div>
 
-        <div className="md:col-span-2 p-2 bg-gray-500 md:order-2 font-[Merriweather]">
+        <div className="lg:col-span-2 p-2 bg-gray-500 lg:order-2 font-[Merriweather]">
           <h2 className="md:text-center text-xl mb-1 italic font-[Open-Sans]">
             Product Highlights
           </h2>
           <p>
-            Neat Green&trade; attaches to the Resin present in Crude Oil to
+            PetroFluids Inc&trade; attaches to the Resin present in Crude Oil to
             allow the Aromatic and Saturate components, found in the bulk of the
             Crude, to migrate across the Resin, that previously acted as a
             barrier, and deconstruct the Asphaltene. Asphaltene deconstructs
@@ -49,15 +48,24 @@ const Neatgreen = () => (
             millenniums of time, on a road leading from younger Crudes to older
             Bitumen. Over this time Aromatics and Saturates, present in the bulk
             of the oil, are depleted and condenses into Asphaltene and
-            walled-off behind the Resin shell. Neat Green&trade; is a unique
+            walled-off behind the Resin shell.PetroFluids Inc&trade; is a unique
             chemical rejuvenation of old Bitumen, that takes only a minute to
             reverse millenniums of time to produce a younger lighter Crude.
           </p>
+          <div className="h-48 my-5 relative w-11/12 lg:w-3/4 lg:h-52 m-auto">
+            <Image
+              className="rounded-lg"
+              src="/images/image1.png"
+              alt="g"
+              layout="fill"
+            />
+          </div>
+
           <h2 className="border-t-2 border-main pt-3 md:text-center mt-3 text-xl mb-1 italic font-[Open-Sans]">
             Index API Gravity Increaser
           </h2>
           <p>
-            Both NeatGreen&trade; concentrate or blended to form Super
+            Both PetroFluids Inc&trade; concentrate or blended to form Super
             Naphtha&trade;, blended at standard dose, results in a reduction of
             approximately 7.5% Asphaltene present, to upgrade Bitumen or Heavy
             Crudes such as Venezuelan Merey 8 to Merey 16 or Canadian Heavy
@@ -121,10 +129,10 @@ const Neatgreen = () => (
           </div>
         </div>
       </div>
-      <div className="mx-3 m-auto h-[20rem] lg:h-[40rem] relative mb-5">
+      <div className="mx-3 m-auto h-[23rem] lg:h-[40rem] relative mb-5">
         <Image
           className="rounded-lg"
-          src="/images/ng.png"
+          src="/images/ng.jpg"
           alt="g"
           layout="fill"
         />
@@ -133,4 +141,4 @@ const Neatgreen = () => (
   </Layout>
 );
 
-export default Neatgreen;
+export default PetroFluids;

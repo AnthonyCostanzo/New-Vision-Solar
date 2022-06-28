@@ -10,6 +10,7 @@ const navItems = [
   { name: "Home", link: "/" },
   { name: "Product", link: "/product" },
   { name: "Patent", link: "/patent" },
+  { name: "Petro Fluids", link: "/petro" },
   { name: "Our Team", link: "/team" },
 
   { name: "Contact", link: "/contact" },
@@ -25,7 +26,7 @@ const MobileNav = () => {
       <div className="flex py-3 items-center w-11/12">
         <div className="mx-7">
           <Link href="/" passHref={true} scroll={false}>
-            <h1 className="text-[21px] min-w-max font-bold text-gray-50 text-[Open-Sans] ">
+            <h1 className="text-[21px] min-w-max cursor-pointer font-bold text-gray-50 text-[Open-Sans] ">
               New Energy Solutions, Inc.
             </h1>
           </Link>

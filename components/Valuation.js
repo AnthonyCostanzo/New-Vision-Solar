@@ -1,7 +1,7 @@
 import Image from "next/image";
 const Valuation = () => (
   <div className="" id="solar">
-    <div className="h-52 my-5 md:w-3/4 relative text-center m-auto">
+    <div className="h-36 mb-5 md:w-3/4 relative text-center m-auto">
       <Image
         src="/images/divide.png"
         alt="p"
@@ -10,7 +10,7 @@ const Valuation = () => (
         objectFit="cover"
       />
     </div>
-    <div className="">
+    <div className="mt-[-1.8em] md:mt-[1.8em]">
       <div className="grid">
         <h3 className="text-sky-600 text-xl mx-6 font-[Open-Sans] italic">
           Patent Valuation

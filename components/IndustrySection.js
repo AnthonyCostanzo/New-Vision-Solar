@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import { motion } from "framer-motion";
 const IndustrySection = () => {
   return (
     <div className="md:rounded-md border-b-2 mt-5 border-orange-100 md:border-b-0 md:mt-10">
@@ -10,12 +10,12 @@ const IndustrySection = () => {
         <div className="lg:w-3/4 lg:flex justify-end">
           <div className="mb-7">
             <p className="font-[Merriweather] text-white leading-7 px-5 tracking-wide text-[18px]">
-              Grown to over $184 billion in 2021 and continued growth is
-              expected to $293 billion by 2028 (FinancialNewsMedia.com). Dr.
-              Zuckerman has created a solar technology that will change the
-              Solar Industry over the next 5 years introduction of Graphene/h
-              -BN Solar with 300% More Energy and significantly lower cost than
-              Silicon Solar.
+              The industry that grew to over $184 billion last year is forecast
+              to continue to grow to a $293 billion market in 2028 (Financial
+              News Media.com).  The technology of New Energy Solutions, Inc. is
+              on a path to change the Solar Industry, over the next five years
+              by the introduction of Graphene/hBN Solar with 300% More Energy
+              Capture and lower cost per watt of energy produced.
             </p>
           </div>
         </div>

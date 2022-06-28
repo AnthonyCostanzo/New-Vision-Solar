@@ -22,6 +22,10 @@ module.exports = {
         hero: "70%",
         nine: "88%",
       },
+      width: {
+        more: "95%",
+      },
+
       animation: {
         fade: "fadeIn .5s ease-in",
       },

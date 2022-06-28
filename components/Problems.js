@@ -49,16 +49,6 @@ const Problems = () => (
       </div>
       <div className="relative h-[20rem] lg:h-[37rem] col-span-2 ">
         <Image
-          src="/images/fin.png"
-          alt="p"
-          className="md:rounded-lg"
-          height={125}
-          width={210}
-          layout="fill"
-        />
-      </div>
-      <div className="relative h-[20rem] lg:h-[37rem] col-span-2 ">
-        <Image
           src="/images/map-2.png"
           alt="p"
           className="md:rounded-lg"

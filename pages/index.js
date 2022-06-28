@@ -3,8 +3,6 @@ import Hero from "../components/Hero/Hero";
 import IndustrySection from "../components/IndustrySection";
 import GrapheneSection from "../components/GrapheneSection";
 import Goal from "../components/Goal";
-
-import TimeLine from "../components/Timeline";
 import Valuation from "../components/Valuation";
 import ProblemsAndSolutions from "../components/Problemsandsolutions";
 

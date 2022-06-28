@@ -12,8 +12,8 @@ const ProblemsAndSolutions = () => {
               Silicon Solar Require 2.5 Acres Per Megawatt{" "}
             </span>
             . Graphene/h-BN Solar requires less than an acre per megawatt by
-            capture the "visual spectrum of light” plus a portion of the highest
-            energy Ultra Violet light increases the Solar Energy capture
+            capture the {`visual spectrum of light`} plus a portion of the
+            highest energy Ultra Violet light increases the Solar Energy capture
             efficiency over Silicon material, that only capture “red light”.
             <span className="font-semibold">
               {" "}
@@ -23,7 +23,7 @@ const ProblemsAndSolutions = () => {
             natural gas instead Silicon eliminates all of the associated supply
             chain problems.
           </p>
-        </div>
+        </div>{" "}
       </article>
     </div>
   );

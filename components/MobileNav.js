@@ -27,7 +27,7 @@ const MobileNav = () => {
         <div className="mx-7">
           <Link href="/" passHref={true} scroll={false}>
             <h1 className="text-[21px] min-w-max cursor-pointer font-bold text-gray-50 text-[Open-Sans] ">
-              New Energy Solutions, Inc.
+              New Energy Solutions Inc.
             </h1>
           </Link>
         </div>

@@ -5,7 +5,7 @@ import AboutCard from "../components/AboutCard";
 const teamMembers = [
   {
     name: "Mathew Zuckerman, Ph.D., CEO, Inventor and Director",
-    text: `Matt is a serial entrepreneur who for over 40 years partnered with Jeff Loch
+    text: `Mat is a serial entrepreneur who for over 40 years partnered with Jeff Loch
     (Chief Branding Officer) and other members of the NewVision Solar team.
     Together at Green Earth Technologies, Inc., trading symbol GETG, produces
     over $400 million is shareholder value when there Proprietary Product G-Oil

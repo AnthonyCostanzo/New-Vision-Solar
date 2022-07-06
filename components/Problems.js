@@ -61,7 +61,7 @@ const Problems = () => (
         className="col-span-2 min-h-max lg:rounded-lg p-3 relative bg-gray-700 grid grid-cols-3 lg:my-2 gap-x-5"
         id="inventor"
       >
-        <div className="flex  md:my-12 flex-col">
+        <div className="flex md:gap-y-2 md:my-12 flex-col">
           <div className="h-full relative">
             <Image
               src="/images/fig.jpg"

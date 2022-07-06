@@ -32,7 +32,7 @@ const Valuation = () => (
 
         <div className="mt-1 w-11/12 md:w-3/4 m-auto ">
           <h3 className="text-center mt-3 text-[26px]">
-            Final Patent Valuation Between{" "}
+            Stream of Income over Life of Patent Between{" "}
             <span className="block font-bold text-[21px]">
               $113.77 million - $125.7 million
             </span>

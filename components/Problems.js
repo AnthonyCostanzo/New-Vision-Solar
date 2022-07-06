@@ -4,7 +4,7 @@ const Problems = () => (
   <div className="">
     <div
       className="lg:rounded-md divide-y-2 divide-green-200 md:divide-y-0 grid grid-cols-1 lg:grid-cols-2
-    lg:gap-5 lg:m-5
+    lg:gap-5 lg:m-2
     relative"
     >
       <div className="relative h-[25rem] lg:h-[35rem] ">

@@ -95,7 +95,7 @@ const Problems = () => (
         </div>
         <div className="col-span-2 my-2 text-gray-50 min-h-max">
           <h4 className="text-main text-xl italic text-center mb-2">
-            Dr Zuckerman's Highlights{" "}
+            {`Dr Zuckerman's Highlights`}
           </h4>
           <div className="tracking-wide font-[times] lg:text-[21.25px] xl:text-[22.5px] space-y-2">
             <p className="">

@@ -10,7 +10,7 @@ const navItems = [
   { name: "Home", link: "/" },
   { name: "Product", link: "/product" },
   { name: "Patent", link: "/patent" },
-  { name: "Future Product", link: "/petro" },
+  { name: "Exciting New Product", link: "/petro" },
   { name: "Our Team", link: "/team" },
 
   { name: "Contact", link: "/contact" },
@@ -24,12 +24,14 @@ const MobileNav = () => {
   return (
     <div className="bg-gradient-to-r from-[#5e5d5d] to-[#949494] min-h-max py-2 ">
       <div className="flex py-3 items-center w-11/12">
-        <div className="mx-7">
-          <Link href="/" passHref={true} scroll={false}>
-            <h1 className="text-[21px] min-w-max cursor-pointer font-bold text-gray-50 text-[Open-Sans] ">
-              New Energy Solutions Inc.
-            </h1>
-          </Link>
+        <div className=" border-r-2 border-main">
+          <div className="mx-7 ">
+            <Link href="/" passHref={true} scroll={false}>
+              <h1 className="text-[21px] min-w-max cursor-pointer font-bold text-gray-50 text-[Open-Sans] ">
+                New Energy Solutions Inc
+              </h1>
+            </Link>
+          </div>
         </div>
         <div className="flex-1">
           <MobileNavDropdown toggleNav={toggleNavMenu} />

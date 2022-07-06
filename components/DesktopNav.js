@@ -6,7 +6,7 @@ const navItems = [
   { name: "Home", link: "/" },
   { name: "Product", link: "/product" },
   { name: "Patent", link: "/patent" },
-  { name: "Future Product", link: "/petro" },
+  { name: "Exciting New Product", link: "/petro" },
   { name: "Our Team", link: "/team" },
 
   { name: "Contact", link: "/contact" },

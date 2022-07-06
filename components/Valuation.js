@@ -1,7 +1,7 @@
 import Image from "next/image";
 const Valuation = () => (
   <div className="" id="solar">
-    <div className="h-36 mb-5 md:w-3/4 relative text-center m-auto">
+    <div className="h-36 lg:h-48 mb-5 md:w-3/4 relative text-center m-auto">
       <Image
         src="/images/divide.png"
         alt="p"
@@ -27,15 +27,22 @@ const Valuation = () => (
           trend, penetration, and saturation. For the remaining 19-year life of
           the patent and with a discount rate of 15%, the NPV of the patent is
           $119,755,375 after considering the patent strength factor. Factoring a
-          5% variance, the following is the final valuation range.
+          5% variance, the following is the final valuation range. The Inventor,
+          Dr Zuckerman is both the Inventor and Applicant of the issued and
+          pending patents. We plan to attach to the acquisition agreement the
+          Assignment of the patents that is made to have the patents in the
+          company(s) acquired. Below is is the stream of income over the life of
+          the patent if the patent is licensed to another company to manufacture
+          the products.
         </p>
 
         <div className="mt-1 w-11/12 md:w-3/4 m-auto ">
           <h3 className="text-center mt-3 text-[26px]">
-            Stream of Income over Life of Patent Between{" "}
+            Stream of Income over Life of Patent
             <span className="block font-bold text-[21px]">
               $113.77 million - $125.7 million
             </span>
+            <small className="block"> (licenced to another company)</small>
           </h3>
           <Image
             src="/images/pv.png"

@@ -19,7 +19,7 @@ const patent = () => (
         </div>
 
         <Image
-          src="/images/p2.png"
+          src="/images/p2.jpg"
           alt="p"
           className="rounded-lg"
           height={800}

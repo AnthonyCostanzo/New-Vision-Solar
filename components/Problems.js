@@ -61,7 +61,7 @@ const Problems = () => (
         className="col-span-2 min-h-max lg:rounded-lg p-3 relative bg-gray-700 grid grid-cols-3 lg:my-2 gap-x-5"
         id="inventor"
       >
-        <div className="flex md:gap-y-2 md:my-12 flex-col">
+        <div className="flex md:gap-y-2 py-3 md:pt-12 flex-col">
           <div className="h-full relative">
             <Image
               src="/images/fig.jpg"
@@ -89,9 +89,6 @@ const Problems = () => (
               objectFit="contain"
             />
           </div>
-          <small className="inline-block relative text-main text-center  font-semibold">
-            Product Of The Year
-          </small>
         </div>
         <div className="col-span-2 my-2 text-gray-50 min-h-max">
           <h4 className="text-main text-xl italic text-center mb-2">

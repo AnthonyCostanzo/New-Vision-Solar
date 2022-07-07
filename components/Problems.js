@@ -25,7 +25,7 @@ const Problems = () => (
       </div>
       <div className="relative h-[25rem] lg:h-[35rem] ">
         <Image
-          src="/images/Clover.jpg"
+          src="/images/Cl.jpg"
           alt="p"
           className="lg:rounded-lg"
           layout="fill"

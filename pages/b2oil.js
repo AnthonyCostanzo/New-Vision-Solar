@@ -50,7 +50,7 @@ const B2Oil = () => {
           </button>
         </div>
 
-        <div className=" order-3 flex flex-col md:flex-row bg-gray-500 p-5">
+        <div className=" order-4 flex flex-col md:flex-row bg-gray-500 p-5">
           <div className="relative m-auto h-48 w-48 md:h-[30vh] md:w-9/12 lg:w-5/12 mt-5 ">
             <Image
               alt="B2 Oil logo"
@@ -85,7 +85,7 @@ const B2Oil = () => {
             </div>
           </div>
         </div>
-        <div className="order-4 p-5 md:p-10 bg-gradient-to-br from-[#304e0e] to-[#4ab514b4] text-gray-100">
+        <div className="order-3 p-5 md:p-10 bg-gradient-to-br from-[#304e0e] to-[#4ab514b4] text-gray-100">
           <h3 className="text-[28px] font-bold text-orange-500">B2 Benefits</h3>
           <ul className="text-[20px] space-y-2 list-disc">
             <li className="ml-5">

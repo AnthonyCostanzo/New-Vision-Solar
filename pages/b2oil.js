@@ -45,7 +45,7 @@ const B2Oil = () => {
               claiming/performing full synthetic motor oils.
             </p>
           </div>
-          <button className="w-36 hover:font-bold border-[1.2px] shadow-sm shadow-orange-200 bg-white rounded-full h-14 mt-2 text-orange-400">
+          <button className="w-36 md:mt-4 md:ml-40 hover:scale-110 border-[1.2px] shadow-sm shadow-orange-200 bg-white rounded-full h-14 mt-2 text-orange-400">
             <a href="http://www.b2oil.com/sneak-peak.html">LEARN MORE</a>
           </button>
         </div>

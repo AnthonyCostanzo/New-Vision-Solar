@@ -17,9 +17,9 @@ const DesktopNav = () => (
     <div className="group ">
       <li className={navRouteLink}>Exciting New Products</li>
 
-      <ul className=" hidden transition-all duration-300 animate-fade group-hover:grid text-[18px] shadow-sm shadow-green-200 p-1 min-h-max w-full border-b-[1.5px] border-x-[1px] border-white">
+      <ul className=" hidden transition-all duration-300 animate-fade group-hover:grid text-[18px] shadow-sm shadow-green-200 p-2 min-h-max w-52 border-b-[1.5px] border-x-[1px] border-white">
         <Link href={"/petro"} passHref scroll={false}>
-          <li className={navRouteLink}>Petro</li>
+          <li className={`${navRouteLink}`}>Petro Fluids</li>
         </Link>
         <Link href={"/b2oil"} passHref scroll={false}>
           <li className={navRouteLink}>B2 Oil</li>

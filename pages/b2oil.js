@@ -78,7 +78,7 @@ const B2Oil = () => {
             </div>
           </div>
         </div>
-        <div className="order-4 p-10 bg-gradient-to-br from-[#304e0e] to-[#4ab514b4] text-gray-100">
+        <div className="order-4 p-5 md:p-10 bg-gradient-to-br from-[#304e0e] to-[#4ab514b4] text-gray-100">
           <h3 className="text-[28px] font-bold text-orange-500">B2 Benefits</h3>
           <ul className="text-[20px] space-y-2 list-disc">
             <li className="ml-5">

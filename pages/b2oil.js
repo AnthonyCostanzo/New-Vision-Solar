@@ -151,7 +151,7 @@ const B2Oil = () => {
                 military program (numerous backup support).
               </p>
               <div className="bg-gradient bg-gradient-to-br from-green-600 to-green-200 shadow smadow-md shadow-green-800 rounded-md p-5 mt-5">
-                <div className=" m-auto h-[50vh] w-[50vh] relative p-2 bg-gradient bg-gradient-to-br from-orange-500 to-orange-200 rounded-full">
+                <div className=" m-auto h-72 w-72 md:h-[50vh] md:w-[50vh] relative p-2 bg-gradient bg-gradient-to-br from-orange-500 to-orange-200 rounded-full">
                   {" "}
                   <Image
                     className="bg-none"

@@ -43,6 +43,7 @@ const B2Oil = () => {
             alt="B2 Oil logo"
             src="/images/marks.png"
             layout="fill"
+            objectFit="contain"
           ></Image>
         </div>
         <div className="bg-[url('/images/clouds.jpeg')] md:order-1  pt-20 pb-16 bg-center">

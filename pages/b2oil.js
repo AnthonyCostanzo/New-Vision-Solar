@@ -5,7 +5,7 @@ const B2Oil = () => {
   return (
     <Layout title="B2 Oil">
       <div className="flex flex-col">
-        <div className=" text-gray-200 order-2 bg-gradient-to-r from-[#db5c08] to-[#f67a22b4] p-5  shadow-sm shadow-gray-300">
+        <div className="md:order-2 text-gray-200 bg-gradient-to-r from-[#db5c08] to-[#f67a22b4] p-5  shadow-sm shadow-gray-300">
           <div className="md:flex">
             <div className="flex justify-center py-7 md:py-0  md:w-1/4  ">
               <div className="relative h-40 w-56 md:w-40 md:h-48">
@@ -45,8 +45,8 @@ const B2Oil = () => {
             layout="fill"
           ></Image>
         </div>
-        <div className="bg-[url('/images/clouds.jpeg')]  pt-20 pb-16 bg-center">
-          <div className="h-[65vh] md:h-[50vh] relative">
+        <div className="bg-[url('/images/clouds.jpeg')] md:order-1  pt-20 pb-16 bg-center">
+          <div className="h-48 md:h-[50vh] relative ">
             <Image
               className="bg-inherit"
               alt="B2 Oil Hero"

@@ -150,6 +150,18 @@ const B2Oil = () => {
                 (CTC) and APEX Laboratories are the 3rd party testers of the
                 military program (numerous backup support).
               </p>
+              <div className="bg-gradient bg-gradient-to-br from-green-600 to-green-200 shadow smadow-md shadow-green-800 rounded-md p-5 mt-5">
+                <div className=" m-auto h-[50vh] w-[50vh] relative p-2 bg-gradient bg-gradient-to-br from-orange-500 to-orange-200 rounded-full">
+                  {" "}
+                  <Image
+                    className="bg-none"
+                    alt="B2 Oil Hero"
+                    src="/images/oilbl.png"
+                    layout="fill"
+                    objectFit="contain"
+                  ></Image>
+                </div>
+              </div>
             </div>
             <div className="p-5 md:border-l-[1.2px] border-green-500">
               <h5 className="text-[18px] font-semibold mb-1 ">Markets</h5>
@@ -177,7 +189,7 @@ const B2Oil = () => {
                   <td className="pl-2">Vehicles</td>
                   <td>633,000.00</td>
                 </tr>
-                <tr>
+                <tr className="">
                   <td className="pl-2">Avg. Quarts per Vehicle</td>
                   <td>5</td>
                 </tr>
@@ -205,7 +217,6 @@ const B2Oil = () => {
                   src="/images/oil.png"
                   layout="fill"
                 ></Image>
-                =
               </div>
             </div>
             <div className="  p-5 col-span-2 border-t-[1.2px] border-green-500">
@@ -238,7 +249,7 @@ const B2Oil = () => {
                 $3mm - $5mm with results launching our success globally.
               </p>
 
-              <div className="bg-green-800 mt-2 border-orange-300 border-2 text-gray-50 p-5 rounded shadow-green-500">
+              <div className="bg-gradient bg-gradient-to-br from-green-600 to-green-500 mt-2 border-orange-300 border-2 text-gray-50 p-5 rounded-md shadow-green-500">
                 The company is targeting a go-to-market strategy that achieves a
                 market price based on a flexible “fixed” cost of goods of 25 –
                 33% and a manageable GSA/Operations budget of 25-33% allowing

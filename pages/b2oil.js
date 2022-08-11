@@ -1,6 +1,7 @@
 import Layout from "../components/Layout";
 import Link from "next/link";
 import Image from "next/image";
+import { ImPointRight } from "react-icons/im";
 const B2Oil = () => {
   return (
     <Layout title="B2 Oil">
@@ -249,19 +250,24 @@ const B2Oil = () => {
                 refurbishment, estimating water treatment chemical sales between
                 $3mm - $5mm with results launching our success globally.
               </p>
-              <div className="mt-5">
-                <p>
+              <div className="mt-5 ">
+                <p className="relative">
                   * The global bio lubricants market is projected to grow from
                   $3.08 billion in 2022 to $4.26 billion by 2029, at a CAGR of
                   4.7% in forecast period, 2022-2029. The market growth chart is
-                  depicted below, additionally you could learn more by clicking
-                  on the read more button.
-                  <button className="text-green-300 mt-2 ml-1 bg-gray-500 rounded-full h-8 w-24 ">
-                    <a href=" https://www.fortunebusinessinsights.com/bio-lubricants-market-104654">
-                      Read More
-                    </a>
-                  </button>
-                </p>
+                  depicted below, additionally you could further your knowledge
+                  by clicking on the read more button.{" "}
+                </p>{" "}
+              </div>
+              <div className="flex ml-1 ">
+                <span className=" mt-3 ">
+                  <ImPointRight size={24} />
+                </span>
+                <button className="text-green-300 mt-2 ml-3 bg-gray-500 rounded-full h-8 w-24 ">
+                  <a href=" https://www.fortunebusinessinsights.com/bio-lubricants-market-104654">
+                    Read More
+                  </a>
+                </button>
               </div>
 
               <div className="h-60 md:h-[50vh] lg:h-[70vh] rounded mt-5 relative">

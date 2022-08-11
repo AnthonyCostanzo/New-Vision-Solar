@@ -250,7 +250,15 @@ const B2Oil = () => {
                 $3mm - $5mm with results launching our success globally.
               </p>
 
-              <div className="bg-gradient bg-gradient-to-br from-green-600 to-green-500 mt-2 border-orange-300 border-2 text-gray-50 p-5 rounded-md shadow-green-500">
+              <div className="h-60 md:h-[50vh] lg:h-[70vh] rounded mt-5 relative">
+                <Image
+                  className="bg-inherit"
+                  alt="B2 Oil Hero"
+                  src="/images/lubricant.png"
+                  layout="fill"
+                ></Image>
+              </div>
+              <div className="bg-gradient mt-5 bg-gradient-to-br from-green-600 to-green-500 text-gray-50 p-5 rounded-md shadow-sm shadow-green-800">
                 The company is targeting a go-to-market strategy that achieves a
                 market price based on a flexible “fixed” cost of goods of 25 –
                 33% and a manageable GSA/Operations budget of 25-33% allowing

@@ -249,6 +249,20 @@ const B2Oil = () => {
                 refurbishment, estimating water treatment chemical sales between
                 $3mm - $5mm with results launching our success globally.
               </p>
+              <div className="mt-5">
+                <p>
+                  * The global bio lubricants market is projected to grow from
+                  $3.08 billion in 2022 to $4.26 billion by 2029, at a CAGR of
+                  4.7% in forecast period, 2022-2029. The market growth chart is
+                  depicted below, additionally you could learn more by clicking
+                  on the read more button.
+                  <button className="text-green-300 mt-2 ml-1 bg-gray-500 rounded-full h-8 w-24 ">
+                    <a href=" https://www.fortunebusinessinsights.com/bio-lubricants-market-104654">
+                      Read More
+                    </a>
+                  </button>
+                </p>
+              </div>
 
               <div className="h-60 md:h-[50vh] lg:h-[70vh] rounded mt-5 relative">
                 <Image
@@ -258,6 +272,7 @@ const B2Oil = () => {
                   layout="fill"
                 ></Image>
               </div>
+
               <div className="bg-gradient mt-5 bg-gradient-to-br from-green-600 to-green-500 text-gray-50 p-5 rounded-md shadow-sm shadow-green-800">
                 The company is targeting a go-to-market strategy that achieves a
                 market price based on a flexible “fixed” cost of goods of 25 –

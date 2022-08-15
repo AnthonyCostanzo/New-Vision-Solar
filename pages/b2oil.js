@@ -141,16 +141,16 @@ const B2Oil = () => {
                 B2 BiOil Performance Update
               </h5>
               <p>
-                Currently undergoing rigorous testing with the DOD/DLA within a
-                variety of military and government entities, including USPS, US
-                Air Force, Dept. of Homeland Security and GSA: Testing began
-                January 2016…concluding on January 18, 2018, Bio-based
-                acceptance announcement and assignment of NSN#’s coming shortly,
-                NSN#’s = approval to purchase. B2 will be allowed to bid on
-                government procurement assignments through SAM.GOV and other
-                military purchasing sites, Concurrent Technologies Corporation
-                (CTC) and APEX Laboratories are the 3rd party testers of the
-                military program (numerous backup support).
+                Concluded rigorous testing with the DOD/DLA within a variety of
+                military and government entities, including USPS, US Air Force,
+                Dept. of Homeland Security and GSA: Testing began January
+                2016…concluding on January 18, 2018, Bio-based acceptance
+                announcement and assignment of NSN#’s, NSN#’s = approval to
+                purchase. B2 will be allowed to bid on government procurement
+                assignments through SAM.GOV and other military purchasing sites,
+                Concurrent Technologies Corporation (CTC) and APEX Laboratories
+                are the 3rd party testers of the military program (numerous
+                backup support).
               </p>
               <div className="bg-gradient bg-gradient-to-br from-green-600 to-green-200 shadow smadow-md shadow-green-800 rounded-md p-5 mt-5">
                 <div className=" m-auto h-72 w-72 md:h-[50vh] md:w-[50vh] relative p-2 bg-gradient bg-gradient-to-br from-orange-500 to-orange-200 rounded-full">
@@ -168,11 +168,19 @@ const B2Oil = () => {
             <div className="p-5 md:border-l-[1.2px] border-green-500">
               <h5 className="text-[18px] font-semibold mb-1 ">Markets</h5>
               <p>
-                The global lubricants market is projected to grow at an annual
-                rate of 2.5% between 2014 and 2019 and be worth $162.3 billion
-                by 2019. The category segment of the marketplace described as
-                “bio-based” lubricants is expected to be the biggest opportunity
-                – CAGR of 12.5 – 26.6% - 2019.
+                The Market Analysis for Bio-Lubricants/EALS – (environmentally
+                acceptable lubricants; i.e., biodegradable, nontoxic and
+                renewable) showed that during the historic forecast period
+                ending 2019, the market closed its operations by reaching a
+                final market valuation worth approximately $4.0 billion; and, is
+                expected to grow at a CAGR of 4.40%. While this segment makes up
+                less than 1.5% of the global finished lubricants market, it is
+                growing significantly faster than the others. North America and
+                Europe account for three-quarters (¾) of bio-lube demand due to
+                strict environmental policies. Industrial applications, led by
+                hydraulic fluids, make up the majority of consumption. Synthetic
+                esters are the base stock of choice for more than two-thirds of
+                demand.
               </p>
               <h5 className="text-[18px] font-semibold mt-2 ">
                 Mandated Military Market
@@ -182,7 +190,7 @@ const B2Oil = () => {
                 demonstration activities at four Air Force bases, Dept. of
                 Homeland Security, Federal Law Enforcement Training Centers
                 (FLETC) and US Postal Service; Army and Navy participation
-                concludes January 18, 2018: Demonstration vehicles inspected and
+                concluded January 18, 2018: Demonstration vehicles inspected and
                 oil changed out with biobased engine oil products, Baseline
                 petroleum oil samples taken from each vehicle for analysis.
               </p>
@@ -233,22 +241,11 @@ const B2Oil = () => {
                 with the PETROS within the Orinoco Belt, Venezuela and with the
                 Enaizi Group/Aramco in Saudi Arabia (Dhahran, Saudi Arabia). We
                 plan to initially produce 30,000 gallons (20,000 gallons of
-                5W-30 and $10,000 gallons of 5W-20) of B2 BiOil to satisfy
+                5W-30 and 10,000 gallons of 5W-20) of B2 BiOil to satisfy
                 immediate military demand as well as create demand in the
                 commercial and consumer markets via robust direct response
                 marketing mediums through on-line and on-air initiatives,
-                including Amazon.com, Walmart.com, Jet.com , QVC, YouTube and
-                Vu.Me.We also plan to produce a total of 116 totes to treat 27
-                horizontal oil wells over the next 3 – 6 months at a cost of
-                approximately $1.5mm that generates a testing sales forecast of
-                over $8,000,000.00: A typical horizontal well within the Orinoco
-                Belt requires a total of 4 totes per well that generates 25- 50%
-                increase in revenue and production, 85% less product, 66% less
-                treatments and an annual savings of 75%. We are awaiting
-                confirmation from Tecnoconsult and Aruba on the time to begin
-                participation in the Citgo/Aruba Refinery clean-up and
-                refurbishment, estimating water treatment chemical sales between
-                $3mm - $5mm with results launching our success globally.
+                including Amazon.com, Walmart.com, Jet.com , QVC, and YouTube.
               </p>
               <div className="mt-5 ">
                 <p className="relative">

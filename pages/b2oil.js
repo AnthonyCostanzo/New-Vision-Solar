@@ -234,16 +234,16 @@ const B2Oil = () => {
                 Projection
               </h5>
               <p>
-                The current forecast/projections are based on conclusion of the
-                military testing (January 18, 2018) with the assignment of B2
-                BiOil NSN #’s, capturing a conservative 10% of the mandated
-                engine oil lubricant demand. We plan to initially produce 30,000
-                gallons (20,000 gallons of 5W-30 and 10,000 gallons of 5W-20) of
-                B2 BiOil to satisfy immediate military demand as well as create
-                demand in the commercial and consumer markets via robust direct
-                response marketing mediums through on-line and on-air
-                initiatives, including Amazon.com, Walmart.com, Jet.com , QVC,
-                and YouTube.
+                With NSN #’s assigned, our current forecast/projections are
+                determined by monthly RFQ’s from the US Military’s (DoD/DLA/GSA)
+                adherence to the USDA BioPreferred mandated federal procurement
+                program as well as initial global interest for our biodegradable
+                and bio-based lubricants. Therefore, we plan to initially
+                produce 30,000 gallons of 5W-30 and 5W-20 to begin to satisfy
+                the demand from the US Government and an assortment of heavy
+                duty engine oils (!5W-40 & 10W-40), high oleic hydraulic fluids
+                and ISO-220 gear oils to fulfill current order requests
+                (purchase orders).
               </p>
               <div className="mt-5 ">
                 <p className="relative">
@@ -265,11 +265,19 @@ const B2Oil = () => {
                 </button>
               </div>
 
-              <div className="h-60 md:h-[50vh] lg:h-[70vh] rounded mt-5 relative">
+              <div className="h-60 md:h-[50vh] lg:h-[70vh] rounded mt-5 relative grid grid-cols-2">
                 <Image
                   className="bg-inherit"
                   alt="B2 Oil Hero"
                   src="/images/lubricant.png"
+                  layout="fill"
+                ></Image>
+              </div>
+              <div className="h-60 md:h-[50vh] lg:h-[70vh] rounded mt-5 relative grid grid-cols-2">
+                <Image
+                  className="bg-inherit"
+                  alt="B2 Oil Hero"
+                  src="/images/bar.png"
                   layout="fill"
                 ></Image>
               </div>

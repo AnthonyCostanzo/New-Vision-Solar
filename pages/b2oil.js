@@ -293,9 +293,6 @@ const B2Oil = () => {
                 improving overall profitability and performance by bringing ALL
                 NECESSARY FUNCTIONS “in-house” in order to effectively manage
                 costs/quality.
-                <h6 className="font-semibold mt-2">
-                  * Annual Projection: $12,000,000.00.
-                </h6>
               </div>
             </div>
           </div>

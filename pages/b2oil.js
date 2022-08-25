@@ -281,6 +281,14 @@ const B2Oil = () => {
                   layout="fill"
                 ></Image>
               </div>
+              <div className="h-60 md:h-[50vh] lg:h-[70vh] rounded mt-5 relative grid grid-cols-2">
+                <Image
+                  className="bg-inherit"
+                  alt="B2 Oil Hero"
+                  src="/images/assortment.png"
+                  layout="fill"
+                ></Image>
+              </div>
 
               <div className="bg-gradient mt-5 bg-gradient-to-br from-green-600 to-green-500 text-gray-50 p-5 rounded-md shadow-sm shadow-green-800">
                 The company is targeting a go-to-market strategy that achieves a

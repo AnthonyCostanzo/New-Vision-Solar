@@ -63,7 +63,7 @@ const ContactForm = ({ email_id, client_id, template_id }) => {
         <ClipLoader color={"green"} loading={isLoading} size={75} />
       </div>
 
-      <section className=" text-center mt-5 p-5 text-white ">
+      <section className=" text-center mt-5 p-5 text-black ">
         <h2 className="text-2xl mb-1 font-semibold">
           How Can We Help with Your Experience
         </h2>
@@ -74,9 +74,9 @@ const ContactForm = ({ email_id, client_id, template_id }) => {
       </section>
       <form
         onSubmit={handleSubmit(onFormSubmit)}
-        className="shadow-md shadow-[#9ae6a2] min-w-max bg-gray-500 lg:w-5/12  rounded-lg mt-3 p-5 min-h-fit w-3/4 m-auto grid gap-7 justify-center "
+        className="shadow-md shadow-slate-500 min-w-max h-[50vh] lg:w-5/12  rounded-lg p-5 min-h-fit w-3/4 m-auto grid justify-center "
       >
-        <h2 className="text-[24px] h-5 font-[Open-Sans] text-gray-50">
+        <h2 className="text-[24px] mt-4 font-[Open-Sans] text-black">
           Get In Touch
         </h2>
         <div className="grid gap-7">
@@ -104,7 +104,7 @@ const ContactForm = ({ email_id, client_id, template_id }) => {
                   placeholder=" john doe"
                   type="text"
                   id="name"
-                  className="rounded-md ml-3 p-1 w-60 lg:w-80 focus:scale-105"
+                  className="rounded-md ml-3 p-1 w-60 lg:w-80 focus:scale-105 border-[1.3px] border-black pl-2"
                   {...field}
                 />
               )}
@@ -134,7 +134,7 @@ const ContactForm = ({ email_id, client_id, template_id }) => {
                   placeholder="joe@gmail.com"
                   type="email"
                   id="email"
-                  className="rounded-md ml-3 p-1 w-60 lg:w-80 focus:scale-105"
+                  className="rounded-md ml-3 p-1 w-60 lg:w-80 focus:scale-105 border-[1.3px] border-black pl-2"
                   {...field}
                 />
               )}
@@ -166,7 +166,7 @@ const ContactForm = ({ email_id, client_id, template_id }) => {
                   placeholder="917-123-4323"
                   type="tel"
                   id="phone"
-                  className="rounded-md ml-3 p-1 w-60 lg:w-80 focus:scale-105"
+                  className="rounded-md ml-3 p-1 w-60 lg:w-80 focus:scale-105 border-[1.3px] border-black pl-2"
                   {...field}
                 />
               )}
@@ -194,7 +194,7 @@ const ContactForm = ({ email_id, client_id, template_id }) => {
                 <textarea
                   placeholder=" Message"
                   id="message"
-                  className="rounded-md ml-10 p-1 w-60 lg:w-80 focus:scale-105"
+                  className="rounded-md ml-10 p-1 w-60 lg:w-80 focus:scale-105  border-[1.3px] border-black pl-2"
                   {...field}
                 />
               )}

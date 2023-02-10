@@ -27,17 +27,17 @@ const Layout = ({ title, description, children, background }) => {
           content={
             description
               ? description
-              : `New Energy Solutions Inc. is developing New Graphene/h-BN Solar technology/(product). Dr. Zuckerman, the Founder, has created a solar technology that
+              : `Methes Energies International. is developing New Graphene/h-BN Solar technology/(product). Dr. Zuckerman, the Founder, has created a solar technology that
 will change the Solar Industry over the next 5 years introduction of Graphene/h-BN Solar with 300% More Energy and significantly lower cost than Silicon Solar.`
           }
         ></meta>
 
-        <title>{title ? title : "New Energy Solutions Inc"}</title>
+        <title>{title ? title : "Methes Energies International"}</title>
       </Head>
 
       <body>
         {" "}
-        <div className={`${background ? background : " bg-gray-400"}`}>
+        <div className={`${background ? background : null}`}>
           <MobileNav />
           <motion.d variant={stagger}>
             <motion.div
@@ -46,7 +46,7 @@ will change the Solar Industry over the next 5 years introduction of Graphene/h-
               animate="enter" // Animated state to variants.enter exit="exit" //
               transition={{ type: "linear" }}
             >
-              <div className="">{children}</div>
+              <div>{children}</div>
               <Footer />
             </motion.div>
           </motion.d>

@@ -2,43 +2,314 @@ import Layout from "../components/Layout";
 import Image from "next/image";
 import Problems from "../components/Problems";
 import Link from "next/link";
+import { ImPointRight } from "react-icons/im";
 const Product = () => (
   <Layout title={"Product Overview"}>
-    <div className="h-[45rem] min-h-max relative bg-black">
-      <div className="bg-blue-200 min-h-max h-full w-full absolute opacity-40 md:opacity-50 ">
-        <Image
-          src="/images/prodbg.jpeg"
-          height={200}
-          width={50}
-          alt="a"
-          layout="fill"
-          objectFit="cover"
-          objectPosition={"bottom"}
-        ></Image>
-      </div>
-      <div className=" h-3/6 min-h-max  p-5 pt-[5rem] lg:pt-40  flex flex-col z-10 relative text-gray-50 ">
-        <h2 className="ml-4 leading-snug lg:ml-12 text-[40px] max-w-md font-bold text-[Montserrat]">
+    <div className="md:h-[42rem] min-h-max  bg-gradient-to-br from-slate-500 to-slate-300 flex flex-col lg:flex-row justify-center items-center">
+      <div className=" text-slate-50 mb-20 lg:w-4/12 lg:ml-40 mt-10 md:mt-0 order-2">
+        <h2 className="ml-4 leading-snug lg-text-[40px] max-w-md font-bold text-[Montserrat]">
           Product Overview & Financials
         </h2>
-        <blockquote className="ml-4 lg:ml-12 max-w-md text-[18px] text-semibold font-sans">
+        <blockquote className="ml-4  max-w-md lg:text-[18px] text-semibold font-sans">
           Learn more about our groundbreaking product and gain some insight on
           what the future holds in store !
         </blockquote>
-        <div className="grid grid-cols-2 mt-3 w-64 ml-2 lg:ml-11">
+
+        <div className="grid grid-cols-2 mt-3 w-64 ml-2">
           <button className="shadow-md  w-fit p-2 mb-12 shadow-green-100/50 bg-main  cursor-pointer rounded-full font-semibold  text-white">
             <Link href="#finance" passHref>
               <span className="mx-3 hover:text-yellow-200">Financing</span>
             </Link>
           </button>
-          <button className="shadow-md  w-fit p-2 mb-12 shadow-green-100/50 bg-orange-300  cursor-pointer rounded-full font-semibold  text-white">
+          <button className="shadow-md  w-fit p-2 mb-12 shadow-green-100/50 bg-orange-400  cursor-pointer rounded-full font-semibold  text-white">
             <Link href="#inventor" passHref>
               <span className="mx-3 hover:text-yellow-200">Inventor</span>
             </Link>
           </button>
         </div>
       </div>
+      <div className="h-48 md:h-[65%] w-6/12  mt-20 md:mt-0  relative lg:order-2">
+        <Image src="/images/b2.png" layout="fill" alt="hero" />
+      </div>
     </div>
-    <Problems />
+    <div className="">
+      <div className=" text-gray-200 bg-gradient-to-br from-[#db5c08] to-[#2c4f1eb4] p-5  shadow-sm shadow-gray-300">
+        <div className="grid grid-cols-5 col-span-1 item-baseline">
+          <div className="relative w-11/12 h-[16vh] mt-2">
+            <Image
+              alt="B2 Oil logo"
+              src="/images/b2logo.png"
+              layout="fill"
+            ></Image>
+          </div>
+          <p className="text-[1.05rem] col-span-4 tracking-wide md:mt-3 md:ml-3 text-gray-7000 font-[Times]">
+            B2 BiOil has been created to address the world’s growing “lubricant”
+            concerns regarding motor oil’s effects on the environment (whether
+            during oil production and/or during the oil’s ‘end-of-life’ improper
+            disposal) with an eco-friendly offering that satisfies growing
+            consumer demands while meeting the needs of on-going government
+            requirements that mandate the procurement of domestically sourced
+            bio-derived biodegradable products. Our eco-friendly offering, b2
+            biOil “biodegradable & bio-based” full synthetic supreme motor oil,
+            is properly positioned to satisfy the above needs as well as
+            providing superior performance motor oil that exceeds the demands of
+            the industry. It is API SN and ILSAC G-5 certified, satisfies the
+            requirements to be included within the USDA BioPreferred Procurement
+            Program, biodegrades up to 60% within 28 days and is parity priced
+            with other similar claiming/performing full synthetic motor oils.
+          </p>
+          <button className="w-36 col-start-2 md:mt-4 hover:scale-110 border-[1.2px] h-10 shadow-sm shadow-orange-200 bg-white rounded-full text-orange-400">
+            <a href="http://www.b2oil.com/sneak-peak.html">LEARN MORE</a>
+          </button>
+        </div>
+      </div>
+      {/* <div className="h-56 bg-sky-200 relative order-4">
+        <Image
+          alt="B2 Oil logo"
+          src="/images/marks.png"
+          layout="fill"
+          objectFit="contain"
+        ></Image>
+      </div> */}
+
+      <div className="flex px-20 pb-5 bg-gradient-to-br gap-10 from-slate-500 to-slate-400">
+        <div className="relative mt-10 h-[20vh] w-3/12">
+          <Image
+            alt="B2 Oil logo"
+            src="/images/thinkgreen.png"
+            layout="fill"
+          ></Image>
+        </div>
+        <div>
+          {" "}
+          <p className="mt-10 w-11/12 tracking-wide md:ml-10 text-[1.05rem] text-gray-100 ">
+            Used motor oil is the largest single source of oil pollution in our
+            lakes, streams and rivers. According to the EPA, 40% of U.S. water
+            pollution comes from used oil. Used motor oil entering the world’s
+            oceans equal an oil tanker sized oil spill every week. Just one
+            gallon of used oil can contaminate over 1 million gallons of fresh
+            water. Americans spill over 180 million gallons of used oil each
+            year into our waters…that’s over 16 Exxon Valdez spills.
+          </p>
+          <div className="mt-4 md:ml-10 text-[1.05rem] text-gray-100 ">
+            <p className="font-bold">
+              Of the 11 billion gallons of lubricants consumed each year:
+            </p>{" "}
+            <ul>
+              <li>38% are “lost in use” </li>
+              <li>34% are burned as fuel</li>
+              <li>16% are improperly/illegally disposed</li>
+              <li>
+                12% used in asphalt, other products or re-refined (re-refined
+                represents 6% of the U.S. Market)
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div className=" p-5 order-5  bg-gradient-to-br from-[#304e0e] to-[#4ab514b4] text-gray-100">
+        <h3 className="text-[28px] font-bold text-orange-500 ml-1">
+          B2 Benefits
+        </h3>
+        <ul className="text-[1.05rem] space-y-2 list-disc">
+          <li className="ml-5">
+            Innovative formula is Ultimate Biodegradable, meaning the product
+            will degrade over 60% within 28 days.
+          </li>
+          <li className="ml-5">
+            Innovative formula contains “bio-content” that has been proven to
+            reduce CO2 emissions of upwards to 69% vs conventional oils while
+            reducing our dependency on foreign oil.
+          </li>
+          <li className="ml-5">
+            Innovative formula contains “renewable ingredients” that can be
+            domestically sourced and manufactured locally.
+          </li>
+          <li className="ml-5">
+            Innovative packaging embraces “best practice” sustainable solutions,
+            offering product in proprietary collapsible/recyclable plastic
+            “bags” and repurposed/recyclable steel “drums”
+          </li>
+          <li className="ml-5">
+            Innovative offering satisfies the growing demand for a renewable
+            product while addressing the growing concerns of environmental
+            impact
+          </li>
+        </ul>
+      </div>
+      <div className="order-6 min-h-max bg-gradient-to-br from-gray-200 to-gray-300  p-5">
+        <h3 className="text-[28px] font-bold">
+          B2 <span className="text-main">Green</span> Power{" "}
+        </h3>
+        <p className="text-[1.05rem] mt-2 tracking-wide">
+          B2 BiOil has been created to address the world’s growing “lubricant”
+          concerns regarding motor oil’s effects on the environment (whether
+          during oil production and/or during the oil’s ‘end-of-life’ improper
+          disposal) with an eco-friendly offering that satisfies growing
+          consumer demands while meeting the needs of on-going government
+          requirements that mandate the procurement of domestically sourced
+          bio-derived biodegradable products.
+        </p>
+        <div className="grid tracking-wide grid-cols-1 md:grid-cols-2 bg-gray-100 border-[1.2px] border-green-500 mt-5">
+          <div className="  p-5 col-span-2 md:col-span-1 border-b-[1.2px] md:border-b-0 border-green-500 ">
+            <h5 className="text-[18px] font-semibold mb-1 ">
+              B2 BiOil Performance Update
+            </h5>
+            <p>
+              Concluded rigorous testing with the DOD/DLA within a variety of
+              military and government entities, including USPS, US Air Force,
+              Dept. of Homeland Security and GSA: Testing began January
+              2016…concluding on January 18, 2018, Bio-based acceptance
+              announcement and assignment of NSN#’s, NSN#’s = approval to
+              purchase. B2 will be allowed to bid on government procurement
+              assignments through SAM.GOV and other military purchasing sites,
+              Concurrent Technologies Corporation (CTC) and APEX Laboratories
+              are the 3rd party testers of the military program (numerous backup
+              support).
+            </p>
+            <div className="bg-gradient bg-gradient-to-r from-green-600 to-green-500 shadow smadow-md shadow-green-800 rounded-md p-5 mt-5">
+              <div className=" m-auto h-72 w-72 md:h-[50vh] md:w-[50vh] relative p-2 bg-gradient bg-gradient-to-br from-orange-500 to-orange-600 rounded-full">
+                {" "}
+                <Image
+                  className="bg-none"
+                  alt="B2 Oil Hero"
+                  src="/images/oilbl.png"
+                  layout="fill"
+                  objectFit="contain"
+                ></Image>
+              </div>
+            </div>
+          </div>
+          <div className="p-5 md:border-l-[1.2px] border-green-500">
+            <h5 className="text-[18px] font-semibold mb-1 ">Markets</h5>
+            <p>
+              The Market Analysis for Bio-Lubricants/EALS – (environmentally
+              acceptable lubricants; i.e., biodegradable, nontoxic and
+              renewable) showed that during the historic forecast period ending
+              2019, the market closed its operations by reaching a final market
+              valuation worth approximately $4.0 billion; and, is expected to
+              grow at a CAGR of 4.40%. While this segment makes up less than
+              1.5% of the global finished lubricants market, it is growing
+              significantly faster than the others. North America and Europe
+              account for three-quarters (¾) of bio-lube demand due to strict
+              environmental policies. Industrial applications, led by hydraulic
+              fluids, make up the majority of consumption. Synthetic esters are
+              the base stock of choice for more than two-thirds of demand.
+            </p>
+            <h5 className="text-[18px] font-semibold mt-5 ">
+              Mandated Military Market
+            </h5>
+            <p>
+              Concurrent Technologies Corporation (CTC) initiated demonstration
+              activities at four Air Force bases, Dept. of Homeland Security,
+              Federal Law Enforcement Training Centers (FLETC) and US Postal
+              Service; Army and Navy participation concluded January 18, 2018:
+              Demonstration vehicles inspected and oil changed out with biobased
+              engine oil products, Baseline petroleum oil samples taken from
+              each vehicle for analysis.
+            </p>
+            <table className="col-span-2 h-[30vh] border-black mt-10 divide-y-2 divide-black w-full border-2 border-collapse">
+              <tr className="">
+                <td className="pl-2">Vehicles</td>
+                <td>633,000.00</td>
+              </tr>
+              <tr className="">
+                <td className="pl-2">Avg. Quarts per Vehicle</td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <td className="pl-2">Annual Interval</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td className="pl-2">Total Quarts</td>
+                <td>6,330,000.00</td>
+              </tr>
+              <tr>
+                <td className="pl-2">Total Gallons</td>
+                <td>1,582,500.00</td>
+              </tr>
+              <tr className="bg-gray-400">
+                <td className="pl-2">% of Market</td>
+                <td>0.0006330</td>
+              </tr>
+            </table>
+          </div>
+          <div className="  p-5 col-span-2 border-t-[1.2px] border-green-500">
+            <h5 className="text-[18px] font-semibold md:text-center mb-1 ">
+              Projection
+            </h5>
+            <p>
+              With NSN #’s assigned, our current forecast/projections are
+              determined by monthly RFQ’s from the US Military’s (DoD/DLA/GSA)
+              adherence to the USDA BioPreferred mandated federal procurement
+              program as well as initial global interest for our biodegradable
+              and bio-based lubricants. Therefore, we plan to initially produce
+              30,000 gallons of 5W-30 and 5W-20 to begin to satisfy the demand
+              from the US Government and an assortment of heavy duty engine oils
+              (!5W-40 & 10W-40), high oleic hydraulic fluids and ISO-220 gear
+              oils to fulfill current order requests (purchase orders).
+            </p>
+            <div className="mt-1 ">
+              <p className="relative">
+                * The global bio lubricants market is projected to grow from
+                $3.08 billion in 2022 to $4.26 billion by 2029, at a CAGR of
+                4.7% in forecast period, 2022-2029. The market growth chart is
+                depicted below, additionally you could further your knowledge by
+                clicking on the read more button.{" "}
+              </p>{" "}
+            </div>
+            <div className="flex ml-1 ">
+              <span className=" mt-3 ">
+                <ImPointRight size={24} />
+              </span>
+              <button className="text-green-300 mt-2 ml-3 bg-gray-500 rounded-full h-8 w-24 ">
+                <a href=" https://www.fortunebusinessinsights.com/bio-lubricants-market-104654">
+                  Read More
+                </a>
+              </button>
+            </div>
+            <div className="grid grid-cols-2 mt-10 w-11/12 m-auto mb-16 ">
+              <div className="relative h-[30vh] w-9/12">
+                <Image
+                  className="bg-inherit"
+                  alt="B2 Oil Hero"
+                  src="/images/lubricant.png"
+                  layout="fill"
+                ></Image>
+              </div>
+              <div className="relative h-[30vh] w-11/12">
+                <Image
+                  className="bg-inherit"
+                  alt="B2 Oil Hero"
+                  src="/images/bar.png"
+                  layout="fill"
+                ></Image>
+              </div>
+              <div className="relative h-[23vh] w-8/12 m-auto mt-20 col-span-2">
+                <Image
+                  className="bg-inherit"
+                  alt="B2 Oil Hero"
+                  src="/images/assortment.png"
+                  layout="fill"
+                ></Image>
+              </div>
+            </div>
+            <div className="bg-gradient mt-5 bg-gradient-to-br from-green-600 to-green-500 text-gray-50 p-5 rounded-md shadow-sm shadow-green-800">
+              The company is targeting a go-to-market strategy that achieves a
+              market price based on a flexible “fixed” cost of goods of 25 – 33%
+              and a manageable GSA/Operations budget of 25-33% allowing for a
+              33-50% contribution. It is our strong expectation, that through
+              volume and managed overhead, we’ll be able to reduce cost of goods
+              by up to 50% (25% lubricants) and streamline operations based on
+              efficient/economical procurement as well as improving overall
+              profitability and performance by bringing ALL NECESSARY FUNCTIONS
+              “in-house” in order to effectively manage costs/quality.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </Layout>
 );
 

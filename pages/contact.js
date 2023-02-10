@@ -5,7 +5,7 @@ const Contact = ({ email_id, client_id, template_id }) => {
   return (
     <Layout
       title="Contact"
-      description="Contact page for New Energy Solutions Inc"
+      description="Contact page for Methes Energies International"
     >
       <div className="mb-10">
         <ContactForm

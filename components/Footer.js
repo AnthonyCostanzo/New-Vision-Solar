@@ -8,12 +8,12 @@ import {
 import { TiSocialTwitterCircular } from "react-icons/ti";
 
 const Footer = () => (
-  <footer className="border-t-4 bg-bottom-right border-slate-100 bg-slate-500 ">
-    <div className="text-white ml-10 pt-5 grid space-y-3 font-[Merriweather] ">
-      <p className="text-white ">
-        <small className="text-[17px] hover:text-main cursor-pointer hover:scale-110  font-bold text-gray-50 inline-block relative">
+  <footer className="border-t-4 bg-bottom-right border-main bg-gradient-to-br from-orange-400 to-orange-600  pb-20 pt-5 ">
+    <div className="text-slate-100 ml-10 pt-5 grid space-y-3 font-[Merriweather] ">
+      <p className=" ">
+        <small className="text-[17px] hover:text-main cursor-pointer hover:scale-110  font-bold text-slate-100 inline-block relative">
           {" "}
-          New Energy Solutions Inc &#174;
+          Methes Energies International &#174;
         </small>
       </p>
       <div>
@@ -82,7 +82,7 @@ const Footer = () => (
       </div>
     </div>
 
-    <div className="w-full h-[7.1rem] bg-[url('/images/bg.svg')] sm:h-44 lg:h-48 bg-slate-500 "></div>
+    {/* <div className="w-full h-[7.1rem] bg-[url('/images/bg.svg')] sm:h-44 lg:h-48 bg-slate-500 "></div> */}
   </footer>
 );
 

@@ -28,14 +28,14 @@ const MobileNav = () => {
             </Link>
           </div>
         </div>
-        <div className="w-[22%]">
+        <div className="w-[30%]">
           <MobileNavDropdown toggleNav={toggleNavMenu} />
         </div>
         <DesktopNav />
       </div>
       {/* dropdown menu */}
       {isOpenNavMenu && (
-        <ul className="border-t-2 lg:hidden pb-5 animate-fade border-slate-100 leading-8">
+        <ul className="border-t-2 md:hidden pb-5 animate-fade border-slate-100 leading-8">
           <div className="mt-5">
             <Link scroll={false} href="/" passHref>
               <li className={navRouteLink}>Home</li>

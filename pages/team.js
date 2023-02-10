@@ -106,7 +106,7 @@ export const Team = () => (
           </p>
         </div>
         <p className="lg:w-9/12 tracking-wide leading-7">
-          A take-charge detailed-oriented Fortune 100 corporate professional
+          {`   A take-charge detailed-oriented Fortune 100 corporate professional
           with an entrepreneurial spirt, Carol Bowley has over 30 years of
           progressive leadership, marketing and product development experiences
           within the highly competitive consumer packaged goods arena. A process
@@ -124,7 +124,7 @@ export const Team = () => (
           and marketing skills, including executive team management, public
           relations, consistent corporate communication, P&L – budgeting, life
           cycle analysis, multi-platform advertising & digital marketing/social
-          media, brand management and product marketing.
+          media, brand management and product marketing.`}
         </p>
       </div>
       <div className="bg-slate-50 shadow-md shadow-slate-500 flex flex-col md:flex-row gap-5 p-5 ">
@@ -137,7 +137,7 @@ export const Team = () => (
           </p>
         </div>
         <p className="lg:w-9/12 tracking-wide leading-7">
-          A super-charged entrepreneur and an accomplished C-Level Executive,
+          {`         A super-charged entrepreneur and an accomplished C-Level Executive,
           Mr. Loch has over 35 years of progressive leadership, marketing and
           sales experience within the highly competitive consumer packaged goods
           arena.  Based on these experiences, Mr. Loch pioneered the concept of
@@ -164,7 +164,7 @@ export const Team = () => (
           commercially available certified motor oil…who’s performance was
           successfully proven in NASCAR and market acceptability upon consumer
           consumption with product purchases from off the shelves of Walmart and
-          The Home Depot to name a few.
+          The Home Depot to name a few.`}
         </p>
       </div>
       <div className="bg-slate-50 shadow-md shadow-slate-500 flex flex-col md:flex-row gap-5 p-5 ">

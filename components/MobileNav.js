@@ -19,7 +19,7 @@ const MobileNav = () => {
   return (
     <div className="bg-gradient-to-br from-main to-green-600 min-h-max py-2 ">
       <div className="flex items-center">
-        <div className=" border-r-2 border-orange-400">
+        <div className="">
           <div className="mx-4 md:mx-7 ">
             <Link href="/" passHref={true} scroll={false}>
               <h1 className="md:text-[1.18rem] min-w-max cursor-pointer font-bold text-orange-50 font-serif">

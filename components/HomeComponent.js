@@ -15,16 +15,7 @@ const HomeComponent = () => {
           />
         </div>
       </div>
-      <div className="w-full h-[18vh] md:h-[15vh]  bg-gradient-to-r from-green-100 to-orange-200 items-center mt-30 relative flex justify-center">
-        <div className="absolute w-9/12 md:w-3/12 h-[90%] ">
-          <Image
-            src="/images/green-removebg-preview.png"
-            layout="fill"
-            alt="team members"
-          />
-        </div>
-      </div>
-
+      <div className="h-10 bg-gradient-to-br from-main to-slate-400" />
       <div className="pt-8 flex justify-center px-4 md:grid-cols-2 mx-5 gap-10 m-auto py-20 ">
         <section className="text-center">
           <h1 className="text-2xl mb-2 mt-2 text-orange-600 font-bold">
@@ -71,7 +62,16 @@ const HomeComponent = () => {
           </div> */}
         </section>
       </div>
-      <div className="h-10 bg-gradient-to-br from-main to-slate-400" />
+      <div className="w-full h-[18vh] md:h-[15vh]  bg-gradient-to-r from-green-100 to-orange-200 items-center mt-30 relative flex justify-center">
+        <div className="absolute w-9/12 md:w-3/12 h-[90%] ">
+          <Image
+            src="/images/green-removebg-preview.png"
+            layout="fill"
+            alt="team members"
+          />
+        </div>
+      </div>
+
       <div className="pt-8 px-4 grid md:grid-cols-2 md:mx-5 gap-10 m-auto py-20 mt-5">
         <section className="flex flex-col gap-5">
           <h2 className="text-2xl mt-2 text-orange-600 font-bold">
@@ -239,7 +239,7 @@ const HomeComponent = () => {
             everything else is just CRUDE.`}
           </p>
         </article>
-        <div className="h-[35vh] md:w-3/12 mt-5 md:mt-20  relative flex justify-center items-center">
+        <div className="h-[35vh] md:w-3/12 mt-5 md:mt-14  relative flex justify-center items-center">
           <Image
             alt="b2 oil "
             src="/images/drivers-removebg-preview.png"

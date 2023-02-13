@@ -16,8 +16,8 @@ const HomeComponent = () => {
         </div>
       </div>
       <div className="h-10 bg-gradient-to-br from-main to-slate-400" />
-      <div className="pt-8 flex justify-center px-4 md:grid-cols-2 mx-5 gap-10 m-auto pb-2">
-        <section className="text-center">
+      <div className="pt-8 flex md:justify-center px-4 md:grid-cols-2 mx-5 gap-10 m-auto pb-2">
+        <section className="md:text-center">
           <h1 className="text-2xl mb-2 mt-2 text-orange-600 font-bold">
             Who We Are
           </h1>

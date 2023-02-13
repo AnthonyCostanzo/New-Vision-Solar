@@ -17,7 +17,7 @@ const MobileNav = () => {
     router.push(event.target.value);
   };
   return (
-    <div className="bg-gradient-to-br from-orange-400 to-orange-600 min-h-max py-2 ">
+    <div className="bg-gradient-to-br from-main to-green-600 min-h-max py-2 ">
       <div className="flex items-center">
         <div className=" border-r-2 border-orange-400">
           <div className="mx-4 md:mx-7 ">
@@ -28,7 +28,7 @@ const MobileNav = () => {
             </Link>
           </div>
         </div>
-        <div className="w-[30%]">
+        <div className="w-[22%]">
           <MobileNavDropdown toggleNav={toggleNavMenu} />
         </div>
         <DesktopNav />

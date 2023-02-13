@@ -8,10 +8,10 @@ import {
 import { TiSocialTwitterCircular } from "react-icons/ti";
 
 const Footer = () => (
-  <footer className="border-t-4 bg-bottom-right border-main bg-gradient-to-br from-orange-400 to-orange-600  pb-20 pt-5 ">
-    <div className="text-slate-100 ml-10 pt-5 grid space-y-3 font-[Merriweather] ">
+  <footer className="border-t-4 bg-bottom-right border-slate-200 bg-gradient-to-br from-green-500 to-slate-800  pb-20 pt-5 ">
+    <div className="text-slate-50 ml-10 pt-5 grid space-y-3 font-[Merriweather] ">
       <p className=" ">
-        <small className="text-[17px] hover:text-main cursor-pointer hover:scale-110  font-bold text-slate-100 inline-block relative">
+        <small className="text-[17px] hover:text-orange-300 cursor-pointer hover:scale-110  font-bold text-slate-100 inline-block relative">
           {" "}
           Methes Energies International &#174;
         </small>
@@ -22,7 +22,7 @@ const Footer = () => (
           size={30}
         />
         <span className="inline-block text-[18px] mt-2 ml-3 cursor-pointer hover:translate-x-2 hover:-translate-y-0.5 ">
-          Stamford, Connecticut
+          Orlando, Florida
         </span>
       </div>
 
@@ -32,7 +32,7 @@ const Footer = () => (
           size={27}
         />
         <span className="inline-block  text-[18px] mt-2 ml-4 hover:translate-x-2 cursor-pointer  hover:-translate-y-0.5">
-          scienceguy707@gmail.com
+          info@methes.com
         </span>
       </div>
       <div className="grid grid-cols-3 w-32 pt-3">

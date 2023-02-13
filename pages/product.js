@@ -5,25 +5,27 @@ import Link from "next/link";
 import { ImPointRight } from "react-icons/im";
 const Product = () => (
   <Layout title={"Product Overview"}>
-    <div className="md:h-[42rem] min-h-max  bg-gradient-to-br from-slate-500 to-slate-300 flex flex-col lg:flex-row justify-center items-center">
-      <div className=" text-slate-50 mb-20 lg:w-4/12 lg:ml-40 mt-10 md:mt-0 order-2">
-        <h2 className="ml-4 leading-snug lg-text-[40px] max-w-md font-bold text-[Montserrat]">
+    <div className="md:h-[42rem] min-h-max   bg-gradient-to-br from-slate-500 to-slate-300 flex flex-col lg:flex-row justify-center items-center">
+      <div className=" text-slate-50 mb-20 lg:w-4/12 lg:ml-323 mt-10 md:mt-0 order-2">
+        <h2 className="ml-4 md:ml-0 leading-snug lg:text-[40px] max-w-md font-bold text-[Montserrat]">
           Product Overview & Financials
         </h2>
-        <blockquote className="ml-4  max-w-md lg:text-[18px] text-semibold font-sans">
+        <blockquote className="ml-4 md:ml-0  max-w-md lg:text-[1.2rem] text-semibold font-sans">
           Learn more about our groundbreaking product and gain some insight on
           what the future holds in store !
         </blockquote>
 
         <div className="grid grid-cols-2 mt-3 w-64 ml-2">
           <button className="shadow-md  w-fit p-2 mb-12 shadow-green-100/50 bg-main  cursor-pointer rounded-full font-semibold  text-white">
-            <Link href="#finance" passHref>
-              <span className="mx-3 hover:text-yellow-200">Financing</span>
+            <Link href="#benefits" passHref>
+              <span className="mx-3 hover:text-yellow-200">Benefits</span>
             </Link>
           </button>
-          <button className="shadow-md  w-fit p-2 mb-12 shadow-green-100/50 bg-orange-400  cursor-pointer rounded-full font-semibold  text-white">
-            <Link href="#inventor" passHref>
-              <span className="mx-3 hover:text-yellow-200">Inventor</span>
+          <button className="shadow-md min-w-max  w-fit p-2 mb-12 shadow-green-100/50 bg-orange-400  cursor-pointer rounded-full font-semibold  text-white">
+            <Link href="#projection" passHref>
+              <span className="mx-3 hover:text-yellow-200">
+                Market Projection
+              </span>
             </Link>
           </button>
         </div>
@@ -34,8 +36,8 @@ const Product = () => (
     </div>
     <div className="">
       <div className=" text-gray-200 bg-gradient-to-br from-[#db5c08] to-[#2c4f1eb4] p-5  shadow-sm shadow-gray-300">
-        <div className="grid grid-cols-5 col-span-1 item-baseline">
-          <div className="relative w-11/12 h-[16vh] mt-2">
+        <div className="md:grid grid-cols-1 md:grid-cols-5 col-span-1 item-baseline">
+          <div className="relative w-2/3 m-auto md:w-11/12 h-[16vh] mt-2">
             <Image
               alt="B2 Oil logo"
               src="/images/b2logo.png"
@@ -72,8 +74,8 @@ const Product = () => (
         ></Image>
       </div> */}
 
-      <div className="flex px-20 pb-5 bg-gradient-to-br gap-10 from-slate-500 to-slate-400">
-        <div className="relative mt-10 h-[20vh] w-3/12">
+      <div className="flex flex-col md:flex-row px-5 md:px-20 pb-5 bg-gradient-to-br gap-10 from-slate-500 to-slate-400">
+        <div className="relative mt-10 h-[20vh] md:w-3/12 w-1/2 m-auto">
           <Image
             alt="B2 Oil logo"
             src="/images/thinkgreen.png"
@@ -108,7 +110,10 @@ const Product = () => (
         </div>
       </div>
       <div className=" p-5 order-5  bg-gradient-to-br from-[#304e0e] to-[#4ab514b4] text-gray-100">
-        <h3 className="text-[28px] font-bold text-orange-500 ml-1">
+        <h3
+          id="benefits"
+          className="text-[28px] font-bold text-orange-500 ml-1"
+        >
           B2 Benefits
         </h3>
         <ul className="text-[1.05rem] space-y-2 list-disc">
@@ -236,7 +241,10 @@ const Product = () => (
             </table>
           </div>
           <div className="  p-5 col-span-2 border-t-[1.2px] border-green-500">
-            <h5 className="text-[18px] font-semibold md:text-center mb-1 ">
+            <h5
+              id="projection"
+              className="text-[18px] font-semibold md:text-center mb-1 "
+            >
               Projection
             </h5>
             <p>
@@ -269,8 +277,8 @@ const Product = () => (
                 </a>
               </button>
             </div>
-            <div className="grid grid-cols-2 mt-10 w-11/12 m-auto mb-16 ">
-              <div className="relative h-[30vh] w-9/12">
+            <div className="grid grid-cols-1 md:grid-cols-2 mt-10 w-11/12 m-auto mb-16 ">
+              <div className="relative h-[30vh] md:w-9/12">
                 <Image
                   className="bg-inherit"
                   alt="B2 Oil Hero"
@@ -278,7 +286,7 @@ const Product = () => (
                   layout="fill"
                 ></Image>
               </div>
-              <div className="relative h-[30vh] w-11/12">
+              <div className="relative h-[30vh] md:w-11/12">
                 <Image
                   className="bg-inherit"
                   alt="B2 Oil Hero"
@@ -286,7 +294,7 @@ const Product = () => (
                   layout="fill"
                 ></Image>
               </div>
-              <div className="relative h-[23vh] w-8/12 m-auto mt-20 col-span-2">
+              <div className="relative h-[23vh] hidden md:inline-block w-8/12 m-auto mt-20 col-span-2">
                 <Image
                   className="bg-inherit"
                   alt="B2 Oil Hero"

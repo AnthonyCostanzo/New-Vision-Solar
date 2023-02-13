@@ -46,7 +46,7 @@ will change the Solar Industry over the next 5 years introduction of Graphene/h-
               animate="enter" // Animated state to variants.enter exit="exit" //
               transition={{ type: "linear" }}
             >
-              <div>{children}</div>
+              <div className="h-full">{children}</div>
               <Footer />
             </motion.div>
           </motion.d>

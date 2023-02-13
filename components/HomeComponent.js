@@ -23,7 +23,7 @@ const HomeComponent = () => {
           </h1>
           <article className="">
             <p className="max-w-full tracking-wide">
-              Methes Energies International Ltd is a totally green “CLEAN TECH”
+              {`Methes Energies International Ltd is a totally green “CLEAN TECH”
               renewable energy company that manufactures and markets an
               assortment of bio-lubricants, including bio-diesel fuels, by
               combining domestically sourced farm grown bio-derived feedstocks
@@ -40,7 +40,7 @@ const HomeComponent = () => {
               not have to sacrifice value or performance when selecting an
               earthy friendlier option. These products, branded as b2, are a
               natural fit as our Methes Energies “green” preferred choices
-              become “logical” choices.
+              become “logical” choices.`}
             </p>
             <aside className="mt-3">
               {" "}
@@ -82,32 +82,32 @@ const HomeComponent = () => {
               POLLUTION
             </h3>
             <p className="max-w-full tracking-wide">
-              Used motor oil is the largest single source of oil pollution in
+              {`Used motor oil is the largest single source of oil pollution in
               our lakes, streams and rivers. According to the EPA, 40% of U.S.
               water pollution comes from used oil. Used motor oil entering the
               world’s oceans equal an oil tanker sized oil spill every week.
               Just one gallon of used oil can contaminate over 1 million gallons
               of fresh water. Americans spill over 180 million gallons of used
               oil each year into our waters...that’s over 16 Exxon Valdez
-              spills.
+              spills.`}
             </p>
           </article>
           <article>
             <h3 className="text-main italic">BACKGROUND</h3>
             <p className="max-w-full tracking-wide">
-              Petroleum based motor oils and lubricants (non EALs) are
+              {`Petroleum based motor oils and lubricants (non EALs) are
               contaminating our water supply and causing irreversible damage to
               our environment; and, to human health. Every year, 10 billion
               gallons of liquid petroleum hydrocarbons, in the form of motor oil
               and other industrial lubricants (Accidental, Partial and Total
               LOSS applications) are released into the environment due to human
-              activity:
+              activity.`}
             </p>
           </article>
           <article>
             <h3 className="text-main italic">EPA REPORTS</h3>
             <p className="max-w-full tracking-wide">
-              The USA EPA reports that over 200 million gallons of motor oil are
+              {`The USA EPA reports that over 200 million gallons of motor oil are
               tossed in the trash (bottles containing residual left over oil and
               oil absorbed cardboard cannot be recycled and sent to a landfill),
               spilled on the ground or poured down drains and sewers annually.
@@ -115,7 +115,7 @@ const HomeComponent = () => {
               or melting snow carries it to the nearest body of water.
               Therefore, it is confirmed that motor oils and lubricants made
               from non- toxic, earth friendlier plant-based oils can protect us
-              and our environment (EAL rationale).
+              and our environment (EAL rationale).`}
             </p>
           </article>
         </section>
@@ -129,29 +129,29 @@ const HomeComponent = () => {
                 “silently spilled” every 100 days
               </li>
               <li className="text-green-50 text-[1.1rem] ">
-                4.37 billion gallons of motor oil and other lubricants are lost
+                {`  4.37 billion gallons of motor oil and other lubricants are lost
                 in use, being leaked onto the road or burned in the engine as
                 the average car loses each year two (2) gallons lost in use and
-                one (1) gallon improperly disposed
+                one (1) gallon improperly disposed`}
               </li>
               <li className="text-green-50 text-[1.1rem] ">
-                1.85 billion gallons of used motor oil and lubricants are
+                {`    1.85 billion gallons of used motor oil and lubricants are
                 illegally dumped – ending up in soil or down storm water drains
                 as it only takes 1 gallon of oil to contaminate over 1 million
-                gallons of drinking water
+                gallons of drinking water`}
               </li>
               <li className="text-green-50 text-[1.1rem] ">
-                Over 60% of all oil-related pollution in the USA is caused by
+                {` Over 60% of all oil-related pollution in the USA is caused by
                 the improper disposal of used motor oil, making it the single
-                largest source of oil pollution in our nation’s waterways
+                largest source of oil pollution in our nation’s waterways`}
               </li>
             </ul>
             <div className="bg-gradient-to-br from-orange-500 to-orange-400 rounded-md p-4 mt-5 w-11/12 m-auto shadow-md shadow-orange-800">
-              Of the 11 billion gallons of lubricants consumed each year, 28%
+              {`  Of the 11 billion gallons of lubricants consumed each year, 28%
               are “lost in use” and released into the environment, 16% are
               improperly or illegally disposed, 34% are burned as fuel; and, 12%
               used in asphalt, other products or re-refined as twice refined
-              (2XR) currently represents 6% of the U.S. lubrication market.
+              (2XR) currently represents 6% of the U.S. lubrication market.`}
             </div>
           </div>
         </section>
@@ -163,7 +163,7 @@ const HomeComponent = () => {
             Market Acceptance
           </h3>
           <p className="max-w-full tracking-wide">
-            The bio-lubricant market (EALs) to hit to hit $4.26 billion by 2029
+            {`           The bio-lubricant market (EALs) to hit to hit $4.26 billion by 2029
             as government initiatives govern oil-based lubricants to bolster
             market growth with a CAGR of almost 4.7% 2022 – 2029 (2021 = $2.92
             billion/2029 forecast = $4.26 billion). While this segment makes up
@@ -178,7 +178,7 @@ const HomeComponent = () => {
             hydraulic fluids (considered an Accidental or Partial loss
             application susceptible to accidental or intentional spillage), make
             up the majority of consumption. Synthetic esters are the base stock
-            of choice for more than two-thirds of demand.
+            of choice for more than two-thirds of demand.`}
           </p>
         </article>
         <div className="h-[22vh] mt-5 w-full md:w-6/12  m-auto relative">
@@ -210,7 +210,7 @@ const HomeComponent = () => {
           </h3>
 
           <p className="max-w-full w-11/12 tracking-wide">
-            The driving forces behind the bio-lubricants market are regulatory
+            {`The driving forces behind the bio-lubricants market are regulatory
             mandates, performance requirements and costs. At early stages,
             demand was primarily driven by regulatory mandates dictating the use
             of biodegradable environmentally innocuous lubricants in total loss
@@ -235,7 +235,7 @@ const HomeComponent = () => {
             while informing end-users of the many benefits of switching their
             current lubrication choices to a green alternative…a logical choice,
             with the MOTTO: “Change your oil, Change your world!’ Why, because
-            everything else is just CRUDE.
+            everything else is just CRUDE.`}
           </p>
         </article>
         <div className="h-[35vh] md:w-3/12 mt-5 md:mt-20  relative flex justify-center items-center">
@@ -256,7 +256,7 @@ const HomeComponent = () => {
           </h3>
           <h4 className="italic text-main min-w-full">Proven In Racing</h4>
           <p className="max-w-full w-11/12 tracking-wide mt-2">
-            A variety of teams in recreational and profession racing are
+            {`A variety of teams in recreational and profession racing are
             rigorously testing the endurance as well as the performance
             qualities of b2 biOil’s within the most extreme engine conditions.
             These innovative formulations have been previously tested and proven
@@ -273,7 +273,7 @@ const HomeComponent = () => {
             are “readily biodegradable.” This bio-derived synthetic ester base
             stock modified with an enhanced/advanced additive package delivers
             plenty of advantages, including maximum lubrication protection and
-            improved engine performance along with increased fuel economy.
+            improved engine performance along with increased fuel economy.`}
           </p>
         </article>
         <div className="h-48 order-3 md:order-2 w-1/2 m-auto md:h-60 md:w-2/12 mt-5 md:mt-14  relative flex justify-center items-center">
@@ -351,19 +351,19 @@ const HomeComponent = () => {
             Proven By The Military
           </h3>
 
-          <p className="max-w-full w-11/12 tracking-wide">
-            The Defense Logistics Agency (DLA), provider of logistical,
+          <p className="max-w-full tracking-wide">
+            {`   The Defense Logistics Agency (DLA), provider of logistical,
             acquisition and technical support for the Army, Navy, Air Force,
             Marine Corps, Coast Guard, Space Force, United States Postal
             Service, NASA and other federal agencies and allies, in partnership
             with the Air Force Research Laboratory, conducted testing and
             validation for over four (4) years of bio-based synthetic motor oils
             in government vehicles at four Air Force bases, the Department of
-            Homeland Security installations, FLETC and others.
+            Homeland Security installations, FLETC and others.`}
           </p>
           <h3 className="text-main italic mt-5 text-xl">Successful Results</h3>
-          <p>
-            Air Force personnel at Seymour-Johnson Air Force Base in North
+          <p className="tracking-wide">
+            {`Air Force personnel at Seymour-Johnson Air Force Base in North
             Carolina separated four vehicles from the motor pool and replaced
             the conventional oil (Schaeffer Re-Refined Motor Oil) with b2 biOil.
             The conventional oil was sent to a lab for analysis for the purpose
@@ -393,7 +393,7 @@ const HomeComponent = () => {
             successful outcome is great news for farmers as it will expand the
             market for domestically produced agricultural products. Other
             benefits include a reduction in life-cycle carbon footprint and
-            dependency on foreign petroleum.
+            dependency on foreign petroleum.`}
           </p>
         </article>
       </section>

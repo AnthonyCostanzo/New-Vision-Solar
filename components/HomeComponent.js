@@ -25,43 +25,50 @@ const HomeComponent = () => {
         </div>
       </div>
 
-      <div className="pt-8 px-4 grid md:grid-cols-2 mx-5 gap-10 m-auto py-20 ">
-        <section className="">
+      <div className="pt-8 flex justify-center px-4 md:grid-cols-2 mx-5 gap-10 m-auto py-20 ">
+        <section className="text-center">
           <h1 className="text-2xl mb-2 mt-2 text-orange-600 font-bold">
             Who We Are
           </h1>
           <article className="">
             <p className="max-w-full tracking-wide">
-              {`Methes Energies International Ltd is a totally green “CLEAN TECH”
-              renewable energy company that manufactures and markets an
-              assortment of bio-lubricants, including bio-diesel fuels, by
-              combining domestically sourced farm grown bio-derived feedstocks
-              with proprietary technologies for superior performance, all molded
-              around and supporting the four ideologies of being GREEN:
-              renewable, biodegradable, recyclable and non-toxic (EARTH SAFE).
-              These readily biodegradable environmentally acceptable and
-              preferred supreme synthetics are packaged in reusable & recyclable
-              “sustainable” packaging that equal or outperforms comparably
-              advanced synthetic positioned and parity priced mineral oil base
-              products as we strive to make such products readily available when
-              satisfying regulatory requirements as well as the needs for
-              socially responsible consumers and customers alike as they should
-              not have to sacrifice value or performance when selecting an
-              earthy friendlier option. These products, branded as b2, are a
-              natural fit as our Methes Energies “green” preferred choices
-              become “logical” choices.`}
+              Methes Energies International Ltd{" "}
+              <a href="https://www.otcmarkets.com/stock/MEIL/quote">
+                (
+                <span className="text-main">
+                  https://www.otcmarkets.com/stock/MEIL/quote
+                </span>
+                ){" "}
+              </a>{" "}
+              a totally green “CLEAN TECH” renewable energy company that
+              manufactures and markets an assortment of bio-lubricants,
+              including bio-diesel fuels, by combining domestically sourced farm
+              grown bio-derived feedstocks with proprietary technologies for
+              superior performance, all molded around and supporting the four
+              ideologies of being GREEN: renewable, biodegradable, recyclable
+              and non-toxic (EARTH SAFE). These readily biodegradable
+              environmentally acceptable and preferred supreme synthetics are
+              packaged in reusable & recyclable “sustainable” packaging that
+              equal or outperforms comparably advanced synthetic positioned and
+              parity priced mineral oil base products as we strive to make such
+              products readily available when satisfying regulatory requirements
+              as well as the needs for socially responsible consumers and
+              customers alike as they should not have to sacrifice value or
+              performance when selecting an earthy friendlier option. These
+              products, branded as b2, are a natural fit as our Methes Energies
+              “green” preferred choices become “logical” choices.
             </p>
             <aside className="mt-3"> </aside>
           </article>
         </section>
         <section>
-          <div className="relative h-[20rem] md:h-[70vh] flex justify-center">
+          {/* <div className="relative h-[20rem] md:h-[70vh] flex justify-center">
             <Image
               src="/images/Branch-removebg-preview.png"
               layout="fill"
               alt="team members"
             />
-          </div>
+          </div> */}
         </section>
       </div>
       <div className="h-10 bg-gradient-to-br from-main to-slate-400" />

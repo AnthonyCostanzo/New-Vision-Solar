@@ -74,7 +74,7 @@ const ContactForm = ({ email_id, client_id, template_id }) => {
       </section>
       <form
         onSubmit={handleSubmit(onFormSubmit)}
-        className="shadow-md shadow-slate-500 min-w-max h-[50vh] lg:w-5/12  rounded-lg p-5 min-h-fit w-3/4 m-auto grid justify-center "
+        className="shadow-md shadow-slate-500 min-w-max lg:w-5/12  rounded-lg p-5 min-h-fit w-3/4 m-auto grid justify-center "
       >
         <h2 className="text-[24px] mt-4 font-[Open-Sans] text-black">
           Get In Touch

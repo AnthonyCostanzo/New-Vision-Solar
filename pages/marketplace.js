@@ -44,12 +44,12 @@ const Marketplace = () => (
         </div>
       </div>
     </section>
-    <div className="h-[12vh] bg-gradient-to-r from-green-600 to-slate-400 md:mt-20  relative flex justify-center items-center">
+    <div className="h-[12vh] bg-gradient-to-r from-green-600 to-slate-400 relative flex justify-center items-center">
       <div className="w-2/12 absolute h-full">
         <Image alt="b2 oil " src="/images/b2Logo.png" layout="fill" />
       </div>
     </div>
-    <section className="mt-14 p-5 lg:flex-row flex-col flex flex-wrap gap-3 mb-10">
+    <section className="mt-10 p-5 lg:flex-row flex-col flex flex-wrap gap-3 mb-10">
       <article className="lg:w-8/12">
         <h3 className="text-2xl mt-2 mb-2 text-orange-600 font-bold">
           Market Drivers

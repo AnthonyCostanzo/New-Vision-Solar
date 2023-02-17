@@ -17,7 +17,7 @@ const MobileNav = () => {
     router.push(event.target.value);
   };
   return (
-    <nav className="bg-gradient-to-br from-slate-500 to-slate-600 min-h-max py-5">
+    <nav className="bg-gradient-to-br from-slate-500 to-slate-600 min-h-max py-3 md:py-5">
       <div className="flex justify-around md:gap-40 lg:gap-0 items-center ">
         <div className="">
           <div className="mx-4 md:mx-0 md:mr-40 lg:mr-0 lg:mx-4">

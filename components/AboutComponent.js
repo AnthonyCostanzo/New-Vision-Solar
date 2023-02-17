@@ -163,7 +163,7 @@ const AboutComponent = () => (
                 largest source of oil pollution in our nation’s waterways`}
         </li>
       </ul>
-      <div className="bg-gradient-to-br border-2 border-green-500 from-slate-50 to-slate-100 shadow-md shadow-slate-200 rounded-full  p-10 my-5 w-[92%] m-auto ">
+      <div className="bg-gradient-to-br border-2 border-green-500 from-slate-50 to-slate-100 shadow-md shadow-slate-200 rounded-md lg:rounded-full p-10 my-5 lg:w-[92%] m-auto ">
         <p className=" text-[1.1rem] tracking-wide text-green-700 italic ">
           Of the 11 billion gallons of lubricants consumed each year, 28% are
           “lost in use” and released into the environment, 16% are improperly or

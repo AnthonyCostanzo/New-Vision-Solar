@@ -233,7 +233,7 @@ const Product = () => (
               <span className=" mt-3 ">
                 <ImPointRight size={24} />
               </span>
-              <button className="text-green-50 mt-2 ml-3 bg-gray-500 rounded-full h-8 w-24 ">
+              <button className="text-white hover:text-green-500 mt-2 ml-3 bg-gray-500 rounded-full h-8 w-24 ">
                 <a href=" https://www.fortunebusinessinsights.com/bio-lubricants-market-104654">
                   Read More
                 </a>

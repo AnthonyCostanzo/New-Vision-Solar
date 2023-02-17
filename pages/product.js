@@ -260,7 +260,7 @@ const Product = () => (
           Performance Benefits
         </h3>
         <h4 className="italic text-main min-w-full">Proven In Racing</h4>
-        <p className="max-w-full w-11/12 tracking-wide mt-1">
+        <p className="max-w-full md:w-11/12 tracking-wide mt-1">
           {`A variety of teams in recreational and profession racing are
             rigorously testing the endurance as well as the performance
             qualities of b2 biOil’s within the most extreme engine conditions.
@@ -340,7 +340,7 @@ const Product = () => (
       <article className="md:order-3">
         <h3 className="italic text-main ">Additional Benefits</h3>
 
-        <p className="tracking-wide w-11/12">
+        <p className="tracking-wide md:w-11/12">
           Innovative bio-synthetic formula is readily biodegradable, meaning the
           product will degrade over 60% within 14 days. Innovative bio-synthetic
           formula contains “bio-content” that has been proven to reduce CO2
@@ -401,8 +401,8 @@ const Product = () => (
     <div className="hidden md:flex h-54 w-full m-auto md:h-60 relative justify-center items-center">
       <Image alt="b2 oil " src="/images/spack.png" layout="fill" />
     </div>
-    <section className="md:mt-8 p-5 text-center md:flex-row flex-col flex flex-wrap gap-3 mb-10">
-      <article className="md:w-11/12 m-auto ">
+    <section className="md:mt-8 p-5  md:flex-row flex-col flex flex-wrap gap-3 mb-10">
+      <article className=" m-auto ">
         <h3 className="text-2xl mt-2 mb-2 text-orange-600 font-bold">
           Proven By The Military
         </h3>

@@ -27,17 +27,6 @@ const HomeComponent = () => {
               with proprietary technologies for superior performance, all molded
               around and supporting the four ideologies of being GREEN:
               renewable, biodegradable, recyclable and non-toxic (EARTH SAFE).
-              These readily biodegradable environmentally acceptable and
-              preferred supreme synthetics are packaged in reusable & recyclable
-              “sustainable” packaging that equal or outperforms comparably
-              advanced synthetic positioned and parity priced mineral oil base
-              products as we strive to make such products readily available when
-              satisfying regulatory requirements as well as the needs for
-              socially responsible consumers and customers alike as they should
-              not have to sacrifice value or performance when selecting an
-              earthy friendlier option. These products, branded as b2, are a
-              natural fit as our Methes Energies “green” preferred choices
-              become “logical” choices.
             </p>
           </article>
         </section>

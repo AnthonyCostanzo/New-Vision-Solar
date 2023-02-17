@@ -6,7 +6,7 @@ import { ImPointRight } from "react-icons/im";
 const Product = () => (
   <Layout title={"Product Overview"}>
     <div className="md:h-[42rem] min-h-max md:p-10 lg:p-0 bg-gradient-to-br from-slate-500 to-slate-300 flex flex-col lg:flex-row justify-center items-center">
-      <div className=" text-slate-50 mb-20 lg:w-4/12 lg:ml-3 mt-10 md:mt-0 order-2">
+      <div className=" text-slate-50 w-11/12 mb-20 lg:w-4/12 lg:ml-3 mt-10 md:mt-0 order-2">
         <h2 className="ml-4 md:ml-0 leading-snug lg:text-[40px] max-w-md font-bold text-[Montserrat]">
           Product Overview & Financials
         </h2>

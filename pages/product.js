@@ -35,9 +35,9 @@ const Product = () => (
       </div>
     </div>
     <div className="">
-      <div className=" text-gray-200 bg-gradient-to-br from-[#db5c08] to-[#2c4f1eb4] p-5  shadow-sm shadow-gray-300">
-        <div className="md:grid grid-cols-1 md:grid-cols-5 col-span-1 item-baseline">
-          <div className="relative lg:bg-slate-200 md:w-full md:rounded-full lg:h-full w-2/3 m-auto lg:w-11/12 h-[16vh] mt-2">
+      <div className=" text-gray-200 bg-green-800 p-5  shadow-sm shadow-gray-300">
+        <div className="lg:grid grid-cols-1 md:grid-cols-5 col-span-1 item-baseline">
+          <div className="relative md:w-1/4 mb-5 md:rounded-full lg:h-full w-2/3 m-auto lg:w-8/12 lg:rounded-md h-[16vh] mt-2">
             <Image
               alt="B2 Oil logo"
               src="/images/b2logo.png"
@@ -60,7 +60,7 @@ const Product = () => (
             Program, biodegrades up to 60% within 28 days and is parity priced
             with other similar claiming/performing full synthetic motor oils.
           </p>
-          <button className="mt-4 w-36 md:col-start-2 md:ml-3 lg:ml-0 hover:scale-110 border-[1.2px] h-10 shadow-sm shadow-orange-200 bg-white rounded-full text-orange-400">
+          <button className="mt-4 w-36 md:col-start-2 md:ml-3 lg:ml-0 hover:scale-110 border-[1.2px] h-10 shadow-sm shadow-orange-200 bg-white rounded-full text-green-700">
             <a href="http://www.b2oil.com/sneak-peak.html">LEARN MORE</a>
           </button>
         </div>
@@ -134,17 +134,16 @@ const Product = () => (
               are the 3rd party testers of the military program (numerous backup
               support).
             </p>
-            <div className="bg-gradient bg-gradient-to-r from-emerald-600 to-emerald-700 shadow smadow-md shadow-green-800 rounded-md p-5 mt-5">
-              <div className=" m-auto h-72 w-72 lg:h-[50vh] lg:w-[50vh] relative p-2 bg-gradient bg-gradient-to-br from-slate-800 to-slate-100 rounded-full">
-                {" "}
-                <Image
-                  className="bg-none"
-                  alt="B2 Oil Hero"
-                  src="/images/oilbl.png"
-                  layout="fill"
-                  objectFit="contain"
-                ></Image>
-              </div>
+
+            <div className=" m-auto h-48  md: p-10 w-9/12 relative md:mt-20 mt-8 md:h-80  lg:bg-gradient-to-r lg:rounded-full from-emerald-400 to-emerald-600 ">
+              {" "}
+              <Image
+                className="bg-none"
+                alt="B2 Oil Hero"
+                src="/images/oilbl.png"
+                objectFit="scale"
+                layout="fill"
+              ></Image>
             </div>
           </div>
           <div className="p-5 md:border-l-[1.2px] border-green-500">
@@ -395,11 +394,11 @@ const Product = () => (
           oil delivery or E-SOD.
         </p>
       </article>
-      <div className="h-48 w-11/12 m-auto md:h-60 mt-5 md:mt-14  relative flex justify-center items-center">
+      <div className="h-40 w-11/12 m-auto md:h-60 mt-5 md:mt-14  relative flex justify-center items-center">
         <Image alt="b2 oil " src="/images/packaging.png" layout="fill" />
       </div>
     </section>
-    <div className="h-54 w-full m-auto md:h-60 relative flex justify-center items-center">
+    <div className="hidden md:flex h-54 w-full m-auto md:h-60 relative justify-center items-center">
       <Image alt="b2 oil " src="/images/spack.png" layout="fill" />
     </div>
     <section className="md:mt-8 p-5 text-center md:flex-row flex-col flex flex-wrap gap-3 mb-10">

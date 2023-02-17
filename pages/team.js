@@ -132,8 +132,8 @@ export const Team = () => (
           <div className="lg:w-8/12 md:w-10/12 m-auto relative h-[90%]">
             <Image src="/images/jeff.png" alt="" layout="fill" />
           </div>
-          <p className="text-center font-semibold mt-2 text-main">
-            Jeffrey Loch (Chief Operations – Marketing Officer )
+          <p className="text-center font-semibold mt-2 text-main lg:min-w-max">
+            Jeffrey Loch (Chief Operations – Marketing Officer)
           </p>
         </div>
         <p className="lg:w-9/12 tracking-wide leading-7">

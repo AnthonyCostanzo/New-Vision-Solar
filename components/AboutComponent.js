@@ -12,13 +12,13 @@ const AboutComponent = () => (
         ></Image>
       </div>
       <article>
-        <p className="tracking-wide text-center w-10/12 m-auto">
+        <p className="tracking-wide  md:w-10/12 m-auto">
           The United States Environmental Protection Agency (US EPA) has
           outlined the properties of Environmentally Acceptable Lubricants
           (EALs) targeting three primary environmental traits; biodegradability,
           aquatic toxicity and bioaccumulation (see below). There is a growing
           need for environmentally acceptable lubricant (EAL) solutions – a
-          rising demand for lubricants with improved environmental protection
+          rising demand for lubricants with improved environmental protection.
         </p>
       </article>
     </section>
@@ -36,7 +36,7 @@ const AboutComponent = () => (
           b2 biOil’s have demonstrated biodegradability, minimal aquatic
           toxicity and non-bio-accumulative potential.
         </article>
-        <div className="grid md:grid-cols-3 gap-2 divide-y-2 md:divide-y-0 m-auto bg-gradient-to-br md:divide-x divide-slate-500 from-slate-300 to-slate-100 rounded-md mb-10 mt-5">
+        <div className="grid md:grid-cols-3 gap-2 divide-y-2 md:divide-y-0 m-auto  md:divide-x divide-green-500 bg-slate-50 shadow-md shadow-slate-300 rounded-md mb-10 mt-5">
           <div className="p-5">
             <h3 className="italic text-green-700 mt-2">Biodegradability</h3>
             <article className="max-w-sm text-black tracking-wide">
@@ -99,7 +99,7 @@ const AboutComponent = () => (
         </article>
       </section>
       <div className="h-10 bg-gradient-to-br from-green-800 to-slate-400 my-7 md:col-span-2" />
-      <div className="md:col-span-2 flex flex-col md:flex-row gap-5 w-[96%] m-auto">
+      <div className="md:col-span-2 flex flex-col md:flex-row gap-5 w-[96%] m-auto ">
         <section className="w-11/12 m-auto md:m-0">
           <h2 className="text-xl font-bold  text-green-800 underline mb-1">
             Social Responsibility
@@ -123,8 +123,7 @@ const AboutComponent = () => (
 
         <section className="w-11/12 m-auto">
           <h2 className="text-xl font-bold  text-green-800 underline mb-1">
-            LOST IN USE + IMPROPER DISPOSAL of USED MOTOR OILS & LUBRICANTS =
-            OIL POLLUTION
+            {"Lost in use & inproper disposal lead to waste & pollution"}
           </h2>
           <article className="tracking-wide">
             Used motor oil is the largest single source of oil pollution in our
@@ -163,7 +162,7 @@ const AboutComponent = () => (
                 largest source of oil pollution in our nation’s waterways`}
         </li>
       </ul>
-      <div className="bg-gradient-to-br border-2 border-green-500 from-slate-50 to-slate-100 shadow-md shadow-slate-200 rounded-md lg:rounded-full p-10 my-5 lg:w-[92%] m-auto ">
+      <div className="bg-gradient-to-br border-2 border-green-500 from-slate-50 to-slate-100 shadow-md shadow-slate-200 rounded-md lg:rounded-full p-10 my-5 lg:my-10 lg:w-[80%] lg:relative lg:right-8 m-auto ">
         <p className=" text-[1.1rem] tracking-wide text-green-700 italic ">
           Of the 11 billion gallons of lubricants consumed each year, 28% are
           “lost in use” and released into the environment, 16% are improperly or

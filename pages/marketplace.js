@@ -27,7 +27,7 @@ const Marketplace = () => (
             of choice for more than two-thirds of demand.`}
         </p>
       </article>
-      <div className="h-[22vh] mt-5 w-full lg:w-6/12 lg:mt-14  m-auto relative">
+      <div className="h-[27vh] mt-5 w-full lg:w-6/12 lg:mt-9  m-auto relative">
         <Image
           alt="acceptance"
           src="/images/acceptance-removebg-preview.png"
@@ -35,7 +35,7 @@ const Marketplace = () => (
         />
       </div>
       <div className="h-[25vh] mt-10 md:mt-16 w-full flex justify-center relative p-5">
-        <div className="absolute w-full lg:w-6/12 h-[20vh]">
+        <div className="absolute w-full lg:w-6/12 h-[24vh]">
           <Image
             alt="acceptance"
             src="/images/assortment2-removebg-preview.png"

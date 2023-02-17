@@ -5,8 +5,8 @@ import Link from "next/link";
 import { ImPointRight } from "react-icons/im";
 const Product = () => (
   <Layout title={"Product Overview"}>
-    <div className="md:h-[42rem] min-h-max   bg-gradient-to-br from-slate-500 to-slate-300 flex flex-col lg:flex-row justify-center items-center">
-      <div className=" text-slate-50 mb-20 lg:w-4/12 lg:ml-323 mt-10 md:mt-0 order-2">
+    <div className="md:h-[42rem] min-h-max md:p-10 lg:p-0 bg-gradient-to-br from-slate-500 to-slate-300 flex flex-col lg:flex-row justify-center items-center">
+      <div className=" text-slate-50 mb-20 lg:w-4/12 lg:ml-3 mt-10 md:mt-0 order-2">
         <h2 className="ml-4 md:ml-0 leading-snug lg:text-[40px] max-w-md font-bold text-[Montserrat]">
           Product Overview & Financials
         </h2>
@@ -15,10 +15,10 @@ const Product = () => (
           what the future holds in store !
         </blockquote>
 
-        <div className="grid grid-cols-2 mt-3 w-64 ml-2">
-          <button className="shadow-md  w-fit p-2 mb-12 shadow-green-100/50 bg-main  cursor-pointer rounded-full font-semibold  text-white">
+        <div className="grid grid-cols-2 mt-3 w-64 ml-2 gap-7 lg:relative lg:ml-0 lg:right-2">
+          <button className="shadow-md  w-32 p-2 mb-12 shadow-green-100/50 bg-main  cursor-pointer rounded-full font-semibold  text-white">
             <Link href="#benefits" passHref>
-              <span className="mx-3 hover:text-yellow-200">Benefits</span>
+              <span className=" mx-3 hover:text-yellow-200">Benefits</span>
             </Link>
           </button>
           <button className="shadow-md min-w-max  w-fit p-2 mb-12 shadow-green-100/50 bg-orange-400  cursor-pointer rounded-full font-semibold  text-white">
@@ -30,14 +30,14 @@ const Product = () => (
           </button>
         </div>
       </div>
-      <div className="h-48 md:h-[65%] w-6/12  mt-20 md:mt-0  relative lg:order-2">
+      <div className="h-48 md:h-[65%] w-10/12 md:w-6/12  mt-20 md:mt-0  relative lg:order-2">
         <Image src="/images/b2.png" layout="fill" alt="hero" />
       </div>
     </div>
     <div className="">
       <div className=" text-gray-200 bg-gradient-to-br from-[#db5c08] to-[#2c4f1eb4] p-5  shadow-sm shadow-gray-300">
         <div className="md:grid grid-cols-1 md:grid-cols-5 col-span-1 item-baseline">
-          <div className="relative w-2/3 m-auto md:w-11/12 h-[16vh] mt-2">
+          <div className="relative lg:bg-slate-200 md:w-full md:rounded-full lg:h-full w-2/3 m-auto lg:w-11/12 h-[16vh] mt-2">
             <Image
               alt="B2 Oil logo"
               src="/images/b2logo.png"
@@ -60,7 +60,7 @@ const Product = () => (
             Program, biodegrades up to 60% within 28 days and is parity priced
             with other similar claiming/performing full synthetic motor oils.
           </p>
-          <button className="w-36 col-start-2 md:mt-4 hover:scale-110 border-[1.2px] h-10 shadow-sm shadow-orange-200 bg-white rounded-full text-orange-400">
+          <button className="mt-4 w-36 md:col-start-2 md:ml-3 lg:ml-0 hover:scale-110 border-[1.2px] h-10 shadow-sm shadow-orange-200 bg-white rounded-full text-orange-400">
             <a href="http://www.b2oil.com/sneak-peak.html">LEARN MORE</a>
           </button>
         </div>
@@ -74,77 +74,39 @@ const Product = () => (
         ></Image>
       </div> */}
 
-      <div className="flex flex-col md:flex-row px-5 md:px-20 pb-5 bg-gradient-to-br gap-10 from-slate-500 to-slate-400">
-        <div className="relative mt-10 h-[20vh] md:w-3/12 w-1/2 m-auto">
-          <Image
-            alt="B2 Oil logo"
-            src="/images/thinkgreen.png"
-            layout="fill"
-          ></Image>
-        </div>
-        <div>
-          {" "}
-          <p className="mt-10 w-11/12 tracking-wide md:ml-10 text-[1.05rem] text-gray-100 ">
-            Used motor oil is the largest single source of oil pollution in our
-            lakes, streams and rivers. According to the EPA, 40% of U.S. water
-            pollution comes from used oil. Used motor oil entering the world’s
-            oceans equal an oil tanker sized oil spill every week. Just one
-            gallon of used oil can contaminate over 1 million gallons of fresh
-            water. Americans spill over 180 million gallons of used oil each
-            year into our waters…that’s over 16 Exxon Valdez spills.
-          </p>
-          <div className="mt-4 md:ml-10 text-[1.05rem] text-gray-100 ">
-            <p className="font-bold">
-              Of the 11 billion gallons of lubricants consumed each year:
-            </p>{" "}
-            <ul>
-              <li>38% are “lost in use” </li>
-              <li>34% are burned as fuel</li>
-              <li>16% are improperly/illegally disposed</li>
-              <li>
-                12% used in asphalt, other products or re-refined (re-refined
-                represents 6% of the U.S. Market)
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div className=" p-5 order-5  bg-gradient-to-br from-[#304e0e] to-[#4ab514b4] text-gray-100">
-        <h3
-          id="benefits"
-          className="text-[28px] font-bold text-orange-500 ml-1"
-        >
+      <div className=" p-5 order-5  bg-gradient-to-br text-black">
+        <h3 id="benefits" className="text-[28px] font-bold text-green-700 ml-1">
           B2 Benefits
         </h3>
-        <ul className="text-[1.05rem] space-y-2 list-disc">
-          <li className="ml-5">
+        <ul className="text-[1.05rem] space-y-2 mt-2">
+          <li className="ml-1">
             Innovative formula is Ultimate Biodegradable, meaning the product
             will degrade over 60% within 28 days.
           </li>
-          <li className="ml-5">
+          <li className="ml-1">
             Innovative formula contains “bio-content” that has been proven to
             reduce CO2 emissions of upwards to 69% vs conventional oils while
             reducing our dependency on foreign oil.
           </li>
-          <li className="ml-5">
+          <li className="ml-1">
             Innovative formula contains “renewable ingredients” that can be
             domestically sourced and manufactured locally.
           </li>
-          <li className="ml-5">
+          <li className="ml-1">
             Innovative packaging embraces “best practice” sustainable solutions,
             offering product in proprietary collapsible/recyclable plastic
             “bags” and repurposed/recyclable steel “drums”
           </li>
-          <li className="ml-5">
+          <li className="ml-1">
             Innovative offering satisfies the growing demand for a renewable
             product while addressing the growing concerns of environmental
             impact
           </li>
         </ul>
       </div>
-      <div className="order-6 min-h-max bg-gradient-to-br from-gray-200 to-gray-300  p-5">
+      <div className="order-6 min-h-max p-5">
         <h3 className="text-[28px] font-bold">
-          B2 <span className="text-main">Green</span> Power{" "}
+          B2 <span className="text-green-700">Green</span> Power{" "}
         </h3>
         <p className="text-[1.05rem] mt-2 tracking-wide">
           B2 BiOil has been created to address the world’s growing “lubricant”
@@ -155,7 +117,7 @@ const Product = () => (
           requirements that mandate the procurement of domestically sourced
           bio-derived biodegradable products.
         </p>
-        <div className="grid tracking-wide grid-cols-1 md:grid-cols-2 bg-gray-100 border-[1.2px] border-green-500 mt-5">
+        <div className="grid tracking-wide grid-cols-1 md:grid-cols-2 bg-gradient-to-br from-slate-50 to-slate-200 border-[1.2px] border-green-500 mt-5">
           <div className="  p-5 col-span-2 md:col-span-1 border-b-[1.2px] md:border-b-0 border-green-500 ">
             <h5 className="text-[18px] font-semibold mb-1 ">
               B2 BiOil Performance Update
@@ -172,8 +134,8 @@ const Product = () => (
               are the 3rd party testers of the military program (numerous backup
               support).
             </p>
-            <div className="bg-gradient bg-gradient-to-r from-green-600 to-green-500 shadow smadow-md shadow-green-800 rounded-md p-5 mt-5">
-              <div className=" m-auto h-72 w-72 md:h-[50vh] md:w-[50vh] relative p-2 bg-gradient bg-gradient-to-br from-orange-500 to-orange-600 rounded-full">
+            <div className="bg-gradient bg-gradient-to-r from-emerald-600 to-emerald-700 shadow smadow-md shadow-green-800 rounded-md p-5 mt-5">
+              <div className=" m-auto h-72 w-72 lg:h-[50vh] lg:w-[50vh] relative p-2 bg-gradient bg-gradient-to-br from-slate-800 to-slate-100 rounded-full">
                 {" "}
                 <Image
                   className="bg-none"
@@ -271,39 +233,14 @@ const Product = () => (
               <span className=" mt-3 ">
                 <ImPointRight size={24} />
               </span>
-              <button className="text-green-300 mt-2 ml-3 bg-gray-500 rounded-full h-8 w-24 ">
+              <button className="text-green-50 mt-2 ml-3 bg-gray-500 rounded-full h-8 w-24 ">
                 <a href=" https://www.fortunebusinessinsights.com/bio-lubricants-market-104654">
                   Read More
                 </a>
               </button>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 mt-10 w-11/12 m-auto mb-16 ">
-              <div className="relative h-[30vh] md:w-9/12">
-                <Image
-                  className="bg-inherit"
-                  alt="B2 Oil Hero"
-                  src="/images/lubricant.png"
-                  layout="fill"
-                ></Image>
-              </div>
-              <div className="relative h-[30vh] md:w-11/12">
-                <Image
-                  className="bg-inherit"
-                  alt="B2 Oil Hero"
-                  src="/images/bar.png"
-                  layout="fill"
-                ></Image>
-              </div>
-              <div className="relative h-[23vh] hidden md:inline-block w-8/12 m-auto mt-20 col-span-2">
-                <Image
-                  className="bg-inherit"
-                  alt="B2 Oil Hero"
-                  src="/images/assortment.png"
-                  layout="fill"
-                ></Image>
-              </div>
-            </div>
-            <div className="bg-gradient mt-5 bg-gradient-to-br from-green-600 to-green-500 text-gray-50 p-5 rounded-md shadow-sm shadow-green-800">
+
+            <div className="bg-gradient mt-5 bg-gradient-to-br from-emerald-600 to-green-600 text-gray-50 p-5 rounded-md shadow-sm shadow-green-800">
               The company is targeting a go-to-market strategy that achieves a
               market price based on a flexible “fixed” cost of goods of 25 – 33%
               and a manageable GSA/Operations budget of 25-33% allowing for a
@@ -317,6 +254,208 @@ const Product = () => (
           </div>
         </div>
       </div>
+    </div>
+    <section className="md:mt-2 p-5 md:flex-row flex-col flex flex-wrap gap-3 mb-10">
+      <article className="md:w-8/12 lg:w-9/12">
+        <h3 className="text-2xl mt-2 mb-2 text-orange-600 font-bold">
+          Performance Benefits
+        </h3>
+        <h4 className="italic text-main min-w-full">Proven In Racing</h4>
+        <p className="max-w-full w-11/12 tracking-wide mt-2">
+          {`A variety of teams in recreational and profession racing are
+            rigorously testing the endurance as well as the performance
+            qualities of b2 biOil’s within the most extreme engine conditions.
+            These innovative formulations have been previously tested and proven
+            in the race cars and on the tracks of the most extreme racing
+            conditions, featuring NASCAR and the former Grand Am and American
+            LeMans Series. Dyno testing by Tri-Star and Rousch Yates racing
+            showed and confirmed an increase in horsepower when using a
+            bio-based synthetic formulation.While maintaining excellent
+            stability in rigorous lubricating environments, b2 biOil base oils
+            (> 25% bio-content) biodegrade when released into the environment at
+            a rate of 82.9% (OECD 301B). Bio-sourced (mandated bio-content
+            requirements) does not always equal biodegradability. As for us, all
+            b2 formulations are made with domestically sourced bio-content and
+            are “readily biodegradable.” This bio-derived synthetic ester base
+            stock modified with an enhanced/advanced additive package delivers
+            plenty of advantages, including maximum lubrication protection and
+            improved engine performance along with increased fuel economy.`}
+        </p>
+      </article>
+      <div className="h-48 order-3 mt-5  w-1/2 m-auto md:h-60 md:w-3/12 md:mt-32 lg:mt-10 relative lg:w-2/12 lg:right-20 flex justify-center items-center">
+        <Image
+          alt="b2 oil "
+          src="/images/b2vehicle-removebg-preview.png"
+          layout="fill"
+        />
+      </div>
+      <article className="md:order-3">
+        <h3 className="italic text-main ">Engine Performance Benefits</h3>
+
+        <ul className="mt-1">
+          <li>
+            <span className="font-semibold">Natural Detergency </span>– As polar
+            compounds, b2 biOil base oil has the unique ability to dissolve
+            sludge and varnish, helping equipment stay clean and operate
+            efficiently.
+          </li>
+          <li>
+            <span className="font-semibold">Thermal Stability </span> –
+            Excellent resistance to decomposition at high temperatures.
+          </li>
+          <li>
+            <span className="font-semibold">4-Ball Wear </span>– Base oils have
+            an increased affinity for metal surfaces, allowing them to prevent
+            wear by forming protective barriers between moving parts.
+          </li>
+          <li>
+            <span className="font-semibold">Hydrolytic Stability </span> –
+            Superior ability to resist chemical composition (hydrolysis) in the
+            presence of water and ideal for applications whereby risk of water
+            contamination is high
+          </li>
+          <li>
+            <span className="font-semibold"> Evaporative Loss (NOACK) </span>–
+            Reduced oil loss due to evaporation, viscosity is better maintained,
+            fuel economy improves and increased phosphorous retention.
+          </li>
+          <li>
+            <span className="font-bold"> Flash Point </span> – Ideal for
+            applications where operating temperatures are high and flammability
+            is a concern.
+          </li>
+          <li>
+            <span className="font-bold"> Oxidative Stability </span> – Increased
+            oil longevity for extended drain intervals, excellent response to
+            antioxidant additives, less equipment downtime and reduced
+            maintenance costs.
+          </li>
+          <li>
+            <span className="font-bold"> Viscosity Index </span>– Enhanced film
+            thickness at elevated temperatures, improved equipment life and
+            reliability; and, reduced viscous drag on moving parts (minimal
+            treat rates of viscosity modifiers).
+          </li>
+        </ul>
+      </article>
+      <article className="md:order-3">
+        <h3 className="italic text-main ">Additional Benefits</h3>
+
+        <p className="tracking-wide w-11/12">
+          Innovative bio-synthetic formula is readily biodegradable, meaning the
+          product will degrade over 60% within 14 days. Innovative bio-synthetic
+          formula contains “bio-content” that has been proven to reduce CO2
+          emissions of upwards to 69% VS conventional oils while reducing our
+          dependence on foreign oil. Innovative bio-synthetic formula contains
+          “renewable” ingredients that can be domestically sourced and
+          manufactured locally. Innovative bio-synthetic formula has been tested
+          and successfully proven in the race cars and on the tracks of the most
+          extreme racing conditions, featuring NASCAR, the American LeMans
+          Series, Grand Am and IMSA. Innovative bio-synthetic products have been
+          previously sold in box retails, including Walmart, The Home Depot, Ace
+          Hardware and others; and, over 65,000 oil changes were completed in
+          Walmart’s Tire, Lube and Express centers without a single complaint or
+          blown engine, Innovative product packaging embraces “best practice”
+          sustainable solutions, offering product in proprietary
+          collapsible/recyclable pouches and reusable/recyclable HDPE totes and
+          steel drums; and, Innovative product assortment satisfies the growing
+          demand for a renewable product while addressing the growing concerns
+          of environmental impact.
+        </p>
+      </article>
+    </section>
+    <div className="h-96 w-11/12 hidden m-auto md:flex  relative mb-14">
+      <Image src="/images/engine.png" alt=" " layout="fill" />
+    </div>
+    <div className="h-10 bg-gradient-to-br from-main to-slate-400" />
+    <section className="mt-5 p-5 md:flex-row flex-col flex flex-wrap gap-3 mb-10">
+      <article>
+        <h3 className="text-2xl mt-2 mb-2 text-orange-600 font-bold">
+          Sustainable Packaging
+        </h3>
+        <p>
+          Approximately 37.5 million gallons of petroleum oil is dumped into USA
+          landfills each year from the more than 3 billion “used” motor oil
+          bottles trashed with oil residue still left inside. Packaging
+          (including proper disposal) is an incremental cost that does not
+          necessarily has to be passed on to the consumer or customer
+          (end-users). The company is responding to this opportunity with new
+          concepts in motor oil sales and delivery…environmentally sustainable
+          oil delivery or E-SOD.
+        </p>
+        <h4 className="italic text-main mt-2">Eco-Pouch</h4>
+        <p>
+          Approximately 37.5 million gallons of petroleum oil is dumped into USA
+          landfills each year from the more than 3 billion “used” motor oil
+          bottles trashed with oil residue still left inside. Packaging
+          (including proper disposal) is an incremental cost that does not
+          necessarily has to be passed on to the consumer or customer
+          (end-users). The company is responding to this opportunity with new
+          concepts in motor oil sales and delivery…environmentally sustainable
+          oil delivery or E-SOD.
+        </p>
+      </article>
+      <div className="h-48 w-11/12 m-auto md:h-60 mt-5 md:mt-14  relative flex justify-center items-center">
+        <Image alt="b2 oil " src="/images/packaging.png" layout="fill" />
+      </div>
+    </section>
+    <div className="h-54 w-full m-auto md:h-60 relative flex justify-center items-center">
+      <Image alt="b2 oil " src="/images/spack.png" layout="fill" />
+    </div>
+    <section className="md:mt-8 p-5 text-center md:flex-row flex-col flex flex-wrap gap-3 mb-10">
+      <article className="md:w-11/12 m-auto ">
+        <h3 className="text-2xl mt-2 mb-2 text-orange-600 font-bold">
+          Proven By The Military
+        </h3>
+
+        <p className="max-w-full tracking-wide">
+          {`   The Defense Logistics Agency (DLA), provider of logistical,
+            acquisition and technical support for the Army, Navy, Air Force,
+            Marine Corps, Coast Guard, Space Force, United States Postal
+            Service, NASA and other federal agencies and allies, in partnership
+            with the Air Force Research Laboratory, conducted testing and
+            validation for over four (4) years of bio-based synthetic motor oils
+            in government vehicles at four Air Force bases, the Department of
+            Homeland Security installations, FLETC and others.`}
+        </p>
+        <h3 className="text-main italic mt-5 text-xl">Successful Results</h3>
+        <p className="tracking-wide">
+          {`Air Force personnel at Seymour-Johnson Air Force Base in North
+            Carolina separated four vehicles from the motor pool and replaced
+            the conventional oil (Schaeffer Re-Refined Motor Oil) with b2 biOil.
+            The conventional oil was sent to a lab for analysis for the purpose
+            of establishing a baseline for later comparison with the bio-based
+            product. Over several weeks, project participants repeated this
+            procedure on a total of 40 vehicles at the DHS Federal Law
+            Enforcement Training Center in Georgia, Luke AFB in Arizona,
+            Fairchild AFB in Washington and Malmstrom AFB in Montana. The
+            manufacturer of b2 had made strides over the past decade as industry
+            test results showed that the use of “green” lubricants contributed
+            to improved gas mileage, longer oil-change intervals and the
+            reduction of greenhouse gases. In addition, the b2 biOil lubricants
+            can simply replace conventional oil without modification to the
+            engine. The Department of Defense (DoD) uses about 1.1 million
+            gallons of 5W-20 and 5W-30 engine oil annually in 190,000 vehicles.
+            The entire federal government, including the military services,
+            civilian agencies and the US Postal Service maintains a total of
+            633,000+ vehicles. Testing and evaluation showed that b2 is
+            comparable to and better than conventional oil which could lead to a
+            complete conversion to bio-based synthetic motor oils in the federal
+            government’s fleet of non-tactical vehicles. Pressure to convert
+            comes in the form of DoD sustainable procurement directions
+            (including the USDA Bio Preferred Mandated Federal Procurement
+            Program), Federal Acquisition Regulations and laws such as the Farm
+            Security and Rural Investment Act of 2002, which stresses the need
+            for the government to procure and use bio-based products. The
+            successful outcome is great news for farmers as it will expand the
+            market for domestically produced agricultural products. Other
+            benefits include a reduction in life-cycle carbon footprint and
+            dependency on foreign petroleum.`}
+        </p>
+      </article>
+    </section>
+    <div className="h-54 w-full m-auto md:h-96 relative flex justify-center items-center">
+      <Image alt="b2 oil " src="/images/footer.png" layout="fill" />
     </div>
   </Layout>
 );

@@ -94,14 +94,14 @@ export const Team = () => (
     title="Our Team"
     description={"New Energy Solution Team Members and bios"}
   >
-    <h1 className="text-3xl text-orange-500 text-center mt-10">Our Team</h1>
+    <h1 className="text-3xl text-main text-center mt-10">Our Team</h1>
     <div className="grid w-11/12 m-auto mt-10 mb-40 gap-20">
-      <div className="bg-slate-50 shadow-md shadow-slate-500 flex flex-col md:flex-row gap-5 p-5 ">
+      <div className="bg-slate-50 shadow-md shadow-slate-500 flex flex-col lg:flex-row gap-5 p-5 ">
         <div className="relative h-[25vh] lg:h-full lg:w-3/12 mb-5">
-          <div className="lg:w-8/12 m-auto relative h-[90%]">
+          <div className="lg:w-8/12 md:w-10/12 m-auto relative h-[90%]">
             <Image src="/images/carol.png" alt="" layout="fill" />
           </div>
-          <p className="text-center font-semibold mt-2">
+          <p className="text-center font-semibold mt-2 text-main">
             Carol Loch (Chief Executive Officer)
           </p>
         </div>
@@ -127,12 +127,12 @@ export const Team = () => (
           media, brand management and product marketing.`}
         </p>
       </div>
-      <div className="bg-slate-50 shadow-md shadow-slate-500 flex flex-col md:flex-row gap-5 p-5 ">
+      <div className="bg-slate-50 shadow-md shadow-slate-500 flex flex-col lg:flex-row gap-5 p-5 ">
         <div className="relative h-[25vh] lg:h-full lg:w-3/12 mb-5">
-          <div className="lg:w-8/12 m-auto relative h-[90%]">
+          <div className="lg:w-8/12 md:w-10/12 m-auto relative h-[90%]">
             <Image src="/images/jeff.png" alt="" layout="fill" />
           </div>
-          <p className="text-center font-semibold mt-2">
+          <p className="text-center font-semibold mt-2 text-main">
             Jeffrey Loch (Chief Operations – Marketing Officer )
           </p>
         </div>
@@ -167,12 +167,12 @@ export const Team = () => (
           The Home Depot to name a few.`}
         </p>
       </div>
-      <div className="bg-slate-50 shadow-md shadow-slate-500 flex flex-col md:flex-row gap-5 p-5 ">
+      <div className="bg-slate-50 shadow-md shadow-slate-500 flex flex-col lg:flex-row gap-5 p-5 ">
         <div className="relative h-[25vh] lg:h-full lg:w-3/12 mb-5">
-          <div className="lg:w-8/12 m-auto relative h-[90%]">
+          <div className="lg:w-8/12 md:w-10/12 m-auto relative h-[90%]">
             <Image src="/images/robert.jpg" alt="" layout="fill" />
           </div>
-          <p className="text-center font-semibold mt-2">
+          <p className="text-center font-semibold mt-2 text-main">
             Robert Stepan ( Science – R&D Officer)
           </p>
         </div>

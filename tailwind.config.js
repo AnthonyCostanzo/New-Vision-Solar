@@ -15,7 +15,7 @@ module.exports = {
       },
 
       colors: {
-        main: "#3cb85f",
+        main: "#15803d",
       },
       height: {
         half: "55%",

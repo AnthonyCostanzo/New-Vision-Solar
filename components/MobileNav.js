@@ -17,20 +17,21 @@ const MobileNav = () => {
     router.push(event.target.value);
   };
   return (
-    <div className="bg-gradient-to-br from-main to-green-600 min-h-max py-2 ">
-      <div className="flex items-center">
+    <nav className="bg-gradient-to-br from-slate-500 to-slate-600 min-h-max py-5">
+      <div className="flex justify-around items-center ">
         <div className="">
-          <div className="mx-4 md:mx-7 ">
+          <div className="mx-4">
             <Link href="/" passHref={true} scroll={false}>
-              <h1 className="md:text-[1.18rem] min-w-max cursor-pointer font-bold text-orange-50 font-serif">
+              <h1 className="md:text-[1.18rem] min-w-max cursor-pointer font-bold text-white font-serif">
                 Methes Energies International
               </h1>
             </Link>
           </div>
         </div>
-        <div className="w-[22%]">
+        <div>
           <MobileNavDropdown toggleNav={toggleNavMenu} />
         </div>
+
         <DesktopNav />
       </div>
       {/* dropdown menu */}
@@ -40,12 +41,18 @@ const MobileNav = () => {
             <Link scroll={false} href="/" passHref>
               <li className={navRouteLink}>Home</li>
             </Link>
+            <Link scroll={false} href="/about" passHref>
+              <li className={navRouteLink}>About</li>
+            </Link>
+            <Link scroll={false} href="/marketplace" passHref>
+              <li className={navRouteLink}>Marketplace</li>
+            </Link>
             <Link scroll={false} href="/product" passHref>
-              <li className={navRouteLink}>Product</li>
+              <li className={navRouteLink}>Products</li>
             </Link>
 
             <Link scroll={false} href="/team" passHref>
-              <li className={navRouteLink}>Our Team</li>
+              <li className={navRouteLink}>Management</li>
             </Link>
 
             <Link scroll={false} href="/contact" passHref>
@@ -54,7 +61,7 @@ const MobileNav = () => {
           </div>
         </ul>
       )}
-    </div>
+    </nav>
   );
 };
 

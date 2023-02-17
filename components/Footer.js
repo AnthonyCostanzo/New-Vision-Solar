@@ -8,7 +8,11 @@ import {
 import { TiSocialTwitterCircular } from "react-icons/ti";
 
 const Footer = () => (
-  <footer className="border-t-4 bg-bottom-right border-slate-200 bg-gradient-to-br from-green-500 to-slate-800  pb-20 pt-5 ">
+  <footer
+    className="border-t-4 bg-bottom-right border-slate-200 bg-gradient-to-br from-slate-400 to-slate-700
+  inset-x-0
+  bottom-0 pb-10"
+  >
     <div className="text-slate-50 ml-10 pt-5 grid space-y-3 font-[Merriweather] ">
       <p className=" ">
         <small className="text-[17px] hover:text-orange-300 cursor-pointer hover:scale-110  font-bold text-slate-100 inline-block relative">

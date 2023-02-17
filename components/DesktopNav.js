@@ -5,17 +5,24 @@ const navRouteLink =
 
 const DesktopNav = () => (
   <ul className="hidden md:flex ml-auto mr-12 space-x-7 ">
-    <Link href={"/"} passHref scroll={false}>
+    <Link scroll={false} href="/" passHref>
       <li className={navRouteLink}>Home</li>
     </Link>
-    <Link href={"/product"} passHref scroll={false}>
-      <li className={navRouteLink}>Product</li>
+    <Link scroll={false} href="/about" passHref>
+      <li className={navRouteLink}>About</li>
+    </Link>
+    <Link scroll={false} href="/marketplace" passHref>
+      <li className={navRouteLink}>Marketplace</li>
+    </Link>
+    <Link scroll={false} href="/product" passHref>
+      <li className={navRouteLink}>Products</li>
     </Link>
 
-    <Link href={"/team"} passHref scroll={false}>
-      <li className={navRouteLink}>Our Team</li>
+    <Link scroll={false} href="/team" passHref>
+      <li className={navRouteLink}>Management</li>
     </Link>
-    <Link href={"/contact"} passHref scroll={false}>
+
+    <Link scroll={false} href="/contact" passHref>
       <li className={navRouteLink}>Contact</li>
     </Link>
   </ul>

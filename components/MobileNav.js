@@ -4,7 +4,7 @@ import DesktopNav from "./DesktopNav";
 import { useRouter } from "next/router";
 import Link from "next/link";
 const navRouteLink =
-  "text-white shadow-sm shadow-slate-200 font-[Open-Sans] text-[1rem] px-14 cursor-pointer hover:translate-x-2 hover:text-green-300";
+  "text-white shadow-sm shadow-slate-200 font-[Open-Sans] text-[1rem] px-14 cursor-pointer hover:translate-x-2 hover:text-green-500";
 
 const MobileNav = () => {
   const [isOpenNavMenu, setIsOpenNavMenu] = useState(false);

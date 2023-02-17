@@ -138,7 +138,7 @@ const AboutComponent = () => (
         </section>
       </div>
     </div>
-    <div className="md:w-11/12 py-5 bg-gradient-to-br from-green-500 to-slate-700 my-7 m-auto md:rounded-md shadow-slate-600 px-10">
+    <div className="md:w-11/12 py-5 bg-gradient-to-br from-green-500 to-slate-700 mt-7 md:mb-7 m-auto md:rounded-md shadow-slate-600 px-10">
       <ul className=" list-disc tracking-wide space-y-3 text-green-50">
         <li className=" text-[1.1rem]  ">
           Worldwide oil spills dating from 1901 – 2013 equaled 2.2 billion

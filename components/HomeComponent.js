@@ -41,7 +41,7 @@ const HomeComponent = () => {
             </p>
           </article>
         </section>
-        <section className="mt-3 mx-7 order-3 mb-10">
+        <section className=" mx-7 order-3 mb-10">
           <p className="tracking-wide ">
             These readily biodegradable environmentally acceptable and preferred
             supreme synthetics are packaged in reusable & recyclable
@@ -55,7 +55,7 @@ const HomeComponent = () => {
             Methes Energies “green” preferred choices become “logical” choices.
           </p>
         </section>
-        <div className="w-full h-[18vh] md:h-[15vh] mt-5 mb-5 lg:mb-10 items-center relative flex justify-center">
+        <div className="w-full h-[18vh] md:h-[15vh] mt-5 mb-3 lg:mb-10 items-center relative flex justify-center">
           <div className="absolute w-9/12 lg:w-3/12 lg:h-50 lg:mt-5 h-[90%] ">
             <Image
               src="/images/green-removebg-preview.png"

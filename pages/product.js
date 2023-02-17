@@ -261,7 +261,7 @@ const Product = () => (
           Performance Benefits
         </h3>
         <h4 className="italic text-main min-w-full">Proven In Racing</h4>
-        <p className="max-w-full w-11/12 tracking-wide mt-2">
+        <p className="max-w-full w-11/12 tracking-wide mt-1">
           {`A variety of teams in recreational and profession racing are
             rigorously testing the endurance as well as the performance
             qualities of b2 biOil’s within the most extreme engine conditions.

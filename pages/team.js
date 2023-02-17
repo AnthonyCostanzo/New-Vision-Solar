@@ -177,7 +177,7 @@ export const Team = () => (
           </p>
         </div>
         <p className="lg:w-9/12 tracking-wide leading-7">
-          Mr. Stepan is a seasoned and highly educated research scientist with
+          {`  Mr. Stepan is a seasoned and highly educated research scientist with
           demonstrated successes within the lubrication and oil & gas
           industries, specializing in both the development of unique bio-based
           and specialty lubricants as well as crafting nonconventional,
@@ -197,7 +197,7 @@ export const Team = () => (
           Administration (MBA) from Cleveland State University‘s John Nance
           School of Business. Previous employment history includes Vice
           President of Technology for Green Earth Technologies…the creators and
-          manufacturers of G-OIL®.
+          manufacturers of G-OIL®. `}
         </p>
       </div>
     </div>

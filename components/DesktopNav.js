@@ -4,7 +4,7 @@ const navRouteLink =
   "text-green-50 font-[Open-Sans] ml-2 text-[20px] min-w-max cursor-pointer hover:text-orange-300 hover:scale-110";
 
 const DesktopNav = () => (
-  <ul className="hidden md:flex ml-auto mr-12 space-x-7 ">
+  <ul className="hidden lg:flex ml-auto mr-12 space-x-7 ">
     <Link scroll={false} href="/" passHref>
       <li className={navRouteLink}>Home</li>
     </Link>

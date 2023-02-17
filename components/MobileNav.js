@@ -18,9 +18,9 @@ const MobileNav = () => {
   };
   return (
     <nav className="bg-gradient-to-br from-slate-500 to-slate-600 min-h-max py-5">
-      <div className="flex justify-around items-center ">
+      <div className="flex justify-around md:gap-40 lg:gap-0 items-center ">
         <div className="">
-          <div className="mx-4">
+          <div className="mx-4 md:mx-0 md:mr-40 lg:mr-0 lg:mx-4">
             <Link href="/" passHref={true} scroll={false}>
               <h1 className="md:text-[1.18rem] min-w-max cursor-pointer font-bold text-white font-serif">
                 Methes Energies International
@@ -36,7 +36,7 @@ const MobileNav = () => {
       </div>
       {/* dropdown menu */}
       {isOpenNavMenu && (
-        <ul className="border-t-2 md:hidden pb-5 animate-fade border-slate-100 leading-8">
+        <ul className="border-t-2 lg:hidden pb-5 animate-fade border-slate-100 leading-8">
           <div className="mt-5">
             <Link scroll={false} href="/" passHref>
               <li className={navRouteLink}>Home</li>

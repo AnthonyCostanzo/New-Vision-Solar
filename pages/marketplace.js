@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const Marketplace = () => (
   <Layout title="Marketplace">
-    <section className="mt-4 p-5 flex-col md:flex-row flex flex-wrap gap-3 mb-10">
-      <article className="md:w-5/12">
-        <h3 className="text-2xl mt-2 mb-2 text-orange-600 font-bold">
+    <section className="mt-4 p-5 flex-col lg:flex-row flex flex-wrap gap-3 mb-10">
+      <article className="lg:w-5/12">
+        <h3 className="text-2xl mt-2 mb-2 text-main font-bold">
           Market Acceptance
         </h3>
         <p className="max-w-full tracking-wide">
@@ -27,15 +27,15 @@ const Marketplace = () => (
             of choice for more than two-thirds of demand.`}
         </p>
       </article>
-      <div className="h-[22vh] mt-5 w-full md:w-6/12  m-auto relative">
+      <div className="h-[22vh] mt-5 w-full lg:w-6/12 lg:mt-14  m-auto relative">
         <Image
           alt="acceptance"
           src="/images/acceptance-removebg-preview.png"
           layout="fill"
         />
       </div>
-      <div className="h-[25vh] mt-16 w-full flex justify-center relative p-5">
-        <div className="absolute w-full md:w-6/12 h-[20vh]">
+      <div className="h-[25vh] mt-10 md:mt-16 w-full flex justify-center relative p-5">
+        <div className="absolute w-full lg:w-6/12 h-[20vh]">
           <Image
             alt="acceptance"
             src="/images/assortment2-removebg-preview.png"
@@ -49,8 +49,8 @@ const Marketplace = () => (
         <Image alt="b2 oil " src="/images/b2Logo.png" layout="fill" />
       </div>
     </div>
-    <section className="mt-14 p-5 md:flex-row flex-col flex flex-wrap gap-3 mb-10">
-      <article className="md:w-8/12">
+    <section className="mt-14 p-5 lg:flex-row flex-col flex flex-wrap gap-3 mb-10">
+      <article className="lg:w-8/12">
         <h3 className="text-2xl mt-2 mb-2 text-orange-600 font-bold">
           Market Drivers
         </h3>
@@ -84,7 +84,7 @@ const Marketplace = () => (
             everything else is just CRUDE.`}
         </p>
       </article>
-      <div className="h-[35vh] md:w-3/12 mt-5 md:mt-14  relative flex justify-center items-center">
+      <div className="h-[35vh] w-full md:w-8/12 m-auto lg:w-3/12 mt-5  relative flex justify-center items-center">
         <Image
           alt="b2 oil "
           src="/images/drivers-removebg-preview.png"

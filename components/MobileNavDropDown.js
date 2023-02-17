@@ -1,6 +1,6 @@
 const MobileNavDropdown = ({ toggleNav }) => {
   return (
-    <div className="mb-2 md:hidden ">
+    <div className="mb-2 lg:hidden ">
       {" "}
       <button
         onClick={toggleNav}

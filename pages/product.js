@@ -65,6 +65,7 @@ const Product = () => (
           </button>
         </div>
       </div>
+      {/* refactor */}
       {/* <div className="h-56 bg-sky-200 relative order-4">
         <Image
           alt="B2 Oil logo"

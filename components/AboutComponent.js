@@ -22,6 +22,7 @@ const AboutComponent = () => (
         </p>
       </article>
     </section>
+
     <div className="h-10 bg-gradient-to-br from-green-800 to-slate-400 my-7" />
     <div className="md:grid md:grid-cols-2">
       <section className="w-11/12 m-auto">
@@ -118,21 +119,6 @@ const AboutComponent = () => (
             contractors must give preferential consideration to these
             lubrication categories that contain a minimum of bio-based content
             (25% for crankcase oils)
-          </article>
-        </section>
-
-        <section className="w-11/12 m-auto">
-          <h2 className="text-xl font-bold  text-green-800 underline mb-1">
-            {"Lost in use & inproper disposal lead to waste & pollution"}
-          </h2>
-          <article className="tracking-wide">
-            Used motor oil is the largest single source of oil pollution in our
-            lakes, streams and rivers. According to the EPA, 40% of U.S. water
-            pollution comes from used oil. Used motor oil entering the world’s
-            oceans equal an oil tanker sized oil spill every week. Just one
-            gallon of used oil can contaminate over 1 million gallons of fresh
-            water. Americans spill over 180 million gallons of used oil each
-            year into our waters…that’s over 16 Exxon Valdez spills.
           </article>
         </section>
       </div>

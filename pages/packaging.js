@@ -5,9 +5,10 @@ const Packaging = () => (
   <Layout title="Packaging">
     <section className="mt-3 p-5 md:flex-row flex-col flex flex-wrap gap-3 mb-10">
       <article>
-        <h3 className="text-2xl md:text-center mt-2 mb-2 text-orange-600 font-bold">
+        <h3 className="text-2xl md:text-center mt-2 mb-2 text-main font-bold">
           Sustainable Packaging
         </h3>
+        <h4 className="text-main">Reusable-Recyclable Packaging</h4>
         <p>
           Approximately 37.5 million gallons of petroleum oil is dumped into USA
           landfills each year from the more than 3 billion “used” motor oil

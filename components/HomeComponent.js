@@ -8,7 +8,7 @@ const HomeComponent = () => {
       <div className="h-96 md:h-[80vh] w-full bg-gradient-to-r from-slate-300 to-slate-700 relative ">
         <div className="absolute h-full w-full ">
           <Image
-            src="/images/backkdrop.png"
+            src="/images/b2Hero.jpg"
             className="opacity-80"
             layout="fill"
             alt="Methes Energies International"
@@ -26,7 +26,8 @@ const HomeComponent = () => {
               combining domestically sourced farm grown bio-derived feedstocks
               with proprietary technologies for superior performance, all molded
               around and supporting the four ideologies of being GREEN:
-              renewable, biodegradable, recyclable and non-toxic (EARTH SAFE).
+              renewable, biodegradable, recyclable and non-toxic (EARTH
+              FRIENDLY).
             </p>
           </article>
         </section>

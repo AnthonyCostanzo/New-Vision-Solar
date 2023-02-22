@@ -3,7 +3,7 @@ import Layout from "../components/Layout";
 
 const Packaging = () => (
   <Layout title="Packaging">
-    <section className="mt-5 p-5 md:flex-row flex-col flex flex-wrap gap-3 mb-10">
+    <section className="mt-3 p-5 md:flex-row flex-col flex flex-wrap gap-3 mb-10">
       <article>
         <h3 className="text-2xl md:text-center mt-2 mb-2 text-orange-600 font-bold">
           Sustainable Packaging
@@ -51,7 +51,7 @@ const Packaging = () => (
       <h3 className="text-2xl text-center mt-2 mb-2 text-orange-600 font-bold">
         Eco-Tote
       </h3>
-      <blockquote className="text-center text-lg">
+      <blockquote className="w-10/12 m-auto md:w-full md:text-center text-lg">
         Direct to the Customer (Do It For Me = DIFM end-user, representing 85%
         of the marketplace), Quick Lubes and Military/Government 5-gallon HDPE
         Tote

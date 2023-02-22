@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 const Performance = () => {
   return (
     <Layout>
-      <section className="md:mt-2 p-5 md:flex-row flex-col flex flex-wrap gap-3 mb-10">
+      <section className="mt-3 p-5 md:flex-row flex-col flex flex-wrap gap-3 mb-10">
         <article className="">
           <h3 className="text-2xl mt-2 mb-2 text-orange-600 font-bold">
             Performance Benefits

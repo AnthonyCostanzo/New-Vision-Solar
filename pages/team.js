@@ -107,7 +107,7 @@ export const Team = () => (
         </div>
         <p className="lg:w-9/12 tracking-wide leading-7">
           {`   A take-charge detailed-oriented Fortune 100 corporate professional
-          with an entrepreneurial spirt, Carol Bowley has over 30 years of
+          with an entrepreneurial spirt, Carol Loch has over 30 years of
           progressive leadership, marketing and product development experiences
           within the highly competitive consumer packaged goods arena. A process
           driven team player with superior critical thinking skills, Carol knows

@@ -50,12 +50,13 @@ const MobileNav = () => {
             <Link scroll={false} href="/product" passHref>
               <li className={navRouteLink}>Products</li>
             </Link>
-            <Link scroll={false} href="/packaging" passHref>
-              <li className={`${navRouteLink} `}>Packaging</li>
-            </Link>
             <Link scroll={false} href="/performance" passHref>
               <li className={`${navRouteLink} `}>Performance</li>
             </Link>
+            <Link scroll={false} href="/packaging" passHref>
+              <li className={`${navRouteLink} `}>Packaging</li>
+            </Link>
+      
             <Link scroll={false} href="/team" passHref>
               <li className={navRouteLink}>Management</li>
             </Link>

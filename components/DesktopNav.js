@@ -19,16 +19,17 @@ const DesktopNav = () => {
           <li className={navRouteLink}>Products</li>
         </Link>
         <div>
-          <Link scroll={false} href="/packaging" passHref>
-            <li className={`${navRouteLink} hidden group-hover:inline-block `}>
-              Packaging
-            </li>
-          </Link>
-          <Link scroll={false} href="/performance" passHref>
+        <Link scroll={false} href="/performance" passHref>
             <li className={`${navRouteLink} hidden group-hover:block`}>
               Performance
             </li>
           </Link>
+          <Link scroll={false} href="/packaging" passHref>
+            <li className={`${navRouteLink} hidden group-hover:block `}>
+              Packaging
+            </li>
+          </Link>
+        
         </div>
       </div>
       <Link scroll={false} href="/team" passHref>

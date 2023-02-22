@@ -9,7 +9,19 @@ const Performance = () => {
           <h3 className="text-2xl mt-2 mb-2 text-orange-600 font-bold">
             Performance Benefits
           </h3>
-          <h4 className="italic text-main min-w-full">Proven In Racing</h4>
+          <p className="max-w-full  tracking-wide ">
+            {` While maintaining excellent stability in rigorous lubricating
+            environments, b2 biOil base oils (> 25% bio-content) biodegrade when
+            released into the environment at a rate of 82.9% (OECD 301B).
+            Bio-sourced (mandated bio-content requirements) does not always
+            equal biodegradability. As for us, all b2 formulations are made with
+            domestically sourced bio-content and are “readily biodegradable.”
+            This bio-derived synthetic ester base stock modified with an
+            enhanced/advanced additive package delivers plenty of advantages,
+            including maximum lubrication protection and improved engine
+            performance along with increased fuel economy.`}
+          </p>
+          <h4 className="italic text-main min-w-full mt-1">Proven In Racing</h4>
           <p className="max-w-full  tracking-wide mt-1">
             {`A variety of teams in recreational and profession racing are
             rigorously testing the endurance as well as the performance
@@ -19,16 +31,7 @@ const Performance = () => {
             conditions, featuring NASCAR and the former Grand Am and American
             LeMans Series. Dyno testing by Tri-Star and Rousch Yates racing
             showed and confirmed an increase in horsepower when using a
-            bio-based synthetic formulation.While maintaining excellent
-            stability in rigorous lubricating environments, b2 biOil base oils
-            (> 25% bio-content) biodegrade when released into the environment at
-            a rate of 82.9% (OECD 301B). Bio-sourced (mandated bio-content
-            requirements) does not always equal biodegradability. As for us, all
-            b2 formulations are made with domestically sourced bio-content and
-            are “readily biodegradable.” This bio-derived synthetic ester base
-            stock modified with an enhanced/advanced additive package delivers
-            plenty of advantages, including maximum lubrication protection and
-            improved engine performance along with increased fuel economy.`}
+            bio-based synthetic formulation.`}
           </p>
         </article>
         <div className="relative h-96 my-2 lg:h-[42rem] w-8/12 m-auto">

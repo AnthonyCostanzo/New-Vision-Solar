@@ -34,7 +34,7 @@ const Performance = () => {
             bio-based synthetic formulation.`}
           </p>
         </article>
-        <div className="relative h-96 my-2 lg:h-[42rem] w-8/12 m-auto">
+        <div className="relative h-96 my-2 lg:h-[42rem] w-10/12 m-auto">
           <Image alt="b2 oil " src="/images/pChart2.png" layout="fill" />
         </div>
         <article className="md:order-3">
@@ -174,7 +174,7 @@ const Performance = () => {
         </article>
       </section>
       <div className="h-36 md:h-full mb-20 grid grid-cols-4">
-        <div className="h-full lg:h-1/2 w-6/12 m-auto md:h-96 relative flex justify-center items-center">
+        <div className="h-3/4 lg:h-1/2 w-10/12 m-auto md:h-96 relative flex justify-center items-center">
           <Image
             alt="b2 oil "
             src="/images/b2vehicle-removebg-preview.png"
@@ -184,16 +184,13 @@ const Performance = () => {
         <div className="h-full col-span-2 w-full m-auto md:h-96 relative flex justify-center items-center">
           <Image alt="b2 oil " src="/images/d.png" layout="fill" />
         </div>
-        <div className="h-full lg:h-1/2 w-6/12 m-auto md:h-96 relative flex justify-center items-center">
+        <div className="h-3/4 lg:h-1/2 w-10/12 m-auto md:h-96 relative flex justify-center items-center">
           <Image
             alt="b2 oil "
             src="/images/b2vehicle-removebg-preview.png"
             layout="fill"
           />
         </div>
-      </div>
-      <div className="h-54 w-full m-auto md:h-96 relative flex justify-center items-center">
-        <Image alt="b2 oil " src="/images/footer.png" layout="fill" />
       </div>
     </Layout>
   );

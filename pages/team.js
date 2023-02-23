@@ -120,7 +120,7 @@ export const Team = () => (
           plans and services based on the Marketiquette pioneered model of
           “proper marketing.”   Spearheading a “greener”
           environmentally-friendlier focus for the past two decades, Ms.
-          Bowley’s area of expertise comprises a broad list of proven leadership
+          Loch's area of expertise comprises a broad list of proven leadership
           and marketing skills, including executive team management, public
           relations, consistent corporate communication, P&L – budgeting, life
           cycle analysis, multi-platform advertising & digital marketing/social
@@ -132,7 +132,7 @@ export const Team = () => (
           <div className="lg:w-8/12 md:w-10/12 m-auto relative h-[90%]">
             <Image src="/images/jeff.png" alt="" layout="fill" />
           </div>
-          <p className="text-center font-semibold mt-2 text-main lg:min-w-max">
+          <p className="text-center font-semibold mt-2 text-main">
             Jeffrey Loch (Chief Operations – Marketing Officer)
           </p>
         </div>

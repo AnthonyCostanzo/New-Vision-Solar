@@ -9,7 +9,7 @@ const Marketplace = () => (
           Market Acceptance
         </h3>
         <p className="max-w-full tracking-wide">
-          {`           The bio-lubricant market (EALs) to hit to hit $4.26 billion by 2029
+          {`The bio-lubricant market (EALs) to hit to hit $4.26 billion by 2029
             as government initiatives govern oil-based lubricants to bolster
             market growth with a CAGR of almost 4.7% 2022 – 2029 (2021 = $2.92
             billion/2029 forecast = $4.26 billion). While this segment makes up
@@ -42,54 +42,6 @@ const Marketplace = () => (
             layout="fill"
           />
         </div>
-      </div>
-    </section>
-    <div className="h-[12vh] bg-gradient-to-r from-green-600 to-slate-400 relative flex justify-center items-center">
-      <div className="w-2/12 absolute h-full">
-        <Image alt="b2 oil " src="/images/b2Logo.png" layout="fill" />
-      </div>
-    </div>
-    <section className="mt-10 p-5 lg:flex-row flex-col flex flex-wrap gap-3 mb-10">
-      <article className="lg:w-8/12">
-        <h3 className="text-2xl mt-2 mb-2 text-orange-600 font-bold">
-          Market Drivers
-        </h3>
-
-        <p className="max-w-full w-11/12 tracking-wide">
-          {`The driving forces behind the bio-lubricants market are regulatory
-            mandates, performance requirements and costs. At early stages,
-            demand was primarily driven by regulatory mandates dictating the use
-            of biodegradable environmentally innocuous lubricants in total loss
-            applications (like bar & chain oils, gear oils and hydraulic fluids)
-            in highly sensitive areas. However, lack of OEM certifications still
-            poses a major challenge on the road to fill commercial availability.
-            Performance drawbacks prevented a wider adoption of bio-lubricants
-            in more sever end uses as current manufacturers could not meet the
-            industry requirements. With the emergence of oleo-chemical
-            derivates, most notably synthetic and polyol esters including
-            estolides (ingredients found in b2 biOil), contributed to improving
-            performance, broadening the application spectrum to include more
-            severe, incidental loss lubrication applications. Increasing supply
-            of high performing and more cost competitive synthetic bio-basestock
-            technologies is bringing the bio-lubricants industry to the next
-            level. Scalability and higher cost remains a major obstacle, but raw
-            material supply with increase finished goods production is
-            limitless. Bio-lubricant demand will be shaped by the
-            intensification of supply/demand forces and market dynamics and the
-            marketer/manufacturer’s ability(s) to build brand awareness,
-            generate trial/sampling occasions and to gain distribution…educating
-            while informing end-users of the many benefits of switching their
-            current lubrication choices to a green alternative…a logical choice,
-            with the MOTTO: “Change your oil, Change your world!’ Why, because
-            everything else is just CRUDE.`}
-        </p>
-      </article>
-      <div className="h-[35vh] w-full md:w-8/12 m-auto lg:w-3/12 mt-5  relative flex justify-center items-center">
-        <Image
-          alt="b2 oil "
-          src="/images/drivers-removebg-preview.png"
-          layout="fill"
-        />
       </div>
     </section>
   </Layout>

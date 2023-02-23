@@ -52,10 +52,8 @@ const AboutComponent = () => (
               Minimal Aquatic Toxicity
             </h3>
             <article className="max-w-sm text-black tracking-wide">
-              The capacity of lubricants to be decomposed by microorganisms over
-              time into: – a combination of simpler by-products (primary
-              biodegradation) – carbon dioxide and water (ultimate
-              biodegradation)
+              Low toxicity to aquatic organisms according to OECD2 tests and
+              USEPA3 test guidelines
             </article>
           </div>
           <div className="p-5">

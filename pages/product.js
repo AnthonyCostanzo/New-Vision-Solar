@@ -117,8 +117,8 @@ const Product = () => (
           requirements that mandate the procurement of domestically sourced
           bio-derived biodegradable products.
         </p>
-        <div className="grid tracking-wide grid-cols-1 md:grid-cols-2 bg-gradient-to-br from-slate-50 to-slate-200 border-[1.2px] border-green-500 mt-5">
-          <div className="  p-5 col-span-2 md:col-span-1 border-b-[1.2px] md:border-b-0 border-green-500 ">
+        <div className="grid tracking-wide bg-gradient-to-br from-slate-50 to-slate-200 border-[1.2px] border-green-500 mt-5">
+          <div className="p-5 col-span-2 md:col-span-1 border-b-[1.2px] md:border-b-0 border-green-500 ">
             <h5 className="text-[18px] font-semibold mb-1 ">
               B2 BiOil Performance Update
             </h5>
@@ -135,7 +135,7 @@ const Product = () => (
               support).
             </p>
 
-            <div className=" m-auto h-48  md: p-10 w-9/12 relative md:mt-20 mt-8 md:h-80  lg:bg-gradient-to-r lg:rounded-full from-emerald-400 to-emerald-600 ">
+            <div className=" m-auto h-52  md: p-10 md:w-6/12 lg:w-4/12 relative md:mt-20 mt-8 md:h-80  lg:bg-gradient-to-r lg:rounded-full from-emerald-400 to-emerald-600 ">
               {" "}
               <Image
                 className="bg-none"
@@ -144,111 +144,6 @@ const Product = () => (
                 objectFit="scale"
                 layout="fill"
               ></Image>
-            </div>
-          </div>
-          <div className="p-5 md:border-l-[1.2px] border-green-500">
-            <h5 className="text-[18px] font-semibold mb-1 ">Markets</h5>
-            <p>
-              The Market Analysis for Bio-Lubricants/EALS – (environmentally
-              acceptable lubricants; i.e., biodegradable, nontoxic and
-              renewable) showed that during the historic forecast period ending
-              2019, the market closed its operations by reaching a final market
-              valuation worth approximately $4.0 billion; and, is expected to
-              grow at a CAGR of 4.40%. While this segment makes up less than
-              1.5% of the global finished lubricants market, it is growing
-              significantly faster than the others. North America and Europe
-              account for three-quarters (¾) of bio-lube demand due to strict
-              environmental policies. Industrial applications, led by hydraulic
-              fluids, make up the majority of consumption. Synthetic esters are
-              the base stock of choice for more than two-thirds of demand.
-            </p>
-            <h5 className="text-[18px] font-semibold mt-5 ">
-              Mandated Military Market
-            </h5>
-            <p>
-              Concurrent Technologies Corporation (CTC) initiated demonstration
-              activities at four Air Force bases, Dept. of Homeland Security,
-              Federal Law Enforcement Training Centers (FLETC) and US Postal
-              Service; Army and Navy participation concluded January 18, 2018:
-              Demonstration vehicles inspected and oil changed out with biobased
-              engine oil products, Baseline petroleum oil samples taken from
-              each vehicle for analysis.
-            </p>
-            <table className="col-span-2 h-[30vh] border-black mt-10 divide-y-2 divide-black w-full border-2 border-collapse">
-              <tr className="">
-                <td className="pl-2">Vehicles</td>
-                <td>633,000.00</td>
-              </tr>
-              <tr className="">
-                <td className="pl-2">Avg. Quarts per Vehicle</td>
-                <td>5</td>
-              </tr>
-              <tr>
-                <td className="pl-2">Annual Interval</td>
-                <td>2</td>
-              </tr>
-              <tr>
-                <td className="pl-2">Total Quarts</td>
-                <td>6,330,000.00</td>
-              </tr>
-              <tr>
-                <td className="pl-2">Total Gallons</td>
-                <td>1,582,500.00</td>
-              </tr>
-              <tr className="bg-gray-400">
-                <td className="pl-2">% of Market</td>
-                <td>0.0006330</td>
-              </tr>
-            </table>
-          </div>
-          <div className="  p-5 col-span-2 border-t-[1.2px] border-green-500">
-            <h5
-              id="projection"
-              className="text-[18px] font-semibold md:text-center mb-1 "
-            >
-              Projection
-            </h5>
-            <p>
-              With NSN #’s assigned, our current forecast/projections are
-              determined by monthly RFQ’s from the US Military’s (DoD/DLA/GSA)
-              adherence to the USDA BioPreferred mandated federal procurement
-              program as well as initial global interest for our biodegradable
-              and bio-based lubricants. Therefore, we plan to initially produce
-              30,000 gallons of 5W-30 and 5W-20 to begin to satisfy the demand
-              from the US Government and an assortment of heavy duty engine oils
-              (!5W-40 & 10W-40), high oleic hydraulic fluids and ISO-220 gear
-              oils to fulfill current order requests (purchase orders).
-            </p>
-            <div className="mt-1 ">
-              <p className="relative">
-                * The global bio lubricants market is projected to grow from
-                $3.08 billion in 2022 to $4.26 billion by 2029, at a CAGR of
-                4.7% in forecast period, 2022-2029. The market growth chart is
-                depicted below, additionally you could further your knowledge by
-                clicking on the read more button.{" "}
-              </p>{" "}
-            </div>
-            <div className="flex ml-1 ">
-              <span className=" mt-3 ">
-                <ImPointRight size={24} />
-              </span>
-              <button className="text-white hover:text-green-500 mt-2 ml-3 bg-gray-500 rounded-full h-8 w-24 ">
-                <a href=" https://www.fortunebusinessinsights.com/bio-lubricants-market-104654">
-                  Read More
-                </a>
-              </button>
-            </div>
-
-            <div className="bg-gradient mt-5 bg-gradient-to-br from-emerald-600 to-green-600 text-gray-50 p-5 rounded-md shadow-sm shadow-green-800">
-              The company is targeting a go-to-market strategy that achieves a
-              market price based on a flexible “fixed” cost of goods of 25 – 33%
-              and a manageable GSA/Operations budget of 25-33% allowing for a
-              33-50% contribution. It is our strong expectation, that through
-              volume and managed overhead, we’ll be able to reduce cost of goods
-              by up to 50% (25% lubricants) and streamline operations based on
-              efficient/economical procurement as well as improving overall
-              profitability and performance by bringing ALL NECESSARY FUNCTIONS
-              “in-house” in order to effectively manage costs/quality.
             </div>
           </div>
         </div>

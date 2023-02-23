@@ -109,15 +109,6 @@ const AboutComponent = () => (
             and promoting their use off EALs, driven by their desire to promote
             their own environmental agendas.
           </article>
-          <h3 className="italic text-green-700 mt-1">Background</h3>
-          <article className="tracking-wide">
-            The USDA designated and added engine crankcase oils and other
-            lubrication applications to their mandated federal procurement
-            program (www.biopreferred.gov). Federal agencies and their
-            contractors must give preferential consideration to these
-            lubrication categories that contain a minimum of bio-based content
-            (25% for crankcase oils)
-          </article>
         </section>
       </div>
     </div>
